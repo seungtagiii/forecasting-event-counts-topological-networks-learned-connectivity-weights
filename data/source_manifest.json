@@ -1,0 +1,40 @@
+{
+  "dataset_commit": "1858e9c39d90a524e7d8ff8b9456f4b1f231ff03",
+  "sources": {
+    "ttpm.py": {
+      "url": "https://raw.githubusercontent.com/huawei-noah/trustworthyAI/8675af0bc532c7f138158ded62e8cf303e9af655/gcastle/castle/algorithms/ttpm/ttpm.py",
+      "sha256": "65bf5a349c22b0c4916deff3fe7a63bee8f9fe6bf3dd28d70cdd8e89794478b5",
+      "bytes": 16382
+    },
+    "gcastle_LICENSE": {
+      "url": "https://raw.githubusercontent.com/huawei-noah/trustworthyAI/8675af0bc532c7f138158ded62e8cf303e9af655/LICENSE",
+      "sha256": "75b52537769ab89be6be947d14ca742e79938859094563a8a3f792e7137bc9d8",
+      "bytes": 11390
+    },
+    "dataset_README.md": {
+      "url": "https://raw.githubusercontent.com/gcastle-hub/dataset/1858e9c39d90a524e7d8ff8b9456f4b1f231ff03/README.md",
+      "sha256": "970e77ee3c5de36f79a937ce8ea838ec9cae2c5a552385e761c55fbea08cc5ea",
+      "bytes": 2797
+    },
+    "24V_439N_Microwave.tar.gz": {
+      "url": "https://raw.githubusercontent.com/gcastle-hub/dataset/1858e9c39d90a524e7d8ff8b9456f4b1f231ff03/alarm/24V_439N_Microwave.tar.gz",
+      "sha256": "fad2fdb1e4095b7f50dee89725e5a6d6568f370060704480aac5d00626550de1",
+      "bytes": 324945
+    },
+    "Alarm.csv": {
+      "archive_member": "24V_439N_Microwave/Alarm.csv",
+      "sha256": "d91028f43d7c324a0883d07920a3023c4a1631ce25031badbc31223402305827",
+      "bytes": 1257470
+    },
+    "DAG.npy": {
+      "archive_member": "24V_439N_Microwave/DAG.npy",
+      "sha256": "0ad422aeeafa3922aa4e8a35904d4406fd0387fe2cde0a2d7eb10c019ed9afa3",
+      "bytes": 4736
+    },
+    "Topology.npy": {
+      "archive_member": "24V_439N_Microwave/Topology.npy",
+      "sha256": "577c49ecf388533f61d25513ccce93fdf527de2ba915204ce93c295521599a93",
+      "bytes": 1541896
+    }
+  }
+}

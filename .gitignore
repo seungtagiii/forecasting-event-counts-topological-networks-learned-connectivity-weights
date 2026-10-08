@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+kaggle.json
+*credentials*
+*token*
+*.pem
+*.key
+outputs/
+data/raw/
+data/prepared/real_24V_439N_Microwave/

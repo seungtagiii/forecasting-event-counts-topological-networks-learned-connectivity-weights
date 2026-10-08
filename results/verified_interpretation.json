@@ -1,0 +1,49 @@
+{
+  "kernel_id": "seankim0736/tnpar-five-20261004-3af9979e",
+  "version": 1,
+  "verified_report": "review.json",
+  "status": "verified_complete",
+  "fits": 33,
+  "selected_test_evaluations": 15,
+  "study_elapsed_seconds": 1299.2367979699998,
+  "additional_GPU_used_for_analysis": false,
+  "conclusions_ko": [
+    "두 기존 시뮬레이션 경로에서 THP 참고 구현의 평균 예측 Poisson 점수, 예측분포 NLL, RMSE 및 연결 F1이 가장 좋았다. MAE는 첫 경로에서 S2, 둘째 경로에서 결정론적 모형이 가장 좋았다.",
+    "실제 데이터에서 결정론적 모형은 전체 테스트 구간의 평균 예측 점수, 예측분포 NLL, MAE 및 RMSE가 모두 가장 좋았다.",
+    "실제 데이터의 연결 AP는 S2가 가장 높았으나, 모든 모형의 연결 탐지 성능은 제한적이다. THP의 F1은 약 0.110이다.",
+    "TNPAR 재구현의 TRAIN 평균 연결 점수는 세 데이터 모두 사전확률 0.1 근처였다. 이 결과만으로 그 원인이 KL, 평균 처리 또는 인코더 표현력 때문이라고 확정할 수 없다.",
+    "결정론적 모형은 시뮬레이션 연결 AP가 약 0.694와 0.837이지만 고정 임계값 0.5에서 F1은 0이다. 따라서 F1 0과 연결 순위 학습 실패는 구분해야 한다."
+  ],
+  "real_data_supplementary_diagnostic": {
+    "role": "post_result_descriptive_check_only_not_model_or_threshold_selection",
+    "data_or_primary_evaluation_changed": false,
+    "dataset": "real_24V_439N_Microwave",
+    "TEST_count_cells": 18206208,
+    "TEST_nonzero_cells": 8731,
+    "TEST_event_records": 10434,
+    "TRAIN_unobserved_node_type_pairs": 8912,
+    "TRAIN_node_type_pairs": 10536,
+    "rows": [
+      {"model": "tnpar", "zero_cells_predictive_NLL": 0.0004798767331521958, "nonzero_cells_predictive_NLL": 2.833300828933716, "nonzero_cells_RMSE": 0.8610929141135958, "nonzero_cells_MAE": 0.7461992148726139, "total_predicted_counts": 13242.259188760198},
+      {"model": "direct", "zero_cells_predictive_NLL": 0.0005115698440931737, "nonzero_cells_predictive_NLL": 2.7270727157592773, "nonzero_cells_RMSE": 0.8551562197289388, "nonzero_cells_MAE": 0.7440016068428454, "total_predicted_counts": 13744.346580674377},
+      {"model": "deterministic", "zero_cells_predictive_NLL": 0.00030520136351697147, "nonzero_cells_predictive_NLL": 2.5325896739959717, "nonzero_cells_RMSE": 0.7884595063530581, "nonzero_cells_MAE": 0.6554044996375434, "total_predicted_counts": 11049.539247847571},
+      {"model": "s2", "zero_cells_predictive_NLL": 0.0005400133668445051, "nonzero_cells_predictive_NLL": 3.0634777545928955, "nonzero_cells_RMSE": 0.9450095768040214, "nonzero_cells_MAE": 0.8657042744947829, "total_predicted_counts": 13016.776537867889},
+      {"model": "thp", "zero_cells_predictive_NLL": 0.00045932899229228497, "nonzero_cells_predictive_NLL": 3.213503837585449, "nonzero_cells_RMSE": 0.9819324989225501, "nonzero_cells_MAE": 0.9121362172118047, "total_predicted_counts": 10949.182636327287}
+    ],
+    "caution_ko": "사건 발생 여부로 나눈 사후 보조 통계는 전체 관측분포의 적정 예측 점수를 대체하지 않는다. 테스트 결과로 모형, 임계값 또는 데이터를 변경하지 않았다."
+  },
+  "optimization_cautions_ko": [
+    "선택된 TNPAR의 학습은 시뮬레이션 첫 경로와 실제 데이터에서 3000 update 예산 상한에 도달했으며 충분한 수렴은 보장하지 않는다.",
+    "THP 세 데이터의 그래프 탐색은 BIC 국소 최적점에서 종료했다. 첫 시뮬레이션에서는 후보 부모 집합 EM 1120개 중 15개가 512회 반복 상한에 도달했다. 따라서 전역 최적화나 모든 후보의 완전 수렴을 주장하지 않는다.",
+    "S2의 선택된 이산 연결 그래프는 세 데이터 모두 순환을 포함했다. 규제항이 DAG 판정을 보장하지 않았다."
+  ],
+  "limits_ko": [
+    "원저자의 정확한 재현이 아닌 명시적인 논문 참고 구현에 대한 결과다.",
+    "두 시뮬레이션은 이미 검토한 생성 경로의 재사용이며 새로운 독립 확증 반복이 아니다.",
+    "평균 예측 평가는 관측 발생 개수의 Poisson 점수다. 참 lambda 오차를 직접 측정한 결과가 아니다.",
+    "실제 데이터의 제공 DAG는 참고 연결 라벨이지 검증된 실제 그레인저 인과의 정답이 아니다.",
+    "직접 변분과 지역 인코더는 KL을 부과하는 잠재변수 단위가 다르므로 인코더 유무만의 순수 절제 실험이 아니다.",
+    "THP는 전체 과거의 지수 꼬리를, 신경망과 S2는 5개 구간의 과거를 사용한다. 정보 원천은 같지만 이력 길이까지 맞춘 비교는 아니다.",
+    "테스트를 이용한 임계값 최적화, 새 GPU 실행, 재제출 및 자동 추적을 수행하지 않았다."
+  ]
+}
