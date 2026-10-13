@@ -1,0 +1,740 @@
+{
+  "analysis": "posthoc_real_data_predictive_NLL_loss_decomposition",
+  "created_at_UTC": "2026-10-13T15:34:18.833342+09:00",
+  "source": {
+    "path": "results\\verified_repetition_results.json",
+    "sha256": "ae91d97f0b6363d7cb465073538800a0c14dd9d5f6895e3bca8b38c8893d40d4",
+    "declared_status": "independently_verified_complete",
+    "declared_repetition_kernel_id": "seankim0736/tnpar-minimum-20261004-1616721f",
+    "original_arrays_or_checkpoints_reverified_by_this_script": false
+  },
+  "dataset": "real_24V_439N_Microwave",
+  "groups": {
+    "zero_cells": 18197477,
+    "positive_cells": 8731,
+    "total_cells": 18206208,
+    "zero_fraction": 0.9995204383032426,
+    "positive_fraction": 0.0004795616967575016,
+    "definition": "Observed TEST count equal to zero versus strictly positive"
+  },
+  "formula": "overall_NLL = (n_zero/n_all)*NLL_zero + (n_positive/n_all)*NLL_positive",
+  "models": {
+    "tnpar": {
+      "training_fits": 3,
+      "per_fit": [
+        {
+          "repetition": 0,
+          "source": "reused_original",
+          "zero_cells": 18197477,
+          "positive_cells": 8731,
+          "total_cells": 18206208,
+          "zero_fraction": 0.9995204383032426,
+          "positive_fraction": 0.0004795616967575016,
+          "zero_conditional_NLL": 0.00047987671056373915,
+          "positive_conditional_NLL": 2.8333007647756068,
+          "weighted_zero_NLL": 0.00047964658007418684,
+          "weighted_positive_NLL": 0.0013587425221801169,
+          "reconstructed_overall_NLL": 0.0018383891022543037,
+          "reported_overall_NLL": 0.0018383891002730142,
+          "reconstruction_error": 1.981289481436943e-12,
+          "total_predicted_counts": 13242.259188760201,
+          "average_precision": 0.2855112099999821
+        },
+        {
+          "repetition": 1,
+          "source": "new_fit",
+          "zero_cells": 18197477,
+          "positive_cells": 8731,
+          "total_cells": 18206208,
+          "zero_fraction": 0.9995204383032426,
+          "positive_fraction": 0.0004795616967575016,
+          "zero_conditional_NLL": 0.0004734581655586642,
+          "positive_conditional_NLL": 2.8388974178070847,
+          "weighted_zero_NLL": 0.00047323111315744523,
+          "weighted_positive_NLL": 0.0013614264626040555,
+          "reconstructed_overall_NLL": 0.0018346575757615007,
+          "reported_overall_NLL": 0.001834657576305018,
+          "reconstruction_error": -5.435172711204528e-13,
+          "total_predicted_counts": 13100.999973748769,
+          "average_precision": 0.2724256108802433
+        },
+        {
+          "repetition": 2,
+          "source": "new_fit",
+          "zero_cells": 18197477,
+          "positive_cells": 8731,
+          "total_cells": 18206208,
+          "zero_fraction": 0.9995204383032426,
+          "positive_fraction": 0.0004795616967575016,
+          "zero_conditional_NLL": 0.00045724729182644754,
+          "positive_conditional_NLL": 2.864931195643251,
+          "weighted_zero_NLL": 0.0004570280135393415,
+          "weighted_positive_NLL": 0.0013739112652761752,
+          "reconstructed_overall_NLL": 0.0018309392788155166,
+          "reported_overall_NLL": 0.0018309392765887952,
+          "reconstruction_error": 2.226721411424659e-12,
+          "total_predicted_counts": 12666.271951873678,
+          "average_precision": 0.276582933427312
+        }
+      ],
+      "summary": {
+        "zero_conditional_NLL": {
+          "mean": 0.0004701940559829503,
+          "sample_SD": 0.000011662480721897108,
+          "per_fit_values": [
+            0.00047987671056373915,
+            0.0004734581655586642,
+            0.00045724729182644754
+          ]
+        },
+        "positive_conditional_NLL": {
+          "mean": 2.8457097927419808,
+          "sample_SD": 0.016879792013185544,
+          "per_fit_values": [
+            2.8333007647756068,
+            2.8388974178070847,
+            2.864931195643251
+          ]
+        },
+        "weighted_zero_NLL": {
+          "mean": 0.0004699685689236579,
+          "sample_SD": 0.000011656887842853705,
+          "per_fit_values": [
+            0.00047964658007418684,
+            0.00047323111315744523,
+            0.0004570280135393415
+          ]
+        },
+        "weighted_positive_NLL": {
+          "mean": 0.0013646934166867825,
+          "sample_SD": 0.000008094901698757,
+          "per_fit_values": [
+            0.0013587425221801169,
+            0.0013614264626040555,
+            0.0013739112652761752
+          ]
+        },
+        "reconstructed_overall_NLL": {
+          "mean": 0.0018346619856104403,
+          "sample_SD": 0.0000037249136771677105,
+          "per_fit_values": [
+            0.0018383891022543037,
+            0.0018346575757615007,
+            0.0018309392788155166
+          ]
+        },
+        "reported_overall_NLL": {
+          "mean": 0.0018346619843889426,
+          "sample_SD": 0.000003724913798316751,
+          "per_fit_values": [
+            0.0018383891002730142,
+            0.001834657576305018,
+            0.0018309392765887952
+          ]
+        },
+        "total_predicted_counts": {
+          "mean": 13003.17703812755,
+          "sample_SD": 300.195468510449,
+          "per_fit_values": [
+            13242.259188760201,
+            13100.999973748769,
+            12666.271951873678
+          ]
+        },
+        "average_precision": {
+          "mean": 0.2781732514358458,
+          "sample_SD": 0.006686184233688693,
+          "per_fit_values": [
+            0.2855112099999821,
+            0.2724256108802433,
+            0.276582933427312
+          ]
+        }
+      }
+    },
+    "direct": {
+      "training_fits": 3,
+      "per_fit": [
+        {
+          "repetition": 0,
+          "source": "reused_original",
+          "zero_cells": 18197477,
+          "positive_cells": 8731,
+          "total_cells": 18206208,
+          "zero_fraction": 0.9995204383032426,
+          "positive_fraction": 0.0004795616967575016,
+          "zero_conditional_NLL": 0.0005115698586348897,
+          "positive_conditional_NLL": 2.7270726651045454,
+          "weighted_zero_NLL": 0.0005113245293254727,
+          "weighted_positive_NLL": 0.0013077995944585378,
+          "reconstructed_overall_NLL": 0.0018191241237840105,
+          "reported_overall_NLL": 0.0018191241252056454,
+          "reconstruction_error": -1.421634945181216e-12,
+          "total_predicted_counts": 13744.346580674388,
+          "average_precision": 0.2968064648400561
+        },
+        {
+          "repetition": 1,
+          "source": "new_fit",
+          "zero_cells": 18197477,
+          "positive_cells": 8731,
+          "total_cells": 18206208,
+          "zero_fraction": 0.9995204383032426,
+          "positive_fraction": 0.0004795616967575016,
+          "zero_conditional_NLL": 0.0005418438767964848,
+          "positive_conditional_NLL": 2.6579424004526895,
+          "weighted_zero_NLL": 0.0005415840292275506,
+          "weighted_positive_NLL": 0.0012746473674447986,
+          "reconstructed_overall_NLL": 0.0018162313966723492,
+          "reported_overall_NLL": 0.001816231397573303,
+          "reconstruction_error": -9.009537907389564e-13,
+          "total_predicted_counts": 14796.807432430152,
+          "average_precision": 0.28537538512264776
+        },
+        {
+          "repetition": 2,
+          "source": "new_fit",
+          "zero_cells": 18197477,
+          "positive_cells": 8731,
+          "total_cells": 18206208,
+          "zero_fraction": 0.9995204383032426,
+          "positive_fraction": 0.0004795616967575016,
+          "zero_conditional_NLL": 0.0005132160356304248,
+          "positive_conditional_NLL": 2.771200231459389,
+          "weighted_zero_NLL": 0.0005129699168775747,
+          "weighted_positive_NLL": 0.0013289614850534458,
+          "reconstructed_overall_NLL": 0.0018419314019310204,
+          "reported_overall_NLL": 0.001841931402151024,
+          "reconstruction_error": -2.200037027555446e-13,
+          "total_predicted_counts": 13769.600748192359,
+          "average_precision": 0.29716614353305426
+        }
+      ],
+      "summary": {
+        "zero_conditional_NLL": {
+          "mean": 0.0005222099236872664,
+          "sample_SD": 0.000017023412134363566,
+          "per_fit_values": [
+            0.0005115698586348897,
+            0.0005418438767964848,
+            0.0005132160356304248
+          ]
+        },
+        "positive_conditional_NLL": {
+          "mean": 2.7187384323388746,
+          "sample_SD": 0.05708702696698967,
+          "per_fit_values": [
+            2.7270726651045454,
+            2.6579424004526895,
+            2.771200231459389
+          ]
+        },
+        "weighted_zero_NLL": {
+          "mean": 0.0005219594918101993,
+          "sample_SD": 0.00001701524835795582,
+          "per_fit_values": [
+            0.0005113245293254727,
+            0.0005415840292275506,
+            0.0005129699168775747
+          ]
+        },
+        "weighted_positive_NLL": {
+          "mean": 0.0013038028156522607,
+          "sample_SD": 0.00002737675151513084,
+          "per_fit_values": [
+            0.0013077995944585378,
+            0.0012746473674447986,
+            0.0013289614850534458
+          ]
+        },
+        "reconstructed_overall_NLL": {
+          "mean": 0.00182576230746246,
+          "sample_SD": 0.000014077346322569337,
+          "per_fit_values": [
+            0.0018191241237840105,
+            0.0018162313966723492,
+            0.0018419314019310204
+          ]
+        },
+        "reported_overall_NLL": {
+          "mean": 0.001825762308309991,
+          "sample_SD": 0.00001407734580873942,
+          "per_fit_values": [
+            0.0018191241252056454,
+            0.001816231397573303,
+            0.001841931402151024
+          ]
+        },
+        "total_predicted_counts": {
+          "mean": 14103.5849204323,
+          "sample_SD": 600.4810834653463,
+          "per_fit_values": [
+            13744.346580674388,
+            14796.807432430152,
+            13769.600748192359
+          ]
+        },
+        "average_precision": {
+          "mean": 0.2931159978319194,
+          "sample_SD": 0.00670597912513542,
+          "per_fit_values": [
+            0.2968064648400561,
+            0.28537538512264776,
+            0.29716614353305426
+          ]
+        }
+      }
+    },
+    "deterministic": {
+      "training_fits": 3,
+      "per_fit": [
+        {
+          "repetition": 0,
+          "source": "reused_original",
+          "zero_cells": 18197477,
+          "positive_cells": 8731,
+          "total_cells": 18206208,
+          "zero_fraction": 0.9995204383032426,
+          "positive_fraction": 0.0004795616967575016,
+          "zero_conditional_NLL": 0.00030520134108049925,
+          "positive_conditional_NLL": 2.5325896174702063,
+          "weighted_zero_NLL": 0.00030505497820751805,
+          "weighted_positive_NLL": 0.001214532974144444,
+          "reconstructed_overall_NLL": 0.0015195879523519622,
+          "reported_overall_NLL": 0.0015195879523519616,
+          "reconstruction_error": 6.505213034913027e-19,
+          "total_predicted_counts": 11049.539247847566,
+          "average_precision": 0.29944991843938107
+        },
+        {
+          "repetition": 1,
+          "source": "new_fit",
+          "zero_cells": 18197477,
+          "positive_cells": 8731,
+          "total_cells": 18206208,
+          "zero_fraction": 0.9995204383032426,
+          "positive_fraction": 0.0004795616967575016,
+          "zero_conditional_NLL": 0.00030049247732463725,
+          "positive_conditional_NLL": 2.519722337671441,
+          "weighted_zero_NLL": 0.0003003483726423486,
+          "weighted_positive_NLL": 0.0012083623196114945,
+          "reconstructed_overall_NLL": 0.0015087106922538431,
+          "reported_overall_NLL": 0.0015087106922538438,
+          "reconstruction_error": -6.505213034913027e-19,
+          "total_predicted_counts": 11376.087205341655,
+          "average_precision": 0.3022692527416402
+        },
+        {
+          "repetition": 2,
+          "source": "new_fit",
+          "zero_cells": 18197477,
+          "positive_cells": 8731,
+          "total_cells": 18206208,
+          "zero_fraction": 0.9995204383032426,
+          "positive_fraction": 0.0004795616967575016,
+          "zero_conditional_NLL": 0.0003314537886166215,
+          "positive_conditional_NLL": 2.4825696522612546,
+          "weighted_zero_NLL": 0.0003312948360753558,
+          "weighted_positive_NLL": 0.001190545314757088,
+          "reconstructed_overall_NLL": 0.0015218401508324438,
+          "reported_overall_NLL": 0.0015218401508324438,
+          "reconstruction_error": 0,
+          "total_predicted_counts": 11885.302710850172,
+          "average_precision": 0.2988188360625944
+        }
+      ],
+      "summary": {
+        "zero_conditional_NLL": {
+          "mean": 0.00031238253567391933,
+          "sample_SD": 0.000016683161153426893,
+          "per_fit_values": [
+            0.00030520134108049925,
+            0.00030049247732463725,
+            0.0003314537886166215
+          ]
+        },
+        "positive_conditional_NLL": {
+          "mean": 2.511627202467634,
+          "sample_SD": 0.025973980063750724,
+          "per_fit_values": [
+            2.5325896174702063,
+            2.519722337671441,
+            2.4825696522612546
+          ]
+        },
+        "weighted_zero_NLL": {
+          "mean": 0.00031223272897507417,
+          "sample_SD": 0.00001667516054835686,
+          "per_fit_values": [
+            0.00030505497820751805,
+            0.0003003483726423486,
+            0.0003312948360753558
+          ]
+        },
+        "weighted_positive_NLL": {
+          "mean": 0.0012044802028376754,
+          "sample_SD": 0.000012456125950917872,
+          "per_fit_values": [
+            0.001214532974144444,
+            0.0012083623196114945,
+            0.001190545314757088
+          ]
+        },
+        "reconstructed_overall_NLL": {
+          "mean": 0.0015167129318127497,
+          "sample_SD": 0.000007021038239994693,
+          "per_fit_values": [
+            0.0015195879523519622,
+            0.0015087106922538431,
+            0.0015218401508324438
+          ]
+        },
+        "reported_overall_NLL": {
+          "mean": 0.0015167129318127497,
+          "sample_SD": 0.000007021038239994189,
+          "per_fit_values": [
+            0.0015195879523519616,
+            0.0015087106922538438,
+            0.0015218401508324438
+          ]
+        },
+        "total_predicted_counts": {
+          "mean": 11436.97638801313,
+          "sample_SD": 421.19563263088014,
+          "per_fit_values": [
+            11049.539247847566,
+            11376.087205341655,
+            11885.302710850172
+          ]
+        },
+        "average_precision": {
+          "mean": 0.30017933574787187,
+          "sample_SD": 0.001837221005269592,
+          "per_fit_values": [
+            0.29944991843938107,
+            0.3022692527416402,
+            0.2988188360625944
+          ]
+        }
+      }
+    },
+    "s2": {
+      "training_fits": 3,
+      "per_fit": [
+        {
+          "repetition": 0,
+          "source": "reused_original",
+          "zero_cells": 18197477,
+          "positive_cells": 8731,
+          "total_cells": 18206208,
+          "zero_fraction": 0.9995204383032426,
+          "positive_fraction": 0.0004795616967575016,
+          "zero_conditional_NLL": 0.0005400133415793584,
+          "positive_conditional_NLL": 3.0634778625653,
+          "weighted_zero_NLL": 0.000539754371864999,
+          "weighted_positive_NLL": 0.0014691266417508596,
+          "reconstructed_overall_NLL": 0.0020088810136158586,
+          "reported_overall_NLL": 0.00200888101361586,
+          "reconstruction_error": -1.3010426069826053e-18,
+          "total_predicted_counts": 13016.776537867898,
+          "average_precision": 0.34071735260679137
+        },
+        {
+          "repetition": 1,
+          "source": "new_fit",
+          "zero_cells": 18197477,
+          "positive_cells": 8731,
+          "total_cells": 18206208,
+          "zero_fraction": 0.9995204383032426,
+          "positive_fraction": 0.0004795616967575016,
+          "zero_conditional_NLL": 0.0005555806494613306,
+          "positive_conditional_NLL": 3.0626641559841135,
+          "weighted_zero_NLL": 0.0005553142142623893,
+          "weighted_positive_NLL": 0.001468736419242123,
+          "reconstructed_overall_NLL": 0.002024050633504512,
+          "reported_overall_NLL": 0.0020240506335045118,
+          "reconstruction_error": 4.336808689942018e-19,
+          "total_predicted_counts": 12745.546950181442,
+          "average_precision": 0.33142080264035634
+        },
+        {
+          "repetition": 2,
+          "source": "new_fit",
+          "zero_cells": 18197477,
+          "positive_cells": 8731,
+          "total_cells": 18206208,
+          "zero_fraction": 0.9995204383032426,
+          "positive_fraction": 0.0004795616967575016,
+          "zero_conditional_NLL": 0.000544628786015509,
+          "positive_conditional_NLL": 3.0764539884600683,
+          "weighted_zero_NLL": 0.0005443676029107845,
+          "weighted_positive_NLL": 0.0014753494947022936,
+          "reconstructed_overall_NLL": 0.002019717097613078,
+          "reported_overall_NLL": 0.002019717097613077,
+          "reconstruction_error": 8.673617379884035e-19,
+          "total_predicted_counts": 12401.320990217757,
+          "average_precision": 0.33319317644166674
+        }
+      ],
+      "summary": {
+        "zero_conditional_NLL": {
+          "mean": 0.0005467409256853993,
+          "sample_SD": 0.00000799569378865096,
+          "per_fit_values": [
+            0.0005400133415793584,
+            0.0005555806494613306,
+            0.000544628786015509
+          ]
+        },
+        "positive_conditional_NLL": {
+          "mean": 3.067532002336494,
+          "sample_SD": 0.007737370799697266,
+          "per_fit_values": [
+            3.0634778625653,
+            3.0626641559841135,
+            3.0764539884600683
+          ]
+        },
+        "weighted_zero_NLL": {
+          "mean": 0.0005464787296793909,
+          "sample_SD": 0.000007991859360170896,
+          "per_fit_values": [
+            0.000539754371864999,
+            0.0005553142142623893,
+            0.0005443676029107845
+          ]
+        },
+        "weighted_positive_NLL": {
+          "mean": 0.0014710708518984254,
+          "sample_SD": 0.000003710546669144737,
+          "per_fit_values": [
+            0.0014691266417508596,
+            0.001468736419242123,
+            0.0014753494947022936
+          ]
+        },
+        "reconstructed_overall_NLL": {
+          "mean": 0.0020175495815778163,
+          "sample_SD": 0.000007813637834830633,
+          "per_fit_values": [
+            0.0020088810136158586,
+            0.002024050633504512,
+            0.002019717097613078
+          ]
+        },
+        "reported_overall_NLL": {
+          "mean": 0.0020175495815778163,
+          "sample_SD": 0.000007813637834829612,
+          "per_fit_values": [
+            0.00200888101361586,
+            0.0020240506335045118,
+            0.002019717097613077
+          ]
+        },
+        "total_predicted_counts": {
+          "mean": 12721.214826089032,
+          "sample_SD": 308.4484105656407,
+          "per_fit_values": [
+            13016.776537867898,
+            12745.546950181442,
+            12401.320990217757
+          ]
+        },
+        "average_precision": {
+          "mean": 0.3351104438962715,
+          "sample_SD": 0.004935929111015544,
+          "per_fit_values": [
+            0.34071735260679137,
+            0.33142080264035634,
+            0.33319317644166674
+          ]
+        }
+      }
+    },
+    "thp": {
+      "training_fits": 1,
+      "per_fit": [
+        {
+          "repetition": 0,
+          "source": "reused_original",
+          "zero_cells": 18197477,
+          "positive_cells": 8731,
+          "total_cells": 18206208,
+          "zero_fraction": 0.9995204383032426,
+          "positive_fraction": 0.0004795616967575016,
+          "zero_conditional_NLL": 0.00045932899396811783,
+          "positive_conditional_NLL": 3.2135038502832662,
+          "weighted_zero_NLL": 0.0004591087173764006,
+          "weighted_positive_NLL": 0.0015410733589786077,
+          "reconstructed_overall_NLL": 0.0020001820763550083,
+          "reported_overall_NLL": 0.002000182071569592,
+          "reconstruction_error": 4.785416420766131e-12,
+          "total_predicted_counts": 10949.182636327301,
+          "average_precision": 0.24396020428479476
+        }
+      ],
+      "summary": {
+        "zero_conditional_NLL": {
+          "mean": 0.00045932899396811783,
+          "sample_SD": null,
+          "per_fit_values": [
+            0.00045932899396811783
+          ]
+        },
+        "positive_conditional_NLL": {
+          "mean": 3.2135038502832662,
+          "sample_SD": null,
+          "per_fit_values": [
+            3.2135038502832662
+          ]
+        },
+        "weighted_zero_NLL": {
+          "mean": 0.0004591087173764006,
+          "sample_SD": null,
+          "per_fit_values": [
+            0.0004591087173764006
+          ]
+        },
+        "weighted_positive_NLL": {
+          "mean": 0.0015410733589786077,
+          "sample_SD": null,
+          "per_fit_values": [
+            0.0015410733589786077
+          ]
+        },
+        "reconstructed_overall_NLL": {
+          "mean": 0.0020001820763550083,
+          "sample_SD": null,
+          "per_fit_values": [
+            0.0020001820763550083
+          ]
+        },
+        "reported_overall_NLL": {
+          "mean": 0.002000182071569592,
+          "sample_SD": null,
+          "per_fit_values": [
+            0.002000182071569592
+          ]
+        },
+        "total_predicted_counts": {
+          "mean": 10949.182636327301,
+          "sample_SD": null,
+          "per_fit_values": [
+            10949.182636327301
+          ]
+        },
+        "average_precision": {
+          "mean": 0.24396020428479476,
+          "sample_SD": null,
+          "per_fit_values": [
+            0.24396020428479476
+          ]
+        }
+      }
+    }
+  },
+  "paired_comparison": {
+    "candidate": "deterministic",
+    "candidate_display_name_ko": "연속 연결 가중치 모형",
+    "reference": "s2",
+    "reference_display_name_ko": "S²GCSL",
+    "positive_improvement_definition": "reference_NLL minus candidate_NLL; positive means candidate lower loss",
+    "per_fit": [
+      {
+        "repetition": 0,
+        "weighted_zero_improvement": 0.00023469939365748096,
+        "weighted_positive_improvement": 0.00025459366760641547,
+        "total_improvement": 0.0004892930612638964,
+        "reported_total_improvement": 0.0004892930612638983,
+        "zero_share_of_improvement_pct": 47.96703902794519,
+        "positive_share_of_improvement_pct": 52.03296097205481,
+        "zero_conditional_reduction_pct": 43.48262948691464,
+        "positive_conditional_reduction_pct": 17.329592995672492
+      },
+      {
+        "repetition": 1,
+        "weighted_zero_improvement": 0.0002549658416200407,
+        "weighted_positive_improvement": 0.00026037409963062847,
+        "total_improvement": 0.0005153399412506692,
+        "reported_total_improvement": 0.000515339941250668,
+        "zero_share_of_improvement_pct": 49.47527276874148,
+        "positive_share_of_improvement_pct": 50.52472723125851,
+        "zero_conditional_reduction_pct": 45.91379710290791,
+        "positive_conditional_reduction_pct": 17.727762192006047
+      },
+      {
+        "repetition": 2,
+        "weighted_zero_improvement": 0.00021307276683542867,
+        "weighted_positive_improvement": 0.0002848041799452057,
+        "total_improvement": 0.0004978769467806343,
+        "reported_total_improvement": 0.0004978769467806335,
+        "zero_share_of_improvement_pct": 42.79627088845891,
+        "positive_share_of_improvement_pct": 57.2037291115411,
+        "zero_conditional_reduction_pct": 39.14133862781485,
+        "positive_conditional_reduction_pct": 19.304183921700226
+      }
+    ],
+    "summary": {
+      "weighted_zero_improvement": {
+        "mean": 0.00023424600070431678,
+        "sample_SD": 0.00002095021724481057,
+        "per_fit_values": [
+          0.00023469939365748096,
+          0.0002549658416200407,
+          0.00021307276683542867
+        ]
+      },
+      "weighted_positive_improvement": {
+        "mean": 0.0002665906490607499,
+        "sample_SD": 0.00001603598699974237,
+        "per_fit_values": [
+          0.00025459366760641547,
+          0.00026037409963062847,
+          0.0002848041799452057
+        ]
+      },
+      "total_improvement": {
+        "mean": 0.0005008366497650667,
+        "sample_SD": 0.000013273276557744843,
+        "per_fit_values": [
+          0.0004892930612638964,
+          0.0005153399412506692,
+          0.0004978769467806343
+        ]
+      },
+      "aggregate_zero_share_of_mean_improvement_pct": 46.77093835169557,
+      "aggregate_positive_share_of_mean_improvement_pct": 53.22906164830443,
+      "both_groups_improved_in_every_fit": true
+    }
+  },
+  "checks": {
+    "maximum_absolute_reconstruction_error": 4.785416420766131e-12,
+    "reconstruction_error_tolerance": 1e-8,
+    "same_cell_counts_all_models_and_fits": true,
+    "THP_fits": 1,
+    "new_training_runs": 0,
+    "GPU_used": false,
+    "source_or_manuscript_modified": false
+  },
+  "type_level_decomposition": {
+    "status": "not_available_from_saved_aggregate_report",
+    "required_for_further_analysis": [
+      "Original TEST observations with event-type axis",
+      "Selected-model predictions.npz predictive_log_mass with the same axes"
+    ],
+    "values_imputed_or_reconstructed_without_arrays": false
+  },
+  "interpretation_ko": [
+    "연속 연결 가중치 모형의 S²GCSL 대비 NLL 개선은 0인 관측과 양수 관측 모두에서 확인된다.",
+    "따라서 전체 개선이 0인 관측에 대한 개선만으로 발생했다는 설명은 이 집계 결과와 맞지 않는다.",
+    "이는 손실이 어디서 개선되는지에 대한 기술적 분해이지, AP 차이나 특정 아키텍처의 인과적 효과를 규명한 결과는 아니다."
+  ],
+  "limitations_ko": [
+    "테스트 발생 여부에 따라 나눈 사후 탐색 분석이며 모형·임계값·평가 기준을 선택하는 데 사용하지 않는다.",
+    "세 반복은 동일 자료 및 분할의 학습 시드 반복이고 독립적인 새 데이터 반복이 아니다.",
+    "THP는 한 번 적합한 결과이며 세 번의 독립 적합처럼 취급하지 않는다.",
+    "소스 JSON의 기존 집계값만 읽었으며 이 단계에서는 원본 예측 배열이나 체크포인트를 재검증하지 않았다.",
+    "모형 입력, 예측 함수, 규제 방식의 차이가 있어 연결 표현 자체의 효과로 단정할 수 없다.",
+    "연결 제거와 Integrated Gradients는 아직 수행하지 않았고, 모형 의존도와 실제 인과관계도 구별해야 한다."
+  ]
+}

@@ -1,0 +1,966 @@
+{
+  "status": "verified_fixed_artifact_recovery",
+  "created_at_UTC": "2026-10-13T15:44:57.910577+09:00",
+  "dataset": "real_24V_439N_Microwave",
+  "executed_source_manifest_sha256": "846ef9be4baf93b8d6e93f903daedc4417cdba71ffa5cc97600c69c2c807408e",
+  "previous_verified_report_sha256": "ae91d97f0b6363d7cb465073538800a0c14dd9d5f6895e3bca8b38c8893d40d4",
+  "sources": {
+    "original": {
+      "models_v2.py": {
+        "recovered_path": ".\\output\\xai_20261013\\recovered_original_metadata\\comparison_v2_source\\models_v2.py",
+        "repository_path": "src\\comparison_v2\\models_v2.py",
+        "recovered_sha256": "e7ee7065354bb95ef2227623887d6ddd399543a7c04d0a95afeb8aa24aa6dda4",
+        "repository_sha256": "19d5cc9e3de77af7001b431eea2726b99178fc423ee4583e31c6507e6b9e2bc9",
+        "executed_manifest_sha256": "e7ee7065354bb95ef2227623887d6ddd399543a7c04d0a95afeb8aa24aa6dda4",
+        "raw_bytes_match_repository": false,
+        "LF_normalized_text_match_repository": true,
+        "Python_AST_match_repository": true,
+        "recovered_matches_executed_manifest": true
+      },
+      "study_v2.py": {
+        "recovered_path": ".\\output\\xai_20261013\\recovered_original_metadata\\comparison_v2_source\\study_v2.py",
+        "repository_path": "src\\comparison_v2\\study_v2.py",
+        "recovered_sha256": "d7738cea096362d67dc1ca17235180b5c3a9b760b90d5fdc380fc9e8ad028eb3",
+        "repository_sha256": "c181f85fba345d0e7696c8678ef3408fa7f93295570e92ad95bfde8e3e85a753",
+        "executed_manifest_sha256": "d7738cea096362d67dc1ca17235180b5c3a9b760b90d5fdc380fc9e8ad028eb3",
+        "raw_bytes_match_repository": false,
+        "LF_normalized_text_match_repository": true,
+        "Python_AST_match_repository": true,
+        "recovered_matches_executed_manifest": true
+      },
+      "datasets_v2.py": {
+        "recovered_path": ".\\output\\xai_20261013\\recovered_original_metadata\\comparison_v2_source\\datasets_v2.py",
+        "repository_path": "src\\comparison_v2\\datasets_v2.py",
+        "recovered_sha256": "57105c493a8e6d549180d5161c37d233671b384f38b10b57c264890aae968d9f",
+        "repository_sha256": "b88819c5adc5928a336c2f4487403101d3994729d70d1368cedce3832ddb950c",
+        "executed_manifest_sha256": "57105c493a8e6d549180d5161c37d233671b384f38b10b57c264890aae968d9f",
+        "raw_bytes_match_repository": false,
+        "LF_normalized_text_match_repository": true,
+        "Python_AST_match_repository": true,
+        "recovered_matches_executed_manifest": true
+      },
+      "evaluation.py": {
+        "recovered_path": ".\\output\\xai_20261013\\recovered_original_metadata\\comparison_v2_source\\evaluation.py",
+        "repository_path": "src\\evaluation.py",
+        "recovered_sha256": "f8a1b028c5bdacc4bdc2902a1df29c563b2f6c1fd986a579eb2ee0287f73b122",
+        "repository_sha256": "664626f04f01c411ea106258921e8b70aa23a91d0d73b90be64128e3d681eb3a",
+        "executed_manifest_sha256": "f8a1b028c5bdacc4bdc2902a1df29c563b2f6c1fd986a579eb2ee0287f73b122",
+        "raw_bytes_match_repository": false,
+        "LF_normalized_text_match_repository": true,
+        "Python_AST_match_repository": true,
+        "recovered_matches_executed_manifest": true
+      }
+    },
+    "repeated": {
+      "models_v2.py": {
+        "recovered_path": ".\\output\\xai_20261013\\recovered_repeated_metadata\\minimum_repeat_source\\models_v2.py",
+        "repository_path": "src\\comparison_v2\\models_v2.py",
+        "recovered_sha256": "e7ee7065354bb95ef2227623887d6ddd399543a7c04d0a95afeb8aa24aa6dda4",
+        "repository_sha256": "19d5cc9e3de77af7001b431eea2726b99178fc423ee4583e31c6507e6b9e2bc9",
+        "executed_manifest_sha256": "e7ee7065354bb95ef2227623887d6ddd399543a7c04d0a95afeb8aa24aa6dda4",
+        "raw_bytes_match_repository": false,
+        "LF_normalized_text_match_repository": true,
+        "Python_AST_match_repository": true,
+        "recovered_matches_executed_manifest": true
+      },
+      "study_v2.py": {
+        "recovered_path": ".\\output\\xai_20261013\\recovered_repeated_metadata\\minimum_repeat_source\\study_v2.py",
+        "repository_path": "src\\comparison_v2\\study_v2.py",
+        "recovered_sha256": "d7738cea096362d67dc1ca17235180b5c3a9b760b90d5fdc380fc9e8ad028eb3",
+        "repository_sha256": "c181f85fba345d0e7696c8678ef3408fa7f93295570e92ad95bfde8e3e85a753",
+        "executed_manifest_sha256": "d7738cea096362d67dc1ca17235180b5c3a9b760b90d5fdc380fc9e8ad028eb3",
+        "raw_bytes_match_repository": false,
+        "LF_normalized_text_match_repository": true,
+        "Python_AST_match_repository": true,
+        "recovered_matches_executed_manifest": true
+      },
+      "datasets_v2.py": {
+        "recovered_path": ".\\output\\xai_20261013\\recovered_repeated_metadata\\minimum_repeat_source\\datasets_v2.py",
+        "repository_path": "src\\comparison_v2\\datasets_v2.py",
+        "recovered_sha256": "57105c493a8e6d549180d5161c37d233671b384f38b10b57c264890aae968d9f",
+        "repository_sha256": "b88819c5adc5928a336c2f4487403101d3994729d70d1368cedce3832ddb950c",
+        "executed_manifest_sha256": "57105c493a8e6d549180d5161c37d233671b384f38b10b57c264890aae968d9f",
+        "raw_bytes_match_repository": false,
+        "LF_normalized_text_match_repository": true,
+        "Python_AST_match_repository": true,
+        "recovered_matches_executed_manifest": true
+      },
+      "evaluation.py": {
+        "recovered_path": ".\\output\\xai_20261013\\recovered_repeated_metadata\\minimum_repeat_source\\evaluation.py",
+        "repository_path": "src\\evaluation.py",
+        "recovered_sha256": "f8a1b028c5bdacc4bdc2902a1df29c563b2f6c1fd986a579eb2ee0287f73b122",
+        "repository_sha256": "664626f04f01c411ea106258921e8b70aa23a91d0d73b90be64128e3d681eb3a",
+        "executed_manifest_sha256": "f8a1b028c5bdacc4bdc2902a1df29c563b2f6c1fd986a579eb2ee0287f73b122",
+        "raw_bytes_match_repository": false,
+        "LF_normalized_text_match_repository": true,
+        "Python_AST_match_repository": true,
+        "recovered_matches_executed_manifest": true
+      }
+    }
+  },
+  "datasets": {
+    "original": {
+      "metadata_path": ".\\output\\xai_20261013\\recovered_original_metadata\\comparison_v2_data\\real_24V_439N_Microwave\\dataset.json",
+      "metadata_sha256": "0962f983559c84d60b84f6a0d1ad4eecc4bb6bc088fec28ae7f68e030e68d691",
+      "observations_file_sha256": "f6a26b0a3ab38aa061fa0b498e5308e20f62f4e5ff781e1b42f0f23e3c83c2cb",
+      "labels_file_sha256": "3b16f22295fc7215981d5b459e671d5e73c8da5ff329b4f3619c2f7d68b92312",
+      "observations_match_own_metadata_file_hash": true,
+      "labels_match_own_metadata_file_hash": true,
+      "canonical_array_hashes": {
+        "counts": "578c0cda32aa189352f80114aedd757d2cd6b70aae00363188f9bac4ec914890",
+        "topology": "159e53acddc6fdc43fff68edc919a157f3c4b96adca5a2d26a8b91c36e761d05",
+        "hop_masks": "14c024d27bfb06ce7d8e590b1da97131993fe61105f1e3bef9f854611ee6b40f",
+        "graph_source_target": "34621ebd681b7f057fe6008cc1375f9dc4e4af530297e9ecfdc79bbc782bfa35"
+      },
+      "canonical_arrays_match_original_blueprint": true,
+      "array_shapes": {
+        "counts": [
+          8639,
+          439,
+          24
+        ],
+        "topology": [
+          439,
+          439
+        ],
+        "hop_masks": [
+          3,
+          439,
+          439
+        ]
+      },
+      "metadata": {
+        "kind": "real",
+        "name": "real_24V_439N_Microwave",
+        "seed": 96100440,
+        "delta_seconds": 60,
+        "train": [
+          5,
+          5183
+        ],
+        "validation": [
+          5183,
+          6911
+        ],
+        "test": [
+          6911,
+          8639
+        ],
+        "source_commit": "1858e9c39d90a524e7d8ff8b9456f4b1f231ff03",
+        "source_hashes": {
+          "ttpm.py": {
+            "url": "https://raw.githubusercontent.com/huawei-noah/trustworthyAI/8675af0bc532c7f138158ded62e8cf303e9af655/gcastle/castle/algorithms/ttpm/ttpm.py",
+            "sha256": "65bf5a349c22b0c4916deff3fe7a63bee8f9fe6bf3dd28d70cdd8e89794478b5",
+            "bytes": 16382
+          },
+          "gcastle_LICENSE": {
+            "url": "https://raw.githubusercontent.com/huawei-noah/trustworthyAI/8675af0bc532c7f138158ded62e8cf303e9af655/LICENSE",
+            "sha256": "75b52537769ab89be6be947d14ca742e79938859094563a8a3f792e7137bc9d8",
+            "bytes": 11390
+          },
+          "dataset_README.md": {
+            "url": "https://raw.githubusercontent.com/gcastle-hub/dataset/1858e9c39d90a524e7d8ff8b9456f4b1f231ff03/README.md",
+            "sha256": "970e77ee3c5de36f79a937ce8ea838ec9cae2c5a552385e761c55fbea08cc5ea",
+            "bytes": 2797
+          },
+          "24V_439N_Microwave.tar.gz": {
+            "url": "https://raw.githubusercontent.com/gcastle-hub/dataset/1858e9c39d90a524e7d8ff8b9456f4b1f231ff03/alarm/24V_439N_Microwave.tar.gz",
+            "sha256": "fad2fdb1e4095b7f50dee89725e5a6d6568f370060704480aac5d00626550de1",
+            "bytes": 324945
+          },
+          "Alarm.csv": {
+            "archive_member": "24V_439N_Microwave/Alarm.csv",
+            "sha256": "d91028f43d7c324a0883d07920a3023c4a1631ce25031badbc31223402305827",
+            "bytes": 1257470
+          },
+          "DAG.npy": {
+            "archive_member": "24V_439N_Microwave/DAG.npy",
+            "sha256": "0ad422aeeafa3922aa4e8a35904d4406fd0387fe2cde0a2d7eb10c019ed9afa3",
+            "bytes": 4736
+          },
+          "Topology.npy": {
+            "archive_member": "24V_439N_Microwave/Topology.npy",
+            "sha256": "577c49ecf388533f61d25513ccce93fdf527de2ba915204ce93c295521599a93",
+            "bytes": 1541896
+          }
+        },
+        "original_rows": 64598,
+        "excluded_partial_final_bin_rows": 21,
+        "duration_positive_fraction": 0.002817424688070838,
+        "bin_convention": "half_open_[start,end);_no_duplicate_removal",
+        "graph_labels": "provided_reference_DAG_not_identified_true_Granger_graph",
+        "shape": [
+          8639,
+          439,
+          24
+        ],
+        "event_records_complete_bins": 64577,
+        "observation_sha256": "f6a26b0a3ab38aa061fa0b498e5308e20f62f4e5ff781e1b42f0f23e3c83c2cb",
+        "labels_sha256": "3b16f22295fc7215981d5b459e671d5e73c8da5ff329b4f3619c2f7d68b92312",
+        "truth_delivered_to_fits": false,
+        "duration_as_input": false
+      },
+      "compressed_bytes_and_array_identity_are_distinct": true
+    },
+    "repeated": {
+      "metadata_path": ".\\output\\xai_20261013\\recovered_repeated_metadata\\minimum_repeat_data\\real_24V_439N_Microwave\\dataset.json",
+      "metadata_sha256": "0962f983559c84d60b84f6a0d1ad4eecc4bb6bc088fec28ae7f68e030e68d691",
+      "observations_file_sha256": "f6a26b0a3ab38aa061fa0b498e5308e20f62f4e5ff781e1b42f0f23e3c83c2cb",
+      "labels_file_sha256": "3b16f22295fc7215981d5b459e671d5e73c8da5ff329b4f3619c2f7d68b92312",
+      "observations_match_own_metadata_file_hash": true,
+      "labels_match_own_metadata_file_hash": true,
+      "canonical_array_hashes": {
+        "counts": "578c0cda32aa189352f80114aedd757d2cd6b70aae00363188f9bac4ec914890",
+        "topology": "159e53acddc6fdc43fff68edc919a157f3c4b96adca5a2d26a8b91c36e761d05",
+        "hop_masks": "14c024d27bfb06ce7d8e590b1da97131993fe61105f1e3bef9f854611ee6b40f",
+        "graph_source_target": "34621ebd681b7f057fe6008cc1375f9dc4e4af530297e9ecfdc79bbc782bfa35"
+      },
+      "canonical_arrays_match_original_blueprint": true,
+      "array_shapes": {
+        "counts": [
+          8639,
+          439,
+          24
+        ],
+        "topology": [
+          439,
+          439
+        ],
+        "hop_masks": [
+          3,
+          439,
+          439
+        ]
+      },
+      "metadata": {
+        "kind": "real",
+        "name": "real_24V_439N_Microwave",
+        "seed": 96100440,
+        "delta_seconds": 60,
+        "train": [
+          5,
+          5183
+        ],
+        "validation": [
+          5183,
+          6911
+        ],
+        "test": [
+          6911,
+          8639
+        ],
+        "source_commit": "1858e9c39d90a524e7d8ff8b9456f4b1f231ff03",
+        "source_hashes": {
+          "ttpm.py": {
+            "url": "https://raw.githubusercontent.com/huawei-noah/trustworthyAI/8675af0bc532c7f138158ded62e8cf303e9af655/gcastle/castle/algorithms/ttpm/ttpm.py",
+            "sha256": "65bf5a349c22b0c4916deff3fe7a63bee8f9fe6bf3dd28d70cdd8e89794478b5",
+            "bytes": 16382
+          },
+          "gcastle_LICENSE": {
+            "url": "https://raw.githubusercontent.com/huawei-noah/trustworthyAI/8675af0bc532c7f138158ded62e8cf303e9af655/LICENSE",
+            "sha256": "75b52537769ab89be6be947d14ca742e79938859094563a8a3f792e7137bc9d8",
+            "bytes": 11390
+          },
+          "dataset_README.md": {
+            "url": "https://raw.githubusercontent.com/gcastle-hub/dataset/1858e9c39d90a524e7d8ff8b9456f4b1f231ff03/README.md",
+            "sha256": "970e77ee3c5de36f79a937ce8ea838ec9cae2c5a552385e761c55fbea08cc5ea",
+            "bytes": 2797
+          },
+          "24V_439N_Microwave.tar.gz": {
+            "url": "https://raw.githubusercontent.com/gcastle-hub/dataset/1858e9c39d90a524e7d8ff8b9456f4b1f231ff03/alarm/24V_439N_Microwave.tar.gz",
+            "sha256": "fad2fdb1e4095b7f50dee89725e5a6d6568f370060704480aac5d00626550de1",
+            "bytes": 324945
+          },
+          "Alarm.csv": {
+            "archive_member": "24V_439N_Microwave/Alarm.csv",
+            "sha256": "d91028f43d7c324a0883d07920a3023c4a1631ce25031badbc31223402305827",
+            "bytes": 1257470
+          },
+          "DAG.npy": {
+            "archive_member": "24V_439N_Microwave/DAG.npy",
+            "sha256": "0ad422aeeafa3922aa4e8a35904d4406fd0387fe2cde0a2d7eb10c019ed9afa3",
+            "bytes": 4736
+          },
+          "Topology.npy": {
+            "archive_member": "24V_439N_Microwave/Topology.npy",
+            "sha256": "577c49ecf388533f61d25513ccce93fdf527de2ba915204ce93c295521599a93",
+            "bytes": 1541896
+          }
+        },
+        "original_rows": 64598,
+        "excluded_partial_final_bin_rows": 21,
+        "duration_positive_fraction": 0.002817424688070838,
+        "bin_convention": "half_open_[start,end);_no_duplicate_removal",
+        "graph_labels": "provided_reference_DAG_not_identified_true_Granger_graph",
+        "shape": [
+          8639,
+          439,
+          24
+        ],
+        "event_records_complete_bins": 64577,
+        "observation_sha256": "f6a26b0a3ab38aa061fa0b498e5308e20f62f4e5ff781e1b42f0f23e3c83c2cb",
+        "labels_sha256": "3b16f22295fc7215981d5b459e671d5e73c8da5ff329b4f3619c2f7d68b92312",
+        "truth_delivered_to_fits": false,
+        "duration_as_input": false
+      },
+      "compressed_bytes_and_array_identity_are_distinct": true
+    }
+  },
+  "selected_fits": [
+    {
+      "model": "deterministic",
+      "repetition": 0,
+      "selected_trial": 1,
+      "fit_path": ".\\output\\xai_20261013\\recovered_original_models\\comparison_v2_results\\worker_1\\real_24V_439N_Microwave\\fits\\deterministic_trial1\\fit.json",
+      "checkpoint_path": ".\\output\\xai_20261013\\recovered_original_models\\comparison_v2_results\\worker_1\\real_24V_439N_Microwave\\fits\\deterministic_trial1\\best.pt",
+      "fit_sha256": "02919db67b2ee3a36ec6f04fe7ee9ac54ce05e2a816dbf34d15d44405e9eda52",
+      "checkpoint_sha256": "a98ec08078e2a77fea59e2c5d605ad697800d1462f2a395c2d42736483c03643",
+      "result_sha256": "5fc0649c6af8d0e7588174c973cdb56778590ca6c9add3565ef340f1d3f6fc78",
+      "predictions_sha256": "d0bf72bccfa372c484c033125779d74c8c2a7770a66c45184726112db3a65cfd",
+      "checkpoint_update": 2600,
+      "checkpoint_validation_mean_score": 0.0018757478678111481,
+      "state_parameters": 315648,
+      "frozen_graph_maximum_state_difference": 7.450580596923828e-9,
+      "checks": {
+        "selected_report_exactly_matches_fit_json": true,
+        "selected_fit_name_matches_selected_trial": true,
+        "checkpoint_update_matches_selected_fit": true,
+        "checkpoint_validation_score_matches_selected_fit": true,
+        "best_validation_row_matches_saved_checkpoint": true,
+        "checkpoint_expected_state_keys_and_shapes": true,
+        "state_tensors_CPU_and_finite": true,
+        "frozen_graph_CPU_and_finite": true,
+        "frozen_graph_matches_checkpoint_state_with_tolerance": true,
+        "state_parameter_count_matches_fit": true,
+        "result_model_and_dataset_match": true,
+        "fit_declares_no_true_graph_or_TEST_use": true,
+        "test_result_declares_no_TEST_selection": true,
+        "predictive_log_mass_shape_and_finite": true,
+        "mean_count_shape_positive_finite": true,
+        "saved_graph_scores_exactly_match_frozen_graph": true,
+        "saved_binary_graph_matches_fixed_threshold": true,
+        "result_vs_verified_predictive_count_NLL": true,
+        "result_vs_verified_count_MAE": true,
+        "result_vs_verified_count_RMSE": true,
+        "result_vs_verified_AP": true,
+        "saved_predictions_vs_result_NLL": true,
+        "saved_predictions_vs_result_MAE": true,
+        "saved_predictions_vs_result_RMSE": true,
+        "saved_scores_vs_result_AP": true
+      },
+      "metrics": {
+        "result_vs_verified_predictive_count_NLL": {
+          "actual": 0.0015195879523519616,
+          "expected": 0.0015195879523519616,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_count_MAE": {
+          "actual": 0.0006193618721161998,
+          "expected": 0.0006193618721161998,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_count_RMSE": {
+          "actual": 0.01970170660524207,
+          "expected": 0.01970170660524207,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_AP": {
+          "actual": 0.29944991843938107,
+          "expected": 0.29944991843938107,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "saved_predictions_vs_result_NLL": {
+          "actual": 0.001519587952351963,
+          "expected": 0.0015195879523519616,
+          "difference": 1.3010426069826053e-18,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_predictions_vs_result_MAE": {
+          "actual": 0.0006193618721161995,
+          "expected": 0.0006193618721161998,
+          "difference": -3.2526065174565133e-19,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_predictions_vs_result_RMSE": {
+          "actual": 0.019701706605242078,
+          "expected": 0.01970170660524207,
+          "difference": 6.938893903907228e-18,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_scores_vs_result_AP": {
+          "actual": 0.29944991843938107,
+          "expected": 0.29944991843938107,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        }
+      },
+      "passed": true,
+      "all_candidate_trial_selection_independently_reverified": false,
+      "checkpoint_forward_predictions_reverified_here": false
+    },
+    {
+      "model": "s2",
+      "repetition": 0,
+      "selected_trial": 2,
+      "fit_path": ".\\output\\xai_20261013\\recovered_original_models\\comparison_v2_results\\worker_1\\real_24V_439N_Microwave\\fits\\s2_trial2\\fit.json",
+      "checkpoint_path": ".\\output\\xai_20261013\\recovered_original_models\\comparison_v2_results\\worker_1\\real_24V_439N_Microwave\\fits\\s2_trial2\\best.pt",
+      "fit_sha256": "10134f7e7e114ac76fb7b3467a4b343b8bc58f646af4d4b9427ea65cc618949d",
+      "checkpoint_sha256": "9e18358b21e4ef7540d240e2c7846fdedff0ef3a062f1bfd7bc71b8e5759cff2",
+      "result_sha256": "411c1cfc5b5f60777be538fe868bff2d6bb4a83df727188e23181fa619885e30",
+      "predictions_sha256": "52158aabd707a1f81e640a166e53ab0d0475aab771b27e45d3e540bbe3c4a3c9",
+      "checkpoint_update": 2700,
+      "checkpoint_validation_mean_score": 0.0024087918953154502,
+      "state_parameters": 11112,
+      "frozen_graph_maximum_state_difference": 9.313225746154785e-10,
+      "checks": {
+        "selected_report_exactly_matches_fit_json": true,
+        "selected_fit_name_matches_selected_trial": true,
+        "checkpoint_update_matches_selected_fit": true,
+        "checkpoint_validation_score_matches_selected_fit": true,
+        "best_validation_row_matches_saved_checkpoint": true,
+        "checkpoint_expected_state_keys_and_shapes": true,
+        "state_tensors_CPU_and_finite": true,
+        "frozen_graph_CPU_and_finite": true,
+        "frozen_graph_matches_checkpoint_state_with_tolerance": true,
+        "state_parameter_count_matches_fit": true,
+        "result_model_and_dataset_match": true,
+        "fit_declares_no_true_graph_or_TEST_use": true,
+        "test_result_declares_no_TEST_selection": true,
+        "S2_off_diagonal_buffer_exact": true,
+        "predictive_log_mass_shape_and_finite": true,
+        "mean_count_shape_positive_finite": true,
+        "saved_graph_scores_exactly_match_frozen_graph": true,
+        "saved_binary_graph_matches_fixed_threshold": true,
+        "result_vs_verified_predictive_count_NLL": true,
+        "result_vs_verified_count_MAE": true,
+        "result_vs_verified_count_RMSE": true,
+        "result_vs_verified_AP": true,
+        "saved_predictions_vs_result_NLL": true,
+        "saved_predictions_vs_result_MAE": true,
+        "saved_predictions_vs_result_RMSE": true,
+        "saved_scores_vs_result_AP": true
+      },
+      "metrics": {
+        "result_vs_verified_predictive_count_NLL": {
+          "actual": 0.00200888101361586,
+          "expected": 0.00200888101361586,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_count_MAE": {
+          "actual": 0.0009549129826319396,
+          "expected": 0.0009549129826319396,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_count_RMSE": {
+          "actual": 0.024465717825315297,
+          "expected": 0.024465717825315297,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_AP": {
+          "actual": 0.34071735260679137,
+          "expected": 0.34071735260679137,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "saved_predictions_vs_result_NLL": {
+          "actual": 0.0020088810136158607,
+          "expected": 0.00200888101361586,
+          "difference": 8.673617379884035e-19,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_predictions_vs_result_MAE": {
+          "actual": 0.0009549129826319389,
+          "expected": 0.0009549129826319396,
+          "difference": -7.589415207398531e-19,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_predictions_vs_result_RMSE": {
+          "actual": 0.024465717825315324,
+          "expected": 0.024465717825315297,
+          "difference": 2.7755575615628914e-17,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_scores_vs_result_AP": {
+          "actual": 0.34071735260679137,
+          "expected": 0.34071735260679137,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        }
+      },
+      "passed": true,
+      "all_candidate_trial_selection_independently_reverified": false,
+      "checkpoint_forward_predictions_reverified_here": false
+    },
+    {
+      "model": "deterministic",
+      "repetition": 1,
+      "selected_trial": 1,
+      "fit_path": ".\\output\\xai_20261013\\recovered_repeated_models\\minimum_repeat_results\\worker_1\\real_24V_439N_Microwave\\repeat_1\\fits\\deterministic_trial1\\fit.json",
+      "checkpoint_path": ".\\output\\xai_20261013\\recovered_repeated_models\\minimum_repeat_results\\worker_1\\real_24V_439N_Microwave\\repeat_1\\fits\\deterministic_trial1\\best.pt",
+      "fit_sha256": "8112b1bbb2f72ea4d645e142eaca2763cbb61f7fb4d235a4129764ef10534162",
+      "checkpoint_sha256": "dc972d729c01363196f78428843280e03b86e6ee91125962142e361a8c1424fb",
+      "result_sha256": "a31a3f2cdb51f06d87c12e21c26413cd47e15ef896067372902392070c4f9195",
+      "predictions_sha256": "512a95c48ce470d7e3ccd7bf1ed75a606d04e631497a09a32fc1a0a0d78a0aba",
+      "checkpoint_update": 3000,
+      "checkpoint_validation_mean_score": 0.0018671363909113859,
+      "state_parameters": 315648,
+      "frozen_graph_maximum_state_difference": 1.4901161193847656e-8,
+      "checks": {
+        "selected_report_exactly_matches_fit_json": true,
+        "selected_fit_name_matches_selected_trial": true,
+        "checkpoint_update_matches_selected_fit": true,
+        "checkpoint_validation_score_matches_selected_fit": true,
+        "best_validation_row_matches_saved_checkpoint": true,
+        "checkpoint_expected_state_keys_and_shapes": true,
+        "state_tensors_CPU_and_finite": true,
+        "frozen_graph_CPU_and_finite": true,
+        "frozen_graph_matches_checkpoint_state_with_tolerance": true,
+        "state_parameter_count_matches_fit": true,
+        "result_model_and_dataset_match": true,
+        "fit_declares_no_true_graph_or_TEST_use": true,
+        "test_result_declares_no_TEST_selection": true,
+        "selected_trial_matches_previously_verified_record": true,
+        "fit_seed_matches_previously_verified_record": true,
+        "predictive_log_mass_shape_and_finite": true,
+        "mean_count_shape_positive_finite": true,
+        "saved_graph_scores_exactly_match_frozen_graph": true,
+        "saved_binary_graph_matches_fixed_threshold": true,
+        "result_vs_verified_predictive_count_NLL": true,
+        "result_vs_verified_count_MAE": true,
+        "result_vs_verified_count_RMSE": true,
+        "result_vs_verified_AP": true,
+        "saved_predictions_vs_result_NLL": true,
+        "saved_predictions_vs_result_MAE": true,
+        "saved_predictions_vs_result_RMSE": true,
+        "saved_scores_vs_result_AP": true
+      },
+      "metrics": {
+        "result_vs_verified_predictive_count_NLL": {
+          "actual": 0.0015087106922538438,
+          "expected": 0.0015087106922538438,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_count_MAE": {
+          "actual": 0.0005937730216035441,
+          "expected": 0.0005937730216035441,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_count_RMSE": {
+          "actual": 0.019584355853831628,
+          "expected": 0.019584355853831628,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_AP": {
+          "actual": 0.3022692527416402,
+          "expected": 0.3022692527416402,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "saved_predictions_vs_result_NLL": {
+          "actual": 0.0015087106922538395,
+          "expected": 0.0015087106922538438,
+          "difference": -4.336808689942018e-18,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_predictions_vs_result_MAE": {
+          "actual": 0.0005937730216035444,
+          "expected": 0.0005937730216035441,
+          "difference": 3.2526065174565133e-19,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_predictions_vs_result_RMSE": {
+          "actual": 0.019584355853831628,
+          "expected": 0.019584355853831628,
+          "difference": 0,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_scores_vs_result_AP": {
+          "actual": 0.3022692527416402,
+          "expected": 0.3022692527416402,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        }
+      },
+      "passed": true,
+      "all_candidate_trial_selection_independently_reverified": false,
+      "checkpoint_forward_predictions_reverified_here": false
+    },
+    {
+      "model": "s2",
+      "repetition": 1,
+      "selected_trial": 3,
+      "fit_path": ".\\output\\xai_20261013\\recovered_repeated_models\\minimum_repeat_results\\worker_1\\real_24V_439N_Microwave\\repeat_1\\fits\\s2_trial3\\fit.json",
+      "checkpoint_path": ".\\output\\xai_20261013\\recovered_repeated_models\\minimum_repeat_results\\worker_1\\real_24V_439N_Microwave\\repeat_1\\fits\\s2_trial3\\best.pt",
+      "fit_sha256": "16875a76622bde606a158144fc5474bd06ed40aac5e14983fb9803b4c50b1fb1",
+      "checkpoint_sha256": "69514f9b6295e25bf6bbfa39f2ad84ef2447f0c40cb293deef38d044c396ab9d",
+      "result_sha256": "d0a52cb800d8434d5c22567e09aa030da57ed34edd19cecae85b86d458772d10",
+      "predictions_sha256": "97bae7ecf28650a5b867c9be1bd661360a2d4bbde255feb2a0c7b92ac4d3c3a5",
+      "checkpoint_update": 3000,
+      "checkpoint_validation_mean_score": 0.002445102302529503,
+      "state_parameters": 11112,
+      "frozen_graph_maximum_state_difference": 4.656612873077393e-10,
+      "checks": {
+        "selected_report_exactly_matches_fit_json": true,
+        "selected_fit_name_matches_selected_trial": true,
+        "checkpoint_update_matches_selected_fit": true,
+        "checkpoint_validation_score_matches_selected_fit": true,
+        "best_validation_row_matches_saved_checkpoint": true,
+        "checkpoint_expected_state_keys_and_shapes": true,
+        "state_tensors_CPU_and_finite": true,
+        "frozen_graph_CPU_and_finite": true,
+        "frozen_graph_matches_checkpoint_state_with_tolerance": true,
+        "state_parameter_count_matches_fit": true,
+        "result_model_and_dataset_match": true,
+        "fit_declares_no_true_graph_or_TEST_use": true,
+        "test_result_declares_no_TEST_selection": true,
+        "S2_off_diagonal_buffer_exact": true,
+        "selected_trial_matches_previously_verified_record": true,
+        "fit_seed_matches_previously_verified_record": true,
+        "predictive_log_mass_shape_and_finite": true,
+        "mean_count_shape_positive_finite": true,
+        "saved_graph_scores_exactly_match_frozen_graph": true,
+        "saved_binary_graph_matches_fixed_threshold": true,
+        "result_vs_verified_predictive_count_NLL": true,
+        "result_vs_verified_count_MAE": true,
+        "result_vs_verified_count_RMSE": true,
+        "result_vs_verified_AP": true,
+        "saved_predictions_vs_result_NLL": true,
+        "saved_predictions_vs_result_MAE": true,
+        "saved_predictions_vs_result_RMSE": true,
+        "saved_scores_vs_result_AP": true
+      },
+      "metrics": {
+        "result_vs_verified_predictive_count_NLL": {
+          "actual": 0.0020240506335045118,
+          "expected": 0.0020240506335045118,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_count_MAE": {
+          "actual": 0.0009836636618813645,
+          "expected": 0.0009836636618813645,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_count_RMSE": {
+          "actual": 0.024136922810138135,
+          "expected": 0.024136922810138135,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_AP": {
+          "actual": 0.33142080264035634,
+          "expected": 0.33142080264035634,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "saved_predictions_vs_result_NLL": {
+          "actual": 0.002024050633504507,
+          "expected": 0.0020240506335045118,
+          "difference": -4.7704895589362195e-18,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_predictions_vs_result_MAE": {
+          "actual": 0.0009836636618813651,
+          "expected": 0.0009836636618813645,
+          "difference": 6.505213034913027e-19,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_predictions_vs_result_RMSE": {
+          "actual": 0.02413692281013812,
+          "expected": 0.024136922810138135,
+          "difference": -1.3877787807814457e-17,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_scores_vs_result_AP": {
+          "actual": 0.33142080264035634,
+          "expected": 0.33142080264035634,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        }
+      },
+      "passed": true,
+      "all_candidate_trial_selection_independently_reverified": false,
+      "checkpoint_forward_predictions_reverified_here": false
+    },
+    {
+      "model": "deterministic",
+      "repetition": 2,
+      "selected_trial": 1,
+      "fit_path": ".\\output\\xai_20261013\\recovered_repeated_models\\minimum_repeat_results\\worker_1\\real_24V_439N_Microwave\\repeat_2\\fits\\deterministic_trial1\\fit.json",
+      "checkpoint_path": ".\\output\\xai_20261013\\recovered_repeated_models\\minimum_repeat_results\\worker_1\\real_24V_439N_Microwave\\repeat_2\\fits\\deterministic_trial1\\best.pt",
+      "fit_sha256": "35b7f69069f9ae3ff03d765e3bcd5154dffd4802563316f52b6db51940aa2749",
+      "checkpoint_sha256": "025286efa4289f66054a98411f77835379a81a9922f23fe7ffb95165efd79c52",
+      "result_sha256": "c9bade8bb43363006c1cfe9564c624778b5b5d4cadf62f1c148e467c6079dcce",
+      "predictions_sha256": "e7e1543c6394cc15f7cf151df5b386b18ba9c1b6f1fc16f4f04c4479b841d22d",
+      "checkpoint_update": 3000,
+      "checkpoint_validation_mean_score": 0.001861028319900962,
+      "state_parameters": 315648,
+      "frozen_graph_maximum_state_difference": 1.4901161193847656e-8,
+      "checks": {
+        "selected_report_exactly_matches_fit_json": true,
+        "selected_fit_name_matches_selected_trial": true,
+        "checkpoint_update_matches_selected_fit": true,
+        "checkpoint_validation_score_matches_selected_fit": true,
+        "best_validation_row_matches_saved_checkpoint": true,
+        "checkpoint_expected_state_keys_and_shapes": true,
+        "state_tensors_CPU_and_finite": true,
+        "frozen_graph_CPU_and_finite": true,
+        "frozen_graph_matches_checkpoint_state_with_tolerance": true,
+        "state_parameter_count_matches_fit": true,
+        "result_model_and_dataset_match": true,
+        "fit_declares_no_true_graph_or_TEST_use": true,
+        "test_result_declares_no_TEST_selection": true,
+        "selected_trial_matches_previously_verified_record": true,
+        "fit_seed_matches_previously_verified_record": true,
+        "predictive_log_mass_shape_and_finite": true,
+        "mean_count_shape_positive_finite": true,
+        "saved_graph_scores_exactly_match_frozen_graph": true,
+        "saved_binary_graph_matches_fixed_threshold": true,
+        "result_vs_verified_predictive_count_NLL": true,
+        "result_vs_verified_count_MAE": true,
+        "result_vs_verified_count_RMSE": true,
+        "result_vs_verified_AP": true,
+        "saved_predictions_vs_result_NLL": true,
+        "saved_predictions_vs_result_MAE": true,
+        "saved_predictions_vs_result_RMSE": true,
+        "saved_scores_vs_result_AP": true
+      },
+      "metrics": {
+        "result_vs_verified_predictive_count_NLL": {
+          "actual": 0.0015218401508324438,
+          "expected": 0.0015218401508324438,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_count_MAE": {
+          "actual": 0.0006309765528554837,
+          "expected": 0.0006309765528554837,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_count_RMSE": {
+          "actual": 0.019591596461731496,
+          "expected": 0.019591596461731496,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_AP": {
+          "actual": 0.2988188360625944,
+          "expected": 0.2988188360625944,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "saved_predictions_vs_result_NLL": {
+          "actual": 0.001521840150832447,
+          "expected": 0.0015218401508324438,
+          "difference": 3.2526065174565133e-18,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_predictions_vs_result_MAE": {
+          "actual": 0.0006309765528554835,
+          "expected": 0.0006309765528554837,
+          "difference": -2.168404344971009e-19,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_predictions_vs_result_RMSE": {
+          "actual": 0.019591596461731507,
+          "expected": 0.019591596461731496,
+          "difference": 1.0408340855860843e-17,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_scores_vs_result_AP": {
+          "actual": 0.2988188360625944,
+          "expected": 0.2988188360625944,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        }
+      },
+      "passed": true,
+      "all_candidate_trial_selection_independently_reverified": false,
+      "checkpoint_forward_predictions_reverified_here": false
+    },
+    {
+      "model": "s2",
+      "repetition": 2,
+      "selected_trial": 2,
+      "fit_path": ".\\output\\xai_20261013\\recovered_repeated_models\\minimum_repeat_results\\worker_1\\real_24V_439N_Microwave\\repeat_2\\fits\\s2_trial2\\fit.json",
+      "checkpoint_path": ".\\output\\xai_20261013\\recovered_repeated_models\\minimum_repeat_results\\worker_1\\real_24V_439N_Microwave\\repeat_2\\fits\\s2_trial2\\best.pt",
+      "fit_sha256": "c9de29b5466feff5f899342d7266d718f4894f601e30f9a6aba0e6ed4efa7045",
+      "checkpoint_sha256": "d83e08d1f5100cbee83f064ce80c6cc634e8debaffd5690db089f9dce3ff254e",
+      "result_sha256": "0723f56456518b78e0dd43a26544f0e7398366e61cc75af05dd2cd0b5de327b5",
+      "predictions_sha256": "d472f2f3947e4dc4a5c6b1116372b0e481f4dbd0c9e75f99110a7e58ddaf4a81",
+      "checkpoint_update": 2500,
+      "checkpoint_validation_mean_score": 0.00244116657463248,
+      "state_parameters": 11112,
+      "frozen_graph_maximum_state_difference": 9.313225746154785e-10,
+      "checks": {
+        "selected_report_exactly_matches_fit_json": true,
+        "selected_fit_name_matches_selected_trial": true,
+        "checkpoint_update_matches_selected_fit": true,
+        "checkpoint_validation_score_matches_selected_fit": true,
+        "best_validation_row_matches_saved_checkpoint": true,
+        "checkpoint_expected_state_keys_and_shapes": true,
+        "state_tensors_CPU_and_finite": true,
+        "frozen_graph_CPU_and_finite": true,
+        "frozen_graph_matches_checkpoint_state_with_tolerance": true,
+        "state_parameter_count_matches_fit": true,
+        "result_model_and_dataset_match": true,
+        "fit_declares_no_true_graph_or_TEST_use": true,
+        "test_result_declares_no_TEST_selection": true,
+        "S2_off_diagonal_buffer_exact": true,
+        "selected_trial_matches_previously_verified_record": true,
+        "fit_seed_matches_previously_verified_record": true,
+        "predictive_log_mass_shape_and_finite": true,
+        "mean_count_shape_positive_finite": true,
+        "saved_graph_scores_exactly_match_frozen_graph": true,
+        "saved_binary_graph_matches_fixed_threshold": true,
+        "result_vs_verified_predictive_count_NLL": true,
+        "result_vs_verified_count_MAE": true,
+        "result_vs_verified_count_RMSE": true,
+        "result_vs_verified_AP": true,
+        "saved_predictions_vs_result_NLL": true,
+        "saved_predictions_vs_result_MAE": true,
+        "saved_predictions_vs_result_RMSE": true,
+        "saved_scores_vs_result_AP": true
+      },
+      "metrics": {
+        "result_vs_verified_predictive_count_NLL": {
+          "actual": 0.002019717097613077,
+          "expected": 0.002019717097613077,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_count_MAE": {
+          "actual": 0.0009806775042827444,
+          "expected": 0.0009806775042827444,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_count_RMSE": {
+          "actual": 0.024483370193760984,
+          "expected": 0.024483370193760984,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "result_vs_verified_AP": {
+          "actual": 0.33319317644166674,
+          "expected": 0.33319317644166674,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        },
+        "saved_predictions_vs_result_NLL": {
+          "actual": 0.0020197170976130776,
+          "expected": 0.002019717097613077,
+          "difference": 4.336808689942018e-19,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_predictions_vs_result_MAE": {
+          "actual": 0.0009806775042827441,
+          "expected": 0.0009806775042827444,
+          "difference": -2.168404344971009e-19,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_predictions_vs_result_RMSE": {
+          "actual": 0.024483370193760998,
+          "expected": 0.024483370193760984,
+          "difference": 1.3877787807814457e-17,
+          "absolute_tolerance": 2e-8,
+          "matches": true
+        },
+        "saved_scores_vs_result_AP": {
+          "actual": 0.33319317644166674,
+          "expected": 0.33319317644166674,
+          "difference": 0,
+          "absolute_tolerance": 1e-12,
+          "matches": true
+        }
+      },
+      "passed": true,
+      "all_candidate_trial_selection_independently_reverified": false,
+      "checkpoint_forward_predictions_reverified_here": false
+    }
+  ],
+  "checks": {
+    "all_recovered_sources_match_original_executed_manifest": true,
+    "all_recovered_source_ASTs_match_repository": true,
+    "all_recovered_source_LF_texts_match_repository": true,
+    "both_observation_files_match_own_metadata": true,
+    "both_label_files_match_own_metadata": true,
+    "original_and_repeated_canonical_arrays_identical": true,
+    "both_canonical_arrays_match_original_blueprint": true,
+    "original_and_repeated_truth_arrays_identical": true,
+    "original_and_repeated_base_protocol_equal": true,
+    "metadata_equal_except_recompressed_file_hashes": true,
+    "six_selected_fit_artifacts_passed": true
+  },
+  "compressed_observation_files_identical": true,
+  "canonical_hash_definition": "SHA256(sorted JSON {shape,dtype} header + contiguous C-order array bytes), identical to materialize_v2.array_digest",
+  "new_training_runs": 0,
+  "GPU_used": false,
+  "source_predictions_or_manuscript_modified": false,
+  "limitations_ko": [
+    "원본·추가 반복에서 선택된 연속 모형과 S²GCSL의 6개 체크포인트 및 저장 예측만 감사했다.",
+    "선택된 적합 내부의 최적 검증 update는 확인했지만 미회수된 모든 후보 trial 간 선택은 독립적으로 다시 검증하지 않았다.",
+    "이 감사는 체크포인트 상태·그래프·저장 예측의 산술 일치를 확인하며 전체 테스트의 체크포인트 forward 재실행과는 구별된다.",
+    "compressed NPZ 파일 바이트는 재압축으로 달라질 수 있어 각자 metadata 파일 해시 및 canonical 배열 해시를 별도로 확인했다.",
+    "세 반복은 동일 데이터의 학습 반복이며 독립적인 새 데이터 반복이 아니다."
+  ],
+  "publication_note": "Absolute workspace paths normalized for publication; all audit checks, arrays, checkpoint hashes and numerical values are unchanged."
+}

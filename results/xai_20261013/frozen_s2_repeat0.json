@@ -1,0 +1,4700 @@
+{
+  "model": "s2",
+  "repetition": 0,
+  "trial": 2,
+  "update": 2700,
+  "checkpoint_sha256": "9e18358b21e4ef7540d240e2c7846fdedff0ef3a062f1bfd7bc71b8e5759cff2",
+  "checkpoint_prediction_check": {
+    "pairs": 1024,
+    "max_abs_difference": 1.4901161193847656e-8,
+    "mean_abs_difference": 1.3352592180086257e-11,
+    "passed": true
+  },
+  "original_VAL": {
+    "NLL": 0.002485147526094217,
+    "MAE": 0.0010633109232669048,
+    "RMSE": 0.027364704942684073,
+    "cells": 600000,
+    "positive_cells": 338,
+    "positive_NLL": 3.391172751702711,
+    "zero_NLL": 0.0005751108550833867,
+    "mean_predicted_count": 0.0007760540721434967,
+    "positive_predicted_count": 0.35727904646474606
+  },
+  "removed_groups": [
+    {
+      "NLL": 0.0026602653528347724,
+      "MAE": 0.0010267728272190617,
+      "RMSE": 0.027390280719333693,
+      "cells": 600000,
+      "positive_cells": 338,
+      "positive_NLL": 3.76772547383562,
+      "zero_NLL": 0.0005380831227331794,
+      "mean_predicted_count": 0.0007385781635132765,
+      "positive_predicted_count": 0.3564464395371068,
+      "group": "all_history",
+      "delta_NLL": 0.0001751178267405556,
+      "delta_MAE": -0.000036538096047843095,
+      "delta_RMSE": 0.00002557577664961952
+    },
+    {
+      "NLL": 0.0024851475261380273,
+      "MAE": 0.0010633109231880614,
+      "RMSE": 0.027364704942670633,
+      "cells": 600000,
+      "positive_cells": 338,
+      "positive_NLL": 3.391172751921129,
+      "zero_NLL": 0.0005751108550041104,
+      "mean_predicted_count": 0.000776054072063877,
+      "positive_predicted_count": 0.35727904646405717,
+      "group": "own_device_same_type",
+      "delta_NLL": 4.3810441385794263e-14,
+      "delta_MAE": -7.884339882358038e-14,
+      "delta_RMSE": -1.3440637491868301e-14
+    },
+    {
+      "NLL": 0.0024851475261380273,
+      "MAE": 0.0010633109231880614,
+      "RMSE": 0.027364704942670633,
+      "cells": 600000,
+      "positive_cells": 338,
+      "positive_NLL": 3.391172751921129,
+      "zero_NLL": 0.0005751108550041104,
+      "mean_predicted_count": 0.000776054072063877,
+      "positive_predicted_count": 0.35727904646405717,
+      "group": "neighbor_same_type",
+      "delta_NLL": 4.3810441385794263e-14,
+      "delta_MAE": -7.884339882358038e-14,
+      "delta_RMSE": -1.3440637491868301e-14
+    },
+    {
+      "NLL": 0.0026602653528347724,
+      "MAE": 0.0010267728272190617,
+      "RMSE": 0.027390280719333693,
+      "cells": 600000,
+      "positive_cells": 338,
+      "positive_NLL": 3.76772547383562,
+      "zero_NLL": 0.0005380831227331794,
+      "mean_predicted_count": 0.0007385781635132765,
+      "positive_predicted_count": 0.3564464395371068,
+      "group": "cross_type",
+      "delta_NLL": 0.0001751178267405556,
+      "delta_MAE": -0.000036538096047843095,
+      "delta_RMSE": 0.00002557577664961952
+    },
+    {
+      "NLL": 0.0025751566033199733,
+      "MAE": 0.0010582138784010053,
+      "RMSE": 0.027389658925847576,
+      "cells": 600000,
+      "positive_cells": 338,
+      "positive_NLL": 3.5604257386195575,
+      "zero_NLL": 0.0005697710749365038,
+      "mean_predicted_count": 0.0007704773213363284,
+      "positive_predicted_count": 0.35685304870776136,
+      "group": "hop_0",
+      "delta_NLL": 0.00009000907722575644,
+      "delta_MAE": -0.000005097044865899538,
+      "delta_RMSE": 0.00002495398316350317
+    },
+    {
+      "NLL": 0.0025072661101695195,
+      "MAE": 0.0010509529583185276,
+      "RMSE": 0.027368466089879483,
+      "cells": 600000,
+      "positive_cells": 338,
+      "positive_NLL": 3.452652591085976,
+      "zero_NLL": 0.0005625887421825156,
+      "mean_predicted_count": 0.0007633819195373335,
+      "positive_predicted_count": 0.3570001816797291,
+      "group": "hop_1",
+      "delta_NLL": 0.00002211858407530267,
+      "delta_MAE": -0.000012357964948377228,
+      "delta_RMSE": 0.0000037611471954100695
+    },
+    {
+      "NLL": 0.002480344111987701,
+      "MAE": 0.00104422783592325,
+      "RMSE": 0.0273596822997278,
+      "cells": 600000,
+      "positive_cells": 338,
+      "positive_NLL": 3.4166490178771474,
+      "zero_NLL": 0.0005559450142749487,
+      "mean_predicted_count": 0.0007568270646290601,
+      "positive_predicted_count": 0.35715130067246087,
+      "group": "hop_2",
+      "delta_NLL": -0.000004803414106515844,
+      "delta_MAE": -0.000019083087343654912,
+      "delta_RMSE": -0.000005022642956271917
+    },
+    {
+      "NLL": 0.00260606853626949,
+      "MAE": 0.001055729406525447,
+      "RMSE": 0.027365475396645886,
+      "cells": 600000,
+      "positive_cells": 338,
+      "positive_NLL": 3.6194380561792423,
+      "zero_NLL": 0.0005674380880781347,
+      "mean_predicted_count": 0.0007682986530336536,
+      "positive_predicted_count": 0.3571246539854489,
+      "group": "lag_1",
+      "delta_NLL": 0.00012092101017527335,
+      "delta_MAE": -0.000007581516741457777,
+      "delta_RMSE": 7.704539618132167e-7
+    },
+    {
+      "NLL": 0.0024779128213695063,
+      "MAE": 0.0010556418286875242,
+      "RMSE": 0.027362129886747553,
+      "cells": 600000,
+      "positive_cells": 338,
+      "positive_NLL": 3.3920508412204686,
+      "zero_NLL": 0.0005673771366022618,
+      "mean_predicted_count": 0.0007682643922208197,
+      "positive_predicted_count": 0.3571719729091902,
+      "group": "lag_2",
+      "delta_NLL": -0.000007234704724710505,
+      "delta_MAE": -0.000007669094579380647,
+      "delta_RMSE": -0.000002575055936520493
+    },
+    {
+      "NLL": 0.002478379602266088,
+      "MAE": 0.0010563761093936562,
+      "RMSE": 0.02736119110522145,
+      "cells": 600000,
+      "positive_cells": 338,
+      "positive_NLL": 3.3914836126150165,
+      "zero_NLL": 0.0005681638994896739,
+      "mean_predicted_count": 0.0007691027429227059,
+      "positive_predicted_count": 0.3572643356741027,
+      "group": "lag_3",
+      "delta_NLL": -0.000006767923828128984,
+      "delta_MAE": -0.000006934813873248633,
+      "delta_RMSE": -0.0000035138374626236812
+    },
+    {
+      "NLL": 0.0025047829844448556,
+      "MAE": 0.0010560061539620909,
+      "RMSE": 0.027361500134949507,
+      "cells": 600000,
+      "positive_cells": 338,
+      "positive_NLL": 3.439014979257916,
+      "zero_NLL": 0.000567791068431446,
+      "mean_predicted_count": 0.000768727453909955,
+      "positive_predicted_count": 0.35725959961016346,
+      "group": "lag_4",
+      "delta_NLL": 0.000019635458350638745,
+      "delta_MAE": -0.000007304769304813941,
+      "delta_RMSE": -0.0000032048077345664394
+    },
+    {
+      "NLL": 0.0025245146121943437,
+      "MAE": 0.0010562630184918313,
+      "RMSE": 0.02739457641585396,
+      "cells": 600000,
+      "positive_cells": 338,
+      "positive_NLL": 3.474103138035301,
+      "zero_NLL": 0.0005677563471767004,
+      "mean_predicted_count": 0.0007684012046661258,
+      "positive_predicted_count": 0.35674205958284316,
+      "group": "lag_5",
+      "delta_NLL": 0.000039367086100126816,
+      "delta_MAE": -0.000007047904775073482,
+      "delta_RMSE": 0.000029871473169885976
+    },
+    {
+      "NLL": 0.0025033532024621233,
+      "MAE": 0.0010507555457126515,
+      "RMSE": 0.02736424958368823,
+      "cells": 600000,
+      "positive_cells": 338,
+      "positive_NLL": 3.445851332496596,
+      "zero_NLL": 0.0005625071641915358,
+      "mean_predicted_count": 0.000763416213633544,
+      "positive_predicted_count": 0.35720579019734217,
+      "group": "reference_cross_type",
+      "delta_NLL": 0.00001820567636790643,
+      "delta_MAE": -0.0000125553775542533,
+      "delta_RMSE": -4.5535899584336903e-7
+    },
+    {
+      "NLL": 0.0026085333358910564,
+      "MAE": 0.0010393282045941077,
+      "RMSE": 0.027390261051502628,
+      "cells": 600000,
+      "positive_cells": 338,
+      "positive_NLL": 3.6535326799718337,
+      "zero_NLL": 0.0005506868130782906,
+      "mean_predicted_count": 0.0007512160211095733,
+      "positive_predicted_count": 0.3565196951526334,
+      "group": "nonreference_cross_type",
+      "delta_NLL": 0.00012338580979683956,
+      "delta_MAE": -0.000023982718672797138,
+      "delta_RMSE": 0.000025556108818554357
+    }
+  ],
+  "edge_removal": {
+    "score_importance_spearman": -0.3403810490958793,
+    "groups_by_reference_label": {
+      "0": {
+        "edges": 415,
+        "mean_delta_target_NLL": 0.000005319044009742142,
+        "median_delta_target_NLL": -1.000047318826941e-9,
+        "positive_fraction": 0.0819277108433735,
+        "negative_fraction": 0.9180722891566265
+      },
+      "1": {
+        "edges": 137,
+        "mean_delta_target_NLL": 0.0000027986872367326368,
+        "median_delta_target_NLL": -1.5216088697193875e-9,
+        "positive_fraction": 0.058394160583941604,
+        "negative_fraction": 0.9416058394160584
+      }
+    },
+    "rows": [
+      {
+        "source": 0,
+        "target": 1,
+        "reference": 1,
+        "original_graph_score": 1.7406864571967162e-7,
+        "delta_target_NLL": -1.3586647699265209e-8,
+        "delta_overall_NLL": -5.661103208027171e-10
+      },
+      {
+        "source": 0,
+        "target": 2,
+        "reference": 1,
+        "original_graph_score": 1.0186732346539884e-8,
+        "delta_target_NLL": -8.996922130910523e-10,
+        "delta_overall_NLL": -3.7487175545460514e-11
+      },
+      {
+        "source": 0,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 5.7077937043459315e-8,
+        "delta_target_NLL": -4.844258457911699e-9,
+        "delta_overall_NLL": -2.0184410241298745e-10
+      },
+      {
+        "source": 0,
+        "target": 4,
+        "reference": 0,
+        "original_graph_score": 5.457499696603918e-8,
+        "delta_target_NLL": -4.764776933251225e-9,
+        "delta_overall_NLL": -1.9853237221880102e-10
+      },
+      {
+        "source": 0,
+        "target": 5,
+        "reference": 1,
+        "original_graph_score": 5.378056755489524e-8,
+        "delta_target_NLL": -4.700586922739419e-9,
+        "delta_overall_NLL": -1.958577884474758e-10
+      },
+      {
+        "source": 0,
+        "target": 6,
+        "reference": 0,
+        "original_graph_score": 2.4039096047090425e-7,
+        "delta_target_NLL": -2.123135699801798e-8,
+        "delta_overall_NLL": -8.846398749174159e-10
+      },
+      {
+        "source": 0,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 2.467204751610552e-7,
+        "delta_target_NLL": -2.1789972370293148e-8,
+        "delta_overall_NLL": -9.079155154288811e-10
+      },
+      {
+        "source": 0,
+        "target": 8,
+        "reference": 1,
+        "original_graph_score": 2.4959305733318615e-7,
+        "delta_target_NLL": -2.204387693606827e-8,
+        "delta_overall_NLL": -9.184948723361779e-10
+      },
+      {
+        "source": 0,
+        "target": 9,
+        "reference": 1,
+        "original_graph_score": 0.00002355330070713535,
+        "delta_target_NLL": 0.00014958624291667218,
+        "delta_overall_NLL": 0.000006232760121528008
+      },
+      {
+        "source": 0,
+        "target": 10,
+        "reference": 1,
+        "original_graph_score": 7.437879645522116e-8,
+        "delta_target_NLL": -6.5333385038807146e-9,
+        "delta_overall_NLL": -2.7222243766169646e-10
+      },
+      {
+        "source": 0,
+        "target": 11,
+        "reference": 1,
+        "original_graph_score": 0.000015064517356222495,
+        "delta_target_NLL": -0.0000010403350568554195,
+        "delta_overall_NLL": -4.3347294035642483e-8
+      },
+      {
+        "source": 0,
+        "target": 12,
+        "reference": 1,
+        "original_graph_score": 0.0000013915001773057156,
+        "delta_target_NLL": -1.2289733004769259e-7,
+        "delta_overall_NLL": -5.120722085320524e-9
+      },
+      {
+        "source": 0,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 2.4417179389502053e-8,
+        "delta_target_NLL": -2.156269265571331e-9,
+        "delta_overall_NLL": -8.98445527321388e-11
+      },
+      {
+        "source": 0,
+        "target": 14,
+        "reference": 1,
+        "original_graph_score": 8.47335456910514e-7,
+        "delta_target_NLL": -7.483627163318643e-8,
+        "delta_overall_NLL": -3.1181779847161014e-9
+      },
+      {
+        "source": 0,
+        "target": 15,
+        "reference": 0,
+        "original_graph_score": 3.3184786474294015e-8,
+        "delta_target_NLL": -2.366622668887111e-9,
+        "delta_overall_NLL": -9.86092778702963e-11
+      },
+      {
+        "source": 0,
+        "target": 16,
+        "reference": 1,
+        "original_graph_score": 0.00001624144715606235,
+        "delta_target_NLL": -0.0000014065071245231674,
+        "delta_overall_NLL": -5.860446352179864e-8
+      },
+      {
+        "source": 0,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 0.000001045649128172954,
+        "delta_target_NLL": -9.23517001637144e-8,
+        "delta_overall_NLL": -3.8479875068214335e-9
+      },
+      {
+        "source": 0,
+        "target": 18,
+        "reference": 1,
+        "original_graph_score": 1.4358856326168734e-8,
+        "delta_target_NLL": -1.0526646716845292e-9,
+        "delta_overall_NLL": -4.3861027986855386e-11
+      },
+      {
+        "source": 0,
+        "target": 19,
+        "reference": 0,
+        "original_graph_score": 1.010840300352811e-8,
+        "delta_target_NLL": -8.929461182583952e-10,
+        "delta_overall_NLL": -3.720608826076647e-11
+      },
+      {
+        "source": 0,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 1.2293592810408427e-8,
+        "delta_target_NLL": -1.0857663550797175e-9,
+        "delta_overall_NLL": -4.524026479498823e-11
+      },
+      {
+        "source": 0,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 1.0983770337702481e-8,
+        "delta_target_NLL": -9.701569229027718e-10,
+        "delta_overall_NLL": -4.042320512094883e-11
+      },
+      {
+        "source": 0,
+        "target": 22,
+        "reference": 0,
+        "original_graph_score": 3.775860335508696e-8,
+        "delta_target_NLL": -3.3348401802611033e-9,
+        "delta_overall_NLL": -1.3895167417754596e-10
+      },
+      {
+        "source": 0,
+        "target": 23,
+        "reference": 1,
+        "original_graph_score": 1.1562714341550873e-8,
+        "delta_target_NLL": -1.0212181632014011e-9,
+        "delta_overall_NLL": -4.255075680005838e-11
+      },
+      {
+        "source": 1,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 6.612588094867533e-7,
+        "delta_target_NLL": 0.000024526845518202736,
+        "delta_overall_NLL": 0.0000010219518965917807
+      },
+      {
+        "source": 1,
+        "target": 2,
+        "reference": 0,
+        "original_graph_score": 1.4592683506009507e-8,
+        "delta_target_NLL": -1.114322738249296e-9,
+        "delta_overall_NLL": -4.6430114093720665e-11
+      },
+      {
+        "source": 1,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 8.444666832474468e-8,
+        "delta_target_NLL": -6.2608323039836655e-9,
+        "delta_overall_NLL": -2.608680126659861e-10
+      },
+      {
+        "source": 1,
+        "target": 4,
+        "reference": 0,
+        "original_graph_score": 8.740975943055673e-8,
+        "delta_target_NLL": -6.675197516698567e-9,
+        "delta_overall_NLL": -2.781332298624403e-10
+      },
+      {
+        "source": 1,
+        "target": 5,
+        "reference": 0,
+        "original_graph_score": 2.5350940902058028e-8,
+        "delta_target_NLL": -1.9188181182849817e-9,
+        "delta_overall_NLL": -7.995075492854091e-11
+      },
+      {
+        "source": 1,
+        "target": 6,
+        "reference": 0,
+        "original_graph_score": 9.782186793927394e-8,
+        "delta_target_NLL": -7.469690699746928e-9,
+        "delta_overall_NLL": -3.112371124894553e-10
+      },
+      {
+        "source": 1,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 0.0000010717636769186356,
+        "delta_target_NLL": -8.183951589199948e-8,
+        "delta_overall_NLL": -3.4099798288333115e-9
+      },
+      {
+        "source": 1,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 0.00000106988579773315,
+        "delta_target_NLL": -8.169599468145841e-8,
+        "delta_overall_NLL": -3.4039997783941005e-9
+      },
+      {
+        "source": 1,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 0.0000034927470551338047,
+        "delta_target_NLL": 0.000010488037406870473,
+        "delta_overall_NLL": 4.3700155861960306e-7
+      },
+      {
+        "source": 1,
+        "target": 10,
+        "reference": 0,
+        "original_graph_score": 1.7860233469946252e-7,
+        "delta_target_NLL": -1.3637843160330121e-8,
+        "delta_overall_NLL": -5.68243465013755e-10
+      },
+      {
+        "source": 1,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 0.00000154613690028782,
+        "delta_target_NLL": -2.057507534746622e-8,
+        "delta_overall_NLL": -8.572948061444258e-10
+      },
+      {
+        "source": 1,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 2.9210588081696187e-7,
+        "delta_target_NLL": -2.2305134234632332e-8,
+        "delta_overall_NLL": -9.293805931096805e-10
+      },
+      {
+        "source": 1,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 3.609671495041766e-8,
+        "delta_target_NLL": -2.756161091022058e-9,
+        "delta_overall_NLL": -1.1484004545925242e-10
+      },
+      {
+        "source": 1,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 3.6862488173028396e-7,
+        "delta_target_NLL": -2.8148202177425384e-8,
+        "delta_overall_NLL": -1.1728417573927243e-9
+      },
+      {
+        "source": 1,
+        "target": 15,
+        "reference": 1,
+        "original_graph_score": 6.975682964593943e-8,
+        "delta_target_NLL": -4.2551034115483055e-9,
+        "delta_overall_NLL": -1.772959754811794e-10
+      },
+      {
+        "source": 1,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 7.665207135687524e-7,
+        "delta_target_NLL": -5.5896004522637197e-8,
+        "delta_overall_NLL": -2.3290001884432167e-9
+      },
+      {
+        "source": 1,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 0.000002818421762640355,
+        "delta_target_NLL": -2.152146375646903e-7,
+        "delta_overall_NLL": -8.96727656519543e-9
+      },
+      {
+        "source": 1,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 1.610946043228978e-8,
+        "delta_target_NLL": -9.902994340359184e-10,
+        "delta_overall_NLL": -4.126247641816327e-11
+      },
+      {
+        "source": 1,
+        "target": 19,
+        "reference": 0,
+        "original_graph_score": 2.706387647322117e-8,
+        "delta_target_NLL": -2.066752458633654e-9,
+        "delta_overall_NLL": -8.611468577640224e-11
+      },
+      {
+        "source": 1,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 1.5080333426453763e-8,
+        "delta_target_NLL": -1.1515340679157764e-9,
+        "delta_overall_NLL": -4.798058616315735e-11
+      },
+      {
+        "source": 1,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 1.583347142286584e-8,
+        "delta_target_NLL": -1.2090412951674349e-9,
+        "delta_overall_NLL": -5.0376720631976455e-11
+      },
+      {
+        "source": 1,
+        "target": 22,
+        "reference": 0,
+        "original_graph_score": 1.5334915559606088e-8,
+        "delta_target_NLL": -1.1709736213441277e-9,
+        "delta_overall_NLL": -4.879056755600532e-11
+      },
+      {
+        "source": 1,
+        "target": 23,
+        "reference": 0,
+        "original_graph_score": 1.459232112921427e-8,
+        "delta_target_NLL": -1.1142697985003572e-9,
+        "delta_overall_NLL": -4.6427908270848216e-11
+      },
+      {
+        "source": 2,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 2.6529784591389216e-8,
+        "delta_target_NLL": 7.414213160500394e-7,
+        "delta_overall_NLL": 3.0892554835418307e-8
+      },
+      {
+        "source": 2,
+        "target": 1,
+        "reference": 0,
+        "original_graph_score": 2.6901503247245273e-8,
+        "delta_target_NLL": -1.677842620048664e-9,
+        "delta_overall_NLL": -6.991010916869433e-11
+      },
+      {
+        "source": 2,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 2.6777362549523787e-8,
+        "delta_target_NLL": -1.6701064784602204e-9,
+        "delta_overall_NLL": -6.958776993584252e-11
+      },
+      {
+        "source": 2,
+        "target": 4,
+        "reference": 1,
+        "original_graph_score": 0.000038025093090254813,
+        "delta_target_NLL": -0.000002241628739170585,
+        "delta_overall_NLL": -9.340119746544103e-8
+      },
+      {
+        "source": 2,
+        "target": 5,
+        "reference": 1,
+        "original_graph_score": 0.00003009048850799445,
+        "delta_target_NLL": -0.0000017828576033959362,
+        "delta_overall_NLL": -7.428573347483067e-8
+      },
+      {
+        "source": 2,
+        "target": 6,
+        "reference": 0,
+        "original_graph_score": 2.2012933698078996e-8,
+        "delta_target_NLL": -1.372769818392544e-9,
+        "delta_overall_NLL": -5.719874243302267e-11
+      },
+      {
+        "source": 2,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 0.000045990138460183516,
+        "delta_target_NLL": -0.0000026594241810569408,
+        "delta_overall_NLL": -1.1080934087737253e-7
+      },
+      {
+        "source": 2,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 0.00004611649637809023,
+        "delta_target_NLL": -0.0000026667373525073035,
+        "delta_overall_NLL": -1.1111405635447098e-7
+      },
+      {
+        "source": 2,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 4.57110154172824e-8,
+        "delta_target_NLL": 1.2858864512944879e-7,
+        "delta_overall_NLL": 5.3578602137270325e-9
+      },
+      {
+        "source": 2,
+        "target": 10,
+        "reference": 1,
+        "original_graph_score": 0.0000016909626765482244,
+        "delta_target_NLL": -1.0544837456558445e-7,
+        "delta_overall_NLL": -4.393682273566019e-9
+      },
+      {
+        "source": 2,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 2.8901201432063317e-8,
+        "delta_target_NLL": -1.8026661903654262e-9,
+        "delta_overall_NLL": -7.51110912652261e-11
+      },
+      {
+        "source": 2,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 2.372749996482071e-8,
+        "delta_target_NLL": -1.4791746048500864e-9,
+        "delta_overall_NLL": -6.163227520208693e-11
+      },
+      {
+        "source": 2,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 3.8178196604121695e-8,
+        "delta_target_NLL": -2.3805896967252216e-9,
+        "delta_overall_NLL": -9.91912373635509e-11
+      },
+      {
+        "source": 2,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 2.2891837758720612e-8,
+        "delta_target_NLL": -1.4273611919149443e-9,
+        "delta_overall_NLL": -5.947338299645601e-11
+      },
+      {
+        "source": 2,
+        "target": 15,
+        "reference": 0,
+        "original_graph_score": 2.2012933698078996e-8,
+        "delta_target_NLL": -1.3727273653722782e-9,
+        "delta_overall_NLL": -5.719697355717826e-11
+      },
+      {
+        "source": 2,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 2.9720565564161916e-8,
+        "delta_target_NLL": -1.8537620598713805e-9,
+        "delta_overall_NLL": -7.724008582797419e-11
+      },
+      {
+        "source": 2,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 2.3255834591395796e-8,
+        "delta_target_NLL": -1.4502895123984921e-9,
+        "delta_overall_NLL": -6.042872968327051e-11
+      },
+      {
+        "source": 2,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 2.2012933698078996e-8,
+        "delta_target_NLL": -1.372727253970505e-9,
+        "delta_overall_NLL": -5.719696891543771e-11
+      },
+      {
+        "source": 2,
+        "target": 19,
+        "reference": 0,
+        "original_graph_score": 2.2012933698078996e-8,
+        "delta_target_NLL": -1.372901074319895e-9,
+        "delta_overall_NLL": -5.7204211429995626e-11
+      },
+      {
+        "source": 2,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 2.2012933698078996e-8,
+        "delta_target_NLL": -1.372727515425859e-9,
+        "delta_overall_NLL": -5.719697980941079e-11
+      },
+      {
+        "source": 2,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 3.353109789827613e-8,
+        "delta_target_NLL": -2.0909915338039576e-9,
+        "delta_overall_NLL": -8.712464724183157e-11
+      },
+      {
+        "source": 2,
+        "target": 22,
+        "reference": 1,
+        "original_graph_score": 5.55778910893423e-7,
+        "delta_target_NLL": -3.4658355546070795e-8,
+        "delta_overall_NLL": -1.4440981477529498e-9
+      },
+      {
+        "source": 2,
+        "target": 23,
+        "reference": 0,
+        "original_graph_score": 2.2012933698078996e-8,
+        "delta_target_NLL": -1.3727272380869432e-9,
+        "delta_overall_NLL": -5.719696825362263e-11
+      },
+      {
+        "source": 3,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 3.6509884893121125e-8,
+        "delta_target_NLL": -3.714108192873211e-9,
+        "delta_overall_NLL": -1.547545080363838e-10
+      },
+      {
+        "source": 3,
+        "target": 1,
+        "reference": 1,
+        "original_graph_score": 1.4795819680557543e-8,
+        "delta_target_NLL": -1.4853589946559054e-9,
+        "delta_overall_NLL": -6.188995811066272e-11
+      },
+      {
+        "source": 3,
+        "target": 2,
+        "reference": 1,
+        "original_graph_score": 1.3656388908600547e-8,
+        "delta_target_NLL": -1.4311899642835413e-9,
+        "delta_overall_NLL": -5.963291517848089e-11
+      },
+      {
+        "source": 3,
+        "target": 4,
+        "reference": 1,
+        "original_graph_score": 0.000002594340458017541,
+        "delta_target_NLL": -2.3683295740815555e-7,
+        "delta_overall_NLL": -9.868039892006481e-9
+      },
+      {
+        "source": 3,
+        "target": 5,
+        "reference": 1,
+        "original_graph_score": 1.799510407352045e-8,
+        "delta_target_NLL": -1.69229514689756e-9,
+        "delta_overall_NLL": -7.051229778739833e-11
+      },
+      {
+        "source": 3,
+        "target": 6,
+        "reference": 1,
+        "original_graph_score": 0.0002969139604829252,
+        "delta_target_NLL": 0.00006771775167969821,
+        "delta_overall_NLL": 0.0000028215729866540922
+      },
+      {
+        "source": 3,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 5.58685769647127e-7,
+        "delta_target_NLL": -5.8550158287245385e-8,
+        "delta_overall_NLL": -2.4395899286352245e-9
+      },
+      {
+        "source": 3,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 5.510237883754598e-7,
+        "delta_target_NLL": -5.7747317659933434e-8,
+        "delta_overall_NLL": -2.40613823583056e-9
+      },
+      {
+        "source": 3,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 0.0000018510658037484973,
+        "delta_target_NLL": -1.8539074540194905e-7,
+        "delta_overall_NLL": -7.724614391747877e-9
+      },
+      {
+        "source": 3,
+        "target": 10,
+        "reference": 1,
+        "original_graph_score": 0.000005877196144865593,
+        "delta_target_NLL": -3.4686288549311967e-7,
+        "delta_overall_NLL": -1.4452620228879986e-8
+      },
+      {
+        "source": 3,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 2.53421291063205e-7,
+        "delta_target_NLL": 5.1847832112719705e-9,
+        "delta_overall_NLL": 2.1603263380299878e-10
+      },
+      {
+        "source": 3,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 2.2274114996889693e-8,
+        "delta_target_NLL": -2.335007816224241e-9,
+        "delta_overall_NLL": -9.729199234267671e-11
+      },
+      {
+        "source": 3,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 4.603967340699455e-7,
+        "delta_target_NLL": 2.6794644503169707e-8,
+        "delta_overall_NLL": 1.1164435209654044e-9
+      },
+      {
+        "source": 3,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 2.5053827457099942e-8,
+        "delta_target_NLL": -2.626376283446606e-9,
+        "delta_overall_NLL": -1.0943234514360859e-10
+      },
+      {
+        "source": 3,
+        "target": 15,
+        "reference": 1,
+        "original_graph_score": 1.534272797698577e-8,
+        "delta_target_NLL": -1.6079260648643734e-9,
+        "delta_overall_NLL": -6.699691936934889e-11
+      },
+      {
+        "source": 3,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 2.1080222012415106e-8,
+        "delta_target_NLL": -2.1008303663859994e-9,
+        "delta_overall_NLL": -8.753459859941664e-11
+      },
+      {
+        "source": 3,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 2.169075941083065e-8,
+        "delta_target_NLL": -2.0426083597972766e-9,
+        "delta_overall_NLL": -8.510868165821986e-11
+      },
+      {
+        "source": 3,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 2.4989494917804222e-8,
+        "delta_target_NLL": -2.618899497979811e-9,
+        "delta_overall_NLL": -1.0912081241582546e-10
+      },
+      {
+        "source": 3,
+        "target": 19,
+        "reference": 1,
+        "original_graph_score": 0.000002416448751318967,
+        "delta_target_NLL": -2.532440975596759e-7,
+        "delta_overall_NLL": -1.055183739831983e-8
+      },
+      {
+        "source": 3,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 2.219519146251514e-8,
+        "delta_target_NLL": -2.3260672446338837e-9,
+        "delta_overall_NLL": -9.691946852641183e-11
+      },
+      {
+        "source": 3,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 1.5655125196190056e-8,
+        "delta_target_NLL": -1.640973791833917e-9,
+        "delta_overall_NLL": -6.837390799307987e-11
+      },
+      {
+        "source": 3,
+        "target": 22,
+        "reference": 1,
+        "original_graph_score": 7.650593829566787e-7,
+        "delta_target_NLL": -8.017820852043592e-8,
+        "delta_overall_NLL": -3.3407586883514966e-9
+      },
+      {
+        "source": 3,
+        "target": 23,
+        "reference": 0,
+        "original_graph_score": 2.3036642815554842e-8,
+        "delta_target_NLL": 2.7842396716068127e-9,
+        "delta_overall_NLL": 1.1600998631695052e-10
+      },
+      {
+        "source": 4,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 4.344753889995445e-8,
+        "delta_target_NLL": -2.99794337792203e-9,
+        "delta_overall_NLL": -1.2491430741341791e-10
+      },
+      {
+        "source": 4,
+        "target": 1,
+        "reference": 0,
+        "original_graph_score": 2.9834328785227626e-8,
+        "delta_target_NLL": -2.037854105081671e-9,
+        "delta_overall_NLL": -8.49105877117363e-11
+      },
+      {
+        "source": 4,
+        "target": 2,
+        "reference": 0,
+        "original_graph_score": 1.4109404844475648e-7,
+        "delta_target_NLL": -7.711048617339844e-9,
+        "delta_overall_NLL": -3.2129369238916017e-10
+      },
+      {
+        "source": 4,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 0.0000014628079725298448,
+        "delta_target_NLL": -8.436058541658187e-8,
+        "delta_overall_NLL": -3.5150243923575777e-9
+      },
+      {
+        "source": 4,
+        "target": 5,
+        "reference": 0,
+        "original_graph_score": 0.0000017278119912589318,
+        "delta_target_NLL": -1.0728262865014257e-7,
+        "delta_overall_NLL": -4.470109527089274e-9
+      },
+      {
+        "source": 4,
+        "target": 6,
+        "reference": 0,
+        "original_graph_score": 3.8824708781248773e-8,
+        "delta_target_NLL": -2.704806256574599e-9,
+        "delta_overall_NLL": -1.1270026069060829e-10
+      },
+      {
+        "source": 4,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 0.00003425173053983599,
+        "delta_target_NLL": -0.0000022314665062759913,
+        "delta_overall_NLL": -9.297777109483297e-8
+      },
+      {
+        "source": 4,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 0.000032118212402565405,
+        "delta_target_NLL": -0.000002092490263100929,
+        "delta_overall_NLL": -8.718709429587203e-8
+      },
+      {
+        "source": 4,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 4.812498133333065e-8,
+        "delta_target_NLL": -3.276506656268996e-9,
+        "delta_overall_NLL": -1.3652111067787484e-10
+      },
+      {
+        "source": 4,
+        "target": 10,
+        "reference": 0,
+        "original_graph_score": 0.00002164191937481519,
+        "delta_target_NLL": -0.000001455908050556655,
+        "delta_overall_NLL": -6.066283543986063e-8
+      },
+      {
+        "source": 4,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 4.0916670940305266e-8,
+        "delta_target_NLL": -2.6376861177006272e-9,
+        "delta_overall_NLL": -1.0990358823752613e-10
+      },
+      {
+        "source": 4,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 3.4839501950045815e-8,
+        "delta_target_NLL": -2.4281859895176894e-9,
+        "delta_overall_NLL": -1.0117441622990372e-10
+      },
+      {
+        "source": 4,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 6.370832039692687e-8,
+        "delta_target_NLL": -4.438685134722231e-9,
+        "delta_overall_NLL": -1.8494521394675964e-10
+      },
+      {
+        "source": 4,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 3.521973468423312e-8,
+        "delta_target_NLL": -2.4540847585411557e-9,
+        "delta_overall_NLL": -1.0225353160588149e-10
+      },
+      {
+        "source": 4,
+        "target": 15,
+        "reference": 0,
+        "original_graph_score": 5.065155050942849e-8,
+        "delta_target_NLL": -3.5293861832663004e-9,
+        "delta_overall_NLL": -1.4705775763609584e-10
+      },
+      {
+        "source": 4,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 2.7751370978990053e-8,
+        "delta_target_NLL": -1.8864130057832072e-9,
+        "delta_overall_NLL": -7.860054190763363e-11
+      },
+      {
+        "source": 4,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 3.103131263060277e-8,
+        "delta_target_NLL": -2.1624961981693558e-9,
+        "delta_overall_NLL": -9.010400825705649e-11
+      },
+      {
+        "source": 4,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 2.2092430995712675e-8,
+        "delta_target_NLL": -1.5394001934721652e-9,
+        "delta_overall_NLL": -6.414167472800689e-11
+      },
+      {
+        "source": 4,
+        "target": 19,
+        "reference": 0,
+        "original_graph_score": 3.575901530439296e-8,
+        "delta_target_NLL": -2.4919205293395764e-9,
+        "delta_overall_NLL": -1.0383002205581568e-10
+      },
+      {
+        "source": 4,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 2.6053001533909992e-8,
+        "delta_target_NLL": -1.8153729297262257e-9,
+        "delta_overall_NLL": -7.564053873859273e-11
+      },
+      {
+        "source": 4,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 2.4285224498044045e-8,
+        "delta_target_NLL": -1.6922825579957423e-9,
+        "delta_overall_NLL": -7.05117732498226e-11
+      },
+      {
+        "source": 4,
+        "target": 22,
+        "reference": 0,
+        "original_graph_score": 1.6430551852408826e-7,
+        "delta_target_NLL": -1.1448814116199208e-8,
+        "delta_overall_NLL": -4.770339215083003e-10
+      },
+      {
+        "source": 4,
+        "target": 23,
+        "reference": 0,
+        "original_graph_score": 2.223565509495984e-8,
+        "delta_target_NLL": -1.5493806994771459e-9,
+        "delta_overall_NLL": -6.455752914488108e-11
+      },
+      {
+        "source": 5,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 4.309200107854849e-8,
+        "delta_target_NLL": -1.7619878195374028e-9,
+        "delta_overall_NLL": -7.341615914739179e-11
+      },
+      {
+        "source": 5,
+        "target": 1,
+        "reference": 0,
+        "original_graph_score": 3.282064042764432e-8,
+        "delta_target_NLL": -1.319954480785701e-9,
+        "delta_overall_NLL": -5.499810336607088e-11
+      },
+      {
+        "source": 5,
+        "target": 2,
+        "reference": 0,
+        "original_graph_score": 1.6707019767636666e-7,
+        "delta_target_NLL": -5.977930251505059e-9,
+        "delta_overall_NLL": -2.490804271460441e-10
+      },
+      {
+        "source": 5,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 7.247243161145889e-8,
+        "delta_target_NLL": -2.5167847007845356e-9,
+        "delta_overall_NLL": -1.0486602919935566e-10
+      },
+      {
+        "source": 5,
+        "target": 4,
+        "reference": 0,
+        "original_graph_score": 0.000001523410901427269,
+        "delta_target_NLL": -5.446899171415373e-8,
+        "delta_overall_NLL": -2.269541321423072e-9
+      },
+      {
+        "source": 5,
+        "target": 6,
+        "reference": 0,
+        "original_graph_score": 5.604114150514761e-8,
+        "delta_target_NLL": -2.3425827046404113e-9,
+        "delta_overall_NLL": -9.760761269335047e-11
+      },
+      {
+        "source": 5,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 3.53090030102976e-7,
+        "delta_target_NLL": -1.3960298337473143e-8,
+        "delta_overall_NLL": -5.816790973947142e-10
+      },
+      {
+        "source": 5,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 3.555686305389827e-7,
+        "delta_target_NLL": -1.4058747631329194e-8,
+        "delta_overall_NLL": -5.857811513053831e-10
+      },
+      {
+        "source": 5,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 9.184256555272441e-8,
+        "delta_target_NLL": -3.6944999108612375e-9,
+        "delta_overall_NLL": -1.539374962858849e-10
+      },
+      {
+        "source": 5,
+        "target": 10,
+        "reference": 1,
+        "original_graph_score": 0.0000010179501259699464,
+        "delta_target_NLL": -3.8626138735425863e-8,
+        "delta_overall_NLL": -1.609422447309411e-9
+      },
+      {
+        "source": 5,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 4.0147011048929926e-8,
+        "delta_target_NLL": -3.9451660211256567e-10,
+        "delta_overall_NLL": -1.6438191754690235e-11
+      },
+      {
+        "source": 5,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 4.536359199391882e-8,
+        "delta_target_NLL": -1.8955529936491577e-9,
+        "delta_overall_NLL": -7.898137473538157e-11
+      },
+      {
+        "source": 5,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 8.420766306471705e-8,
+        "delta_target_NLL": -3.5196909835451262e-9,
+        "delta_overall_NLL": -1.4665379098104692e-10
+      },
+      {
+        "source": 5,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 4.826240740385401e-8,
+        "delta_target_NLL": -2.0176802059635943e-9,
+        "delta_overall_NLL": -8.407000858181642e-11
+      },
+      {
+        "source": 5,
+        "target": 15,
+        "reference": 0,
+        "original_graph_score": 4.343022297348398e-8,
+        "delta_target_NLL": -1.8153554833411772e-9,
+        "delta_overall_NLL": -7.563981180588239e-11
+      },
+      {
+        "source": 5,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 4.40574723370446e-8,
+        "delta_target_NLL": -1.7660119169446951e-9,
+        "delta_overall_NLL": -7.358382987269563e-11
+      },
+      {
+        "source": 5,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 4.536826736512012e-8,
+        "delta_target_NLL": -1.896486489768104e-9,
+        "delta_overall_NLL": -7.902027040700432e-11
+      },
+      {
+        "source": 5,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 3.169662932123174e-8,
+        "delta_target_NLL": -1.3249192511340102e-9,
+        "delta_overall_NLL": -5.5204968797250425e-11
+      },
+      {
+        "source": 5,
+        "target": 19,
+        "reference": 0,
+        "original_graph_score": 5.094415556072818e-8,
+        "delta_target_NLL": -2.1296263116692138e-9,
+        "delta_overall_NLL": -8.87344296528839e-11
+      },
+      {
+        "source": 5,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 3.169662932123174e-8,
+        "delta_target_NLL": -1.3249185485167923e-9,
+        "delta_overall_NLL": -5.5204939521533016e-11
+      },
+      {
+        "source": 5,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 3.4532266823816826e-8,
+        "delta_target_NLL": -1.4435593061556495e-9,
+        "delta_overall_NLL": -6.014830442315206e-11
+      },
+      {
+        "source": 5,
+        "target": 22,
+        "reference": 0,
+        "original_graph_score": 2.1567932151356217e-7,
+        "delta_target_NLL": -9.015379971526703e-9,
+        "delta_overall_NLL": -3.7564083214694597e-10
+      },
+      {
+        "source": 5,
+        "target": 23,
+        "reference": 0,
+        "original_graph_score": 3.169662932123174e-8,
+        "delta_target_NLL": -1.3249193102230286e-9,
+        "delta_overall_NLL": -5.5204971259292857e-11
+      },
+      {
+        "source": 6,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 9.617439644671322e-8,
+        "delta_target_NLL": -7.584003910987569e-10,
+        "delta_overall_NLL": -3.160001629578154e-11
+      },
+      {
+        "source": 6,
+        "target": 1,
+        "reference": 0,
+        "original_graph_score": 3.53267068931018e-8,
+        "delta_target_NLL": -2.786437955371035e-10,
+        "delta_overall_NLL": -1.1610158147379313e-11
+      },
+      {
+        "source": 6,
+        "target": 2,
+        "reference": 0,
+        "original_graph_score": 3.493438782697922e-8,
+        "delta_target_NLL": -2.752836396335834e-10,
+        "delta_overall_NLL": -1.1470151651399307e-11
+      },
+      {
+        "source": 6,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 0.024807969108223915,
+        "delta_target_NLL": 0.0008173956403394233,
+        "delta_overall_NLL": 0.0000340581516808093
+      },
+      {
+        "source": 6,
+        "target": 4,
+        "reference": 0,
+        "original_graph_score": 1.7744142155606824e-7,
+        "delta_target_NLL": -1.3504497095237489e-9,
+        "delta_overall_NLL": -5.626873789682287e-11
+      },
+      {
+        "source": 6,
+        "target": 5,
+        "reference": 0,
+        "original_graph_score": 3.495885181337144e-8,
+        "delta_target_NLL": -2.6828162738232186e-10,
+        "delta_overall_NLL": -1.1178401140930078e-11
+      },
+      {
+        "source": 6,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 0.000007512848696933361,
+        "delta_target_NLL": -5.9201070293831565e-8,
+        "delta_overall_NLL": -2.466711262242982e-9
+      },
+      {
+        "source": 6,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 0.0000075234320320305414,
+        "delta_target_NLL": -5.928441062195977e-8,
+        "delta_overall_NLL": -2.4701837759149906e-9
+      },
+      {
+        "source": 6,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 0.0000017850657059170771,
+        "delta_target_NLL": -1.4063506952738392e-8,
+        "delta_overall_NLL": -5.859794563640996e-10
+      },
+      {
+        "source": 6,
+        "target": 10,
+        "reference": 0,
+        "original_graph_score": 1.5303744760331028e-7,
+        "delta_target_NLL": -1.1307046839624524e-9,
+        "delta_overall_NLL": -4.7112695165102185e-11
+      },
+      {
+        "source": 6,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 1.6012236869755725e-7,
+        "delta_target_NLL": 3.152413827808148e-9,
+        "delta_overall_NLL": 1.3135057615867285e-10
+      },
+      {
+        "source": 6,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 4.797879782358905e-8,
+        "delta_target_NLL": -3.7812821797322815e-10,
+        "delta_overall_NLL": -1.5755342415551172e-11
+      },
+      {
+        "source": 6,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 1.6672956348884327e-7,
+        "delta_target_NLL": -1.313578379749658e-9,
+        "delta_overall_NLL": -5.4732432489569084e-11
+      },
+      {
+        "source": 6,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 4.0890999031262254e-8,
+        "delta_target_NLL": -3.222252348842117e-10,
+        "delta_overall_NLL": -1.342605145350882e-11
+      },
+      {
+        "source": 6,
+        "target": 15,
+        "reference": 0,
+        "original_graph_score": 5.8644978651045676e-8,
+        "delta_target_NLL": -4.6212233193766716e-10,
+        "delta_overall_NLL": -1.9255097164069465e-11
+      },
+      {
+        "source": 6,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 1.376976541678232e-7,
+        "delta_target_NLL": -1.0854538618301247e-9,
+        "delta_overall_NLL": -4.5227244242921866e-11
+      },
+      {
+        "source": 6,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 3.575806317712704e-8,
+        "delta_target_NLL": -2.81760546751858e-10,
+        "delta_overall_NLL": -1.1740022781327417e-11
+      },
+      {
+        "source": 6,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 3.5185291125117146e-8,
+        "delta_target_NLL": -2.7726798862513086e-10,
+        "delta_overall_NLL": -1.1552832859380453e-11
+      },
+      {
+        "source": 6,
+        "target": 19,
+        "reference": 1,
+        "original_graph_score": 0.0036980914883315563,
+        "delta_target_NLL": -0.00002914096282728906,
+        "delta_overall_NLL": -0.0000012142067844703775
+      },
+      {
+        "source": 6,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 1.1749690287388148e-7,
+        "delta_target_NLL": -9.258949216594918e-10,
+        "delta_overall_NLL": -3.857895506914549e-11
+      },
+      {
+        "source": 6,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 3.495218692251001e-8,
+        "delta_target_NLL": -2.754363777056107e-10,
+        "delta_overall_NLL": -1.147651573773378e-11
+      },
+      {
+        "source": 6,
+        "target": 22,
+        "reference": 0,
+        "original_graph_score": 2.768329352420551e-7,
+        "delta_target_NLL": -2.1814386763976956e-9,
+        "delta_overall_NLL": -9.089327818323732e-11
+      },
+      {
+        "source": 6,
+        "target": 23,
+        "reference": 0,
+        "original_graph_score": 3.7799967600449236e-8,
+        "delta_target_NLL": 3.967726769317156e-9,
+        "delta_overall_NLL": 1.653219487215482e-10
+      },
+      {
+        "source": 7,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 1.8254227995839756e-7,
+        "delta_target_NLL": -2.6950137364811777e-9,
+        "delta_overall_NLL": -1.1229223902004908e-10
+      },
+      {
+        "source": 7,
+        "target": 1,
+        "reference": 0,
+        "original_graph_score": 1.8073900776016671e-7,
+        "delta_target_NLL": -2.667917815488141e-9,
+        "delta_overall_NLL": -1.1116324231200588e-10
+      },
+      {
+        "source": 7,
+        "target": 2,
+        "reference": 0,
+        "original_graph_score": 5.35332027595814e-8,
+        "delta_target_NLL": -7.636399255994686e-10,
+        "delta_overall_NLL": -3.181833023331119e-11
+      },
+      {
+        "source": 7,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 0.0001078537170542404,
+        "delta_target_NLL": 0.00002664346130917209,
+        "delta_overall_NLL": 0.0000011101442212155038
+      },
+      {
+        "source": 7,
+        "target": 4,
+        "reference": 0,
+        "original_graph_score": 0.0006309914751909673,
+        "delta_target_NLL": 0.00006933326792343732,
+        "delta_overall_NLL": 0.000002888886163476555
+      },
+      {
+        "source": 7,
+        "target": 5,
+        "reference": 0,
+        "original_graph_score": 0.000015248242561938241,
+        "delta_target_NLL": -2.2190043215105162e-7,
+        "delta_overall_NLL": -9.24585133962715e-9
+      },
+      {
+        "source": 7,
+        "target": 6,
+        "reference": 0,
+        "original_graph_score": 0.0003171915013808757,
+        "delta_target_NLL": -0.000004681746575638419,
+        "delta_overall_NLL": -1.9507277398493413e-7
+      },
+      {
+        "source": 7,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 0.0019591471645981073,
+        "delta_target_NLL": 0.0001341260782609017,
+        "delta_overall_NLL": 0.000005588586594204238
+      },
+      {
+        "source": 7,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 0.00048436500946991146,
+        "delta_target_NLL": 0.00001766122857187538,
+        "delta_overall_NLL": 7.358845238281409e-7
+      },
+      {
+        "source": 7,
+        "target": 10,
+        "reference": 0,
+        "original_graph_score": 0.0005458651576191187,
+        "delta_target_NLL": 0.00006694353579771899,
+        "delta_overall_NLL": 0.0000027893139915716246
+      },
+      {
+        "source": 7,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 2.55346805033696e-7,
+        "delta_target_NLL": -3.769372660788334e-9,
+        "delta_overall_NLL": -1.5705719419951392e-10
+      },
+      {
+        "source": 7,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 5.8510902789521424e-8,
+        "delta_target_NLL": -8.638433540535118e-10,
+        "delta_overall_NLL": -3.599347308556299e-11
+      },
+      {
+        "source": 7,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 0.0007575596682727337,
+        "delta_target_NLL": 0.000013597825361427816,
+        "delta_overall_NLL": 5.66576056726159e-7
+      },
+      {
+        "source": 7,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 5.749159726065045e-8,
+        "delta_target_NLL": -8.48554434509062e-10,
+        "delta_overall_NLL": -3.535643477121092e-11
+      },
+      {
+        "source": 7,
+        "target": 15,
+        "reference": 1,
+        "original_graph_score": 8.848062407196267e-7,
+        "delta_target_NLL": -1.3059740071926645e-8,
+        "delta_overall_NLL": -5.441558363302769e-10
+      },
+      {
+        "source": 7,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 4.085324292191217e-7,
+        "delta_target_NLL": -6.030264216845636e-9,
+        "delta_overall_NLL": -2.512610090352348e-10
+      },
+      {
+        "source": 7,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 9.778064224974514e-8,
+        "delta_target_NLL": -1.4432422312370824e-9,
+        "delta_overall_NLL": -6.013509296821176e-11
+      },
+      {
+        "source": 7,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 5.198075569978755e-8,
+        "delta_target_NLL": -7.672564379624866e-10,
+        "delta_overall_NLL": -3.196901824843694e-11
+      },
+      {
+        "source": 7,
+        "target": 19,
+        "reference": 0,
+        "original_graph_score": 0.0000464155527879484,
+        "delta_target_NLL": -6.850937767217168e-7,
+        "delta_overall_NLL": -2.8545574030071535e-8
+      },
+      {
+        "source": 7,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 0.0000025714546154631535,
+        "delta_target_NLL": -3.795468830273662e-8,
+        "delta_overall_NLL": -1.5814453459473592e-9
+      },
+      {
+        "source": 7,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 5.165755823099971e-8,
+        "delta_target_NLL": -7.62465576827488e-10,
+        "delta_overall_NLL": -3.176939903447867e-11
+      },
+      {
+        "source": 7,
+        "target": 22,
+        "reference": 0,
+        "original_graph_score": 0.0001697797852102667,
+        "delta_target_NLL": 0.000022812196440433782,
+        "delta_overall_NLL": 9.505081850180743e-7
+      },
+      {
+        "source": 7,
+        "target": 23,
+        "reference": 1,
+        "original_graph_score": 5.893596721762151e-8,
+        "delta_target_NLL": -8.698902661564978e-10,
+        "delta_overall_NLL": -3.624542775652074e-11
+      },
+      {
+        "source": 8,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 1.8415056501908111e-7,
+        "delta_target_NLL": -2.7113542157980453e-9,
+        "delta_overall_NLL": -1.1297309232491855e-10
+      },
+      {
+        "source": 8,
+        "target": 1,
+        "reference": 1,
+        "original_graph_score": 1.8248640287765738e-7,
+        "delta_target_NLL": -2.686496620649126e-9,
+        "delta_overall_NLL": -1.1193735919371357e-10
+      },
+      {
+        "source": 8,
+        "target": 2,
+        "reference": 1,
+        "original_graph_score": 5.3806626709729244e-8,
+        "delta_target_NLL": -7.654360938483262e-10,
+        "delta_overall_NLL": -3.1893170577013595e-11
+      },
+      {
+        "source": 8,
+        "target": 3,
+        "reference": 1,
+        "original_graph_score": 0.00009998392488341779,
+        "delta_target_NLL": 0.00002387681871350838,
+        "delta_overall_NLL": 9.948674463961824e-7
+      },
+      {
+        "source": 8,
+        "target": 4,
+        "reference": 1,
+        "original_graph_score": 0.00009934761328622699,
+        "delta_target_NLL": 0.000004380979204343053,
+        "delta_overall_NLL": 1.8254080018096055e-7
+      },
+      {
+        "source": 8,
+        "target": 5,
+        "reference": 1,
+        "original_graph_score": 0.000005248768047749763,
+        "delta_target_NLL": -7.617140683740392e-8,
+        "delta_overall_NLL": -3.1738086182251635e-9
+      },
+      {
+        "source": 8,
+        "target": 6,
+        "reference": 1,
+        "original_graph_score": 0.0003399497363716364,
+        "delta_target_NLL": -0.00000500406061757332,
+        "delta_overall_NLL": -2.0850252573222168e-7
+      },
+      {
+        "source": 8,
+        "target": 7,
+        "reference": 1,
+        "original_graph_score": 0.0019774064421653748,
+        "delta_target_NLL": 0.00013456554487485109,
+        "delta_overall_NLL": 0.000005606897703118795
+      },
+      {
+        "source": 8,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 0.0005623734905384481,
+        "delta_target_NLL": 0.00002249140710271994,
+        "delta_overall_NLL": 9.371419626133309e-7
+      },
+      {
+        "source": 8,
+        "target": 10,
+        "reference": 1,
+        "original_graph_score": 0.00009490791126154363,
+        "delta_target_NLL": 0.000004972346912800359,
+        "delta_overall_NLL": 2.0718112136668162e-7
+      },
+      {
+        "source": 8,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 2.5759160848792817e-7,
+        "delta_target_NLL": -3.792157197198692e-9,
+        "delta_overall_NLL": -1.5800654988327884e-10
+      },
+      {
+        "source": 8,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 5.881098275040131e-8,
+        "delta_target_NLL": -8.658735258740974e-10,
+        "delta_overall_NLL": -3.607806357808739e-11
+      },
+      {
+        "source": 8,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 0.0008804745739325881,
+        "delta_target_NLL": 0.000017814863580975938,
+        "delta_overall_NLL": 7.42285982540664e-7
+      },
+      {
+        "source": 8,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 5.778568024084052e-8,
+        "delta_target_NLL": -8.505579467740082e-10,
+        "delta_overall_NLL": -3.543991444891701e-11
+      },
+      {
+        "source": 8,
+        "target": 15,
+        "reference": 1,
+        "original_graph_score": 9.017990123538766e-7,
+        "delta_target_NLL": -1.3274480199733027e-8,
+        "delta_overall_NLL": -5.531033416555428e-10
+      },
+      {
+        "source": 8,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 4.126950159388798e-7,
+        "delta_target_NLL": -6.0752272042804804e-9,
+        "delta_overall_NLL": -2.5313446684502e-10
+      },
+      {
+        "source": 8,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 9.856991312062746e-8,
+        "delta_target_NLL": -1.4509492210143526e-9,
+        "delta_overall_NLL": -6.04562175422647e-11
+      },
+      {
+        "source": 8,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 5.2237382419662026e-8,
+        "delta_target_NLL": -7.68923989638657e-10,
+        "delta_overall_NLL": -3.203849956827737e-11
+      },
+      {
+        "source": 8,
+        "target": 19,
+        "reference": 1,
+        "original_graph_score": 0.00004798911322723143,
+        "delta_target_NLL": -7.063999975480333e-7,
+        "delta_overall_NLL": -2.9433333231168053e-8
+      },
+      {
+        "source": 8,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 0.0000026356101443525404,
+        "delta_target_NLL": -3.879619914182956e-8,
+        "delta_overall_NLL": -1.6165082975762317e-9
+      },
+      {
+        "source": 8,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 5.191278873439842e-8,
+        "delta_target_NLL": -7.641562251608949e-10,
+        "delta_overall_NLL": -3.183984271503729e-11
+      },
+      {
+        "source": 8,
+        "target": 22,
+        "reference": 1,
+        "original_graph_score": 0.00018556362192612141,
+        "delta_target_NLL": 0.000026013525440181948,
+        "delta_overall_NLL": 0.0000010838968933409144
+      },
+      {
+        "source": 8,
+        "target": 23,
+        "reference": 1,
+        "original_graph_score": 5.926591128968539e-8,
+        "delta_target_NLL": -8.723925975064398e-10,
+        "delta_overall_NLL": -3.634969156276832e-11
+      },
+      {
+        "source": 9,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 0.0016751001821830869,
+        "delta_target_NLL": 0.00036125736835339664,
+        "delta_overall_NLL": 0.000015052390348058194
+      },
+      {
+        "source": 9,
+        "target": 1,
+        "reference": 1,
+        "original_graph_score": 0.0006318308878690004,
+        "delta_target_NLL": -0.000008919924937412713,
+        "delta_overall_NLL": -3.7166353905886303e-7
+      },
+      {
+        "source": 9,
+        "target": 2,
+        "reference": 1,
+        "original_graph_score": 4.536009896582982e-7,
+        "delta_target_NLL": -9.598197204911674e-9,
+        "delta_overall_NLL": -3.999248835379864e-10
+      },
+      {
+        "source": 9,
+        "target": 3,
+        "reference": 1,
+        "original_graph_score": 0.000004941127372148912,
+        "delta_target_NLL": -8.581576804635865e-8,
+        "delta_overall_NLL": -3.5756570019316106e-9
+      },
+      {
+        "source": 9,
+        "target": 4,
+        "reference": 1,
+        "original_graph_score": 0.000027108961148769595,
+        "delta_target_NLL": -5.148398019251196e-7,
+        "delta_overall_NLL": -2.145165841354665e-8
+      },
+      {
+        "source": 9,
+        "target": 5,
+        "reference": 1,
+        "original_graph_score": 0.0000019868546132784104,
+        "delta_target_NLL": -3.969923926443533e-8,
+        "delta_overall_NLL": -1.6541349693514722e-9
+      },
+      {
+        "source": 9,
+        "target": 6,
+        "reference": 1,
+        "original_graph_score": 0.000008504315701429732,
+        "delta_target_NLL": -1.7995138243799905e-7,
+        "delta_overall_NLL": -7.49797426824996e-9
+      },
+      {
+        "source": 9,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 0.00008798655471764505,
+        "delta_target_NLL": -0.0000018617945240564926,
+        "delta_overall_NLL": -7.757477183568719e-8
+      },
+      {
+        "source": 9,
+        "target": 8,
+        "reference": 1,
+        "original_graph_score": 0.00008624458860140294,
+        "delta_target_NLL": -0.0000018249352838530658,
+        "delta_overall_NLL": -7.603897016054441e-8
+      },
+      {
+        "source": 9,
+        "target": 10,
+        "reference": 1,
+        "original_graph_score": 0.00005003134720027447,
+        "delta_target_NLL": -9.382826096893636e-7,
+        "delta_overall_NLL": -3.909510873705682e-8
+      },
+      {
+        "source": 9,
+        "target": 11,
+        "reference": 1,
+        "original_graph_score": 0.002880559768527746,
+        "delta_target_NLL": 0.00013736492820078366,
+        "delta_overall_NLL": 0.000005723538675032652
+      },
+      {
+        "source": 9,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 0.0011292289709672332,
+        "delta_target_NLL": -0.00002389448454733151,
+        "delta_overall_NLL": -9.956035228054795e-7
+      },
+      {
+        "source": 9,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 0.0009691941668279469,
+        "delta_target_NLL": 0.0005705769545704207,
+        "delta_overall_NLL": 0.000023774039773767528
+      },
+      {
+        "source": 9,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 0.0007733884849585593,
+        "delta_target_NLL": -0.00001636490027240149,
+        "delta_overall_NLL": -6.818708446833954e-7
+      },
+      {
+        "source": 9,
+        "target": 15,
+        "reference": 1,
+        "original_graph_score": 7.378105806310487e-7,
+        "delta_target_NLL": -1.4321328687403115e-8,
+        "delta_overall_NLL": -5.967220286417965e-10
+      },
+      {
+        "source": 9,
+        "target": 16,
+        "reference": 1,
+        "original_graph_score": 0.0011123580625280738,
+        "delta_target_NLL": -0.000023537498876391926,
+        "delta_overall_NLL": -9.807291198496637e-7
+      },
+      {
+        "source": 9,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 6.602945035183438e-8,
+        "delta_target_NLL": -1.3971586598163915e-9,
+        "delta_overall_NLL": -5.821494415901632e-11
+      },
+      {
+        "source": 9,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 8.982574968285917e-7,
+        "delta_target_NLL": -1.900712913308674e-8,
+        "delta_overall_NLL": -7.919637138786142e-10
+      },
+      {
+        "source": 9,
+        "target": 19,
+        "reference": 1,
+        "original_graph_score": 8.259154924417089e-7,
+        "delta_target_NLL": -1.7476555265149283e-8,
+        "delta_overall_NLL": -7.281898027145534e-10
+      },
+      {
+        "source": 9,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 8.635993964389854e-8,
+        "delta_target_NLL": -1.827383121016067e-9,
+        "delta_overall_NLL": -7.614096337566947e-11
+      },
+      {
+        "source": 9,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 4.3989629716634226e-8,
+        "delta_target_NLL": -9.308749736205817e-10,
+        "delta_overall_NLL": -3.87864572341909e-11
+      },
+      {
+        "source": 9,
+        "target": 22,
+        "reference": 1,
+        "original_graph_score": 0.000007419913799822098,
+        "delta_target_NLL": -1.5700536807569969e-7,
+        "delta_overall_NLL": -6.541890336487487e-9
+      },
+      {
+        "source": 9,
+        "target": 23,
+        "reference": 1,
+        "original_graph_score": 6.36626467098722e-8,
+        "delta_target_NLL": -1.3471009401282846e-9,
+        "delta_overall_NLL": -5.6129205838678524e-11
+      },
+      {
+        "source": 10,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 1.0628736646367543e-7,
+        "delta_target_NLL": -2.2977716777894397e-9,
+        "delta_overall_NLL": -9.574048657455998e-11
+      },
+      {
+        "source": 10,
+        "target": 1,
+        "reference": 0,
+        "original_graph_score": 7.602929485983623e-8,
+        "delta_target_NLL": -1.653887784537622e-9,
+        "delta_overall_NLL": -6.891199102240092e-11
+      },
+      {
+        "source": 10,
+        "target": 2,
+        "reference": 0,
+        "original_graph_score": 8.100381023723457e-7,
+        "delta_target_NLL": -1.785324021084944e-8,
+        "delta_overall_NLL": -7.438850087853934e-10
+      },
+      {
+        "source": 10,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 0.00019192890613339841,
+        "delta_target_NLL": -0.0000032227301214890827,
+        "delta_overall_NLL": -1.342804217287118e-7
+      },
+      {
+        "source": 10,
+        "target": 4,
+        "reference": 1,
+        "original_graph_score": 0.00021985467174090445,
+        "delta_target_NLL": -0.000004728394060949086,
+        "delta_overall_NLL": -1.9701641920621192e-7
+      },
+      {
+        "source": 10,
+        "target": 5,
+        "reference": 0,
+        "original_graph_score": 0.00026217621052637696,
+        "delta_target_NLL": -0.000005407391072352694,
+        "delta_overall_NLL": -2.2530796134802894e-7
+      },
+      {
+        "source": 10,
+        "target": 6,
+        "reference": 0,
+        "original_graph_score": 8.534388484804367e-8,
+        "delta_target_NLL": 1.3493625583213542e-9,
+        "delta_overall_NLL": 5.622343993005643e-11
+      },
+      {
+        "source": 10,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 0.00020290537213440984,
+        "delta_target_NLL": -0.000004472034167433796,
+        "delta_overall_NLL": -1.8633475697640815e-7
+      },
+      {
+        "source": 10,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 0.00020340440096333623,
+        "delta_target_NLL": -0.0000044830331572391115,
+        "delta_overall_NLL": -1.867930482182963e-7
+      },
+      {
+        "source": 10,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 1.2478574262786424e-7,
+        "delta_target_NLL": -2.7477441667464464e-9,
+        "delta_overall_NLL": -1.1448934028110193e-10
+      },
+      {
+        "source": 10,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 4.5731385966973903e-7,
+        "delta_target_NLL": -1.0079406199438312e-8,
+        "delta_overall_NLL": -4.1997525830992966e-10
+      },
+      {
+        "source": 10,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 8.096672843294073e-8,
+        "delta_target_NLL": -1.785228209835385e-9,
+        "delta_overall_NLL": -7.438450874314104e-11
+      },
+      {
+        "source": 10,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 7.603873655170901e-7,
+        "delta_target_NLL": 7.585923873397113e-8,
+        "delta_overall_NLL": 3.1608016139154636e-9
+      },
+      {
+        "source": 10,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 8.022716713185218e-8,
+        "delta_target_NLL": -1.7678326413427675e-9,
+        "delta_overall_NLL": -7.365969338928198e-11
+      },
+      {
+        "source": 10,
+        "target": 15,
+        "reference": 0,
+        "original_graph_score": 2.1220455437287455e-7,
+        "delta_target_NLL": -4.676987539224339e-9,
+        "delta_overall_NLL": -1.9487448080101415e-10
+      },
+      {
+        "source": 10,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 5.477762243799589e-8,
+        "delta_target_NLL": -1.2078217014326216e-9,
+        "delta_overall_NLL": -5.032590422635923e-11
+      },
+      {
+        "source": 10,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 7.013906611064158e-8,
+        "delta_target_NLL": -1.5456862341705485e-9,
+        "delta_overall_NLL": -6.440359309043953e-11
+      },
+      {
+        "source": 10,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 4.715025525570127e-8,
+        "delta_target_NLL": -1.0391911245909678e-9,
+        "delta_overall_NLL": -4.3299630191290326e-11
+      },
+      {
+        "source": 10,
+        "target": 19,
+        "reference": 0,
+        "original_graph_score": 1.0083182644393673e-7,
+        "delta_target_NLL": -2.222450480078445e-9,
+        "delta_overall_NLL": -9.260210333660187e-11
+      },
+      {
+        "source": 10,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 3.8508588318109105e-7,
+        "delta_target_NLL": -8.487285285761325e-9,
+        "delta_overall_NLL": -3.536368869067219e-10
+      },
+      {
+        "source": 10,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 5.157604476835331e-8,
+        "delta_target_NLL": -1.1364476517906332e-9,
+        "delta_overall_NLL": -4.735198549127639e-11
+      },
+      {
+        "source": 10,
+        "target": 22,
+        "reference": 0,
+        "original_graph_score": 3.5706139556168637e-7,
+        "delta_target_NLL": -7.869630421711987e-9,
+        "delta_overall_NLL": -3.279012675713328e-10
+      },
+      {
+        "source": 10,
+        "target": 23,
+        "reference": 0,
+        "original_graph_score": 6.152719578267352e-8,
+        "delta_target_NLL": -1.3560907905505251e-9,
+        "delta_overall_NLL": -5.6503782939605215e-11
+      },
+      {
+        "source": 11,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 0.003841410856693983,
+        "delta_target_NLL": 0.000033617718753008174,
+        "delta_overall_NLL": 0.0000014007382813753407
+      },
+      {
+        "source": 11,
+        "target": 1,
+        "reference": 1,
+        "original_graph_score": 0.000806253869086504,
+        "delta_target_NLL": -0.00001039385679884458,
+        "delta_overall_NLL": -4.330773666185242e-7
+      },
+      {
+        "source": 11,
+        "target": 2,
+        "reference": 1,
+        "original_graph_score": 4.538643949558718e-8,
+        "delta_target_NLL": -6.35355839120888e-10,
+        "delta_overall_NLL": -2.6473159963370334e-11
+      },
+      {
+        "source": 11,
+        "target": 3,
+        "reference": 1,
+        "original_graph_score": 0.00004558818545774557,
+        "delta_target_NLL": -5.471240971744243e-7,
+        "delta_overall_NLL": -2.279683738226768e-8
+      },
+      {
+        "source": 11,
+        "target": 4,
+        "reference": 1,
+        "original_graph_score": 0.0000029047362204437377,
+        "delta_target_NLL": -4.066658323802208e-8,
+        "delta_overall_NLL": -1.69444096825092e-9
+      },
+      {
+        "source": 11,
+        "target": 5,
+        "reference": 1,
+        "original_graph_score": 0.000002030056975854677,
+        "delta_target_NLL": -2.8421048552801365e-8,
+        "delta_overall_NLL": -1.1842103563667235e-9
+      },
+      {
+        "source": 11,
+        "target": 6,
+        "reference": 1,
+        "original_graph_score": 0.0020648385398089886,
+        "delta_target_NLL": -0.00002890773825050272,
+        "delta_overall_NLL": -0.0000012044890937709467
+      },
+      {
+        "source": 11,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 0.000010853651474462822,
+        "delta_target_NLL": -1.5195083140481444e-7,
+        "delta_overall_NLL": -6.331284641867268e-9
+      },
+      {
+        "source": 11,
+        "target": 8,
+        "reference": 1,
+        "original_graph_score": 0.000011000666745530907,
+        "delta_target_NLL": -1.5400922244229384e-7,
+        "delta_overall_NLL": -6.417050935095577e-9
+      },
+      {
+        "source": 11,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 0.0020089310128241777,
+        "delta_target_NLL": -0.00002488710969151056,
+        "delta_overall_NLL": -0.00000103696290381294
+      },
+      {
+        "source": 11,
+        "target": 10,
+        "reference": 1,
+        "original_graph_score": 0.000004183523742540274,
+        "delta_target_NLL": -5.856911700899067e-8,
+        "delta_overall_NLL": -2.4403798753746112e-9
+      },
+      {
+        "source": 11,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 0.00045790753210894763,
+        "delta_target_NLL": -0.00000641070517621526,
+        "delta_overall_NLL": -2.6711271567563585e-7
+      },
+      {
+        "source": 11,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 8.978659593594784e-8,
+        "delta_target_NLL": -1.2568406762385187e-9,
+        "delta_overall_NLL": -5.236836150993828e-11
+      },
+      {
+        "source": 11,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 0.000040061819163383916,
+        "delta_target_NLL": -5.608655993888595e-7,
+        "delta_overall_NLL": -2.3369399974535815e-8
+      },
+      {
+        "source": 11,
+        "target": 15,
+        "reference": 1,
+        "original_graph_score": 1.9871623635481228e-7,
+        "delta_target_NLL": -2.7820225203395443e-9,
+        "delta_overall_NLL": -1.1591760501414768e-10
+      },
+      {
+        "source": 11,
+        "target": 16,
+        "reference": 1,
+        "original_graph_score": 0.0007572657777927816,
+        "delta_target_NLL": -0.000009277817162919389,
+        "delta_overall_NLL": -3.865757151216412e-7
+      },
+      {
+        "source": 11,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 4.9422375525409734e-8,
+        "delta_target_NLL": -6.919271162975082e-10,
+        "delta_overall_NLL": -2.8830296512396176e-11
+      },
+      {
+        "source": 11,
+        "target": 18,
+        "reference": 1,
+        "original_graph_score": 4.5328739872729784e-8,
+        "delta_target_NLL": -6.345770839138662e-10,
+        "delta_overall_NLL": -2.6440711829744425e-11
+      },
+      {
+        "source": 11,
+        "target": 19,
+        "reference": 1,
+        "original_graph_score": 5.489414078851951e-8,
+        "delta_target_NLL": -7.686890967297682e-10,
+        "delta_overall_NLL": -3.202871236374034e-11
+      },
+      {
+        "source": 11,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 4.692748234447208e-8,
+        "delta_target_NLL": -6.569974970961276e-10,
+        "delta_overall_NLL": -2.737489571233865e-11
+      },
+      {
+        "source": 11,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 4.730311786715902e-8,
+        "delta_target_NLL": -6.622595196846201e-10,
+        "delta_overall_NLL": -2.7594146653525838e-11
+      },
+      {
+        "source": 11,
+        "target": 22,
+        "reference": 1,
+        "original_graph_score": 4.7010349391030104e-8,
+        "delta_target_NLL": -6.581473189787995e-10,
+        "delta_overall_NLL": -2.742280495744998e-11
+      },
+      {
+        "source": 11,
+        "target": 23,
+        "reference": 1,
+        "original_graph_score": 5.113018275437753e-8,
+        "delta_target_NLL": -7.1582100641919e-10,
+        "delta_overall_NLL": -2.982587526746625e-11
+      },
+      {
+        "source": 12,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 0.000010613274753268342,
+        "delta_target_NLL": 4.289977835244402e-7,
+        "delta_overall_NLL": 1.7874907646851675e-8
+      },
+      {
+        "source": 12,
+        "target": 1,
+        "reference": 0,
+        "original_graph_score": 1.3612392990580702e-7,
+        "delta_target_NLL": -1.0947208426217991e-9,
+        "delta_overall_NLL": -4.5613368442574964e-11
+      },
+      {
+        "source": 12,
+        "target": 2,
+        "reference": 1,
+        "original_graph_score": 4.74864414456988e-8,
+        "delta_target_NLL": -3.725213904709479e-10,
+        "delta_overall_NLL": -1.552172460295616e-11
+      },
+      {
+        "source": 12,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 6.5192629961075e-8,
+        "delta_target_NLL": -4.130960122583627e-10,
+        "delta_overall_NLL": -1.7212333844098444e-11
+      },
+      {
+        "source": 12,
+        "target": 4,
+        "reference": 0,
+        "original_graph_score": 1.997300387301948e-7,
+        "delta_target_NLL": -1.3887545128633827e-9,
+        "delta_overall_NLL": -5.7864771369307614e-11
+      },
+      {
+        "source": 12,
+        "target": 5,
+        "reference": 0,
+        "original_graph_score": 5.5557951128548666e-8,
+        "delta_target_NLL": -4.209569728387541e-10,
+        "delta_overall_NLL": -1.753987386828142e-11
+      },
+      {
+        "source": 12,
+        "target": 6,
+        "reference": 1,
+        "original_graph_score": 2.0198073968913377e-7,
+        "delta_target_NLL": -1.6238861874108557e-9,
+        "delta_overall_NLL": -6.766192447545232e-11
+      },
+      {
+        "source": 12,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 1.0729765875794328e-7,
+        "delta_target_NLL": -8.623212851242845e-10,
+        "delta_overall_NLL": -3.593005354684519e-11
+      },
+      {
+        "source": 12,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 1.0727843147151361e-7,
+        "delta_target_NLL": -8.625101874035201e-10,
+        "delta_overall_NLL": -3.5937924475146675e-11
+      },
+      {
+        "source": 12,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 0.000701139506418258,
+        "delta_target_NLL": 0.000028280129111263666,
+        "delta_overall_NLL": 0.0000011783387129693193
+      },
+      {
+        "source": 12,
+        "target": 10,
+        "reference": 0,
+        "original_graph_score": 1.764708770224388e-7,
+        "delta_target_NLL": -1.3331071468079825e-9,
+        "delta_overall_NLL": -5.554613111699927e-11
+      },
+      {
+        "source": 12,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 2.0086046959022497e-7,
+        "delta_target_NLL": 1.1550856911582419e-9,
+        "delta_overall_NLL": 4.8128570464926745e-11
+      },
+      {
+        "source": 12,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 4.981246704005571e-8,
+        "delta_target_NLL": -4.0029394555995967e-10,
+        "delta_overall_NLL": -1.6678914398331652e-11
+      },
+      {
+        "source": 12,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 0.0000012937014162162086,
+        "delta_target_NLL": -1.040121866944816e-8,
+        "delta_overall_NLL": -4.333841112270067e-10
+      },
+      {
+        "source": 12,
+        "target": 15,
+        "reference": 0,
+        "original_graph_score": 9.174802784173153e-8,
+        "delta_target_NLL": -7.376541064172543e-10,
+        "delta_overall_NLL": -3.0735587767385594e-11
+      },
+      {
+        "source": 12,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 0.000051059716497547925,
+        "delta_target_NLL": -4.105206205417449e-7,
+        "delta_overall_NLL": -1.7105025855906036e-8
+      },
+      {
+        "source": 12,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 6.357503679055299e-8,
+        "delta_target_NLL": -5.111098879198583e-10,
+        "delta_overall_NLL": -2.1296245329994096e-11
+      },
+      {
+        "source": 12,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 4.5022247263659665e-8,
+        "delta_target_NLL": -3.61965869603853e-10,
+        "delta_overall_NLL": -1.5081911233493877e-11
+      },
+      {
+        "source": 12,
+        "target": 19,
+        "reference": 1,
+        "original_graph_score": 5.81232662000275e-8,
+        "delta_target_NLL": -4.675102218264118e-10,
+        "delta_overall_NLL": -1.947959257610049e-11
+      },
+      {
+        "source": 12,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 4.5273230853126734e-7,
+        "delta_target_NLL": -3.639967708268712e-9,
+        "delta_overall_NLL": -1.51665321177863e-10
+      },
+      {
+        "source": 12,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 4.6630368899513996e-8,
+        "delta_target_NLL": -3.749610937091004e-10,
+        "delta_overall_NLL": -1.562337890454585e-11
+      },
+      {
+        "source": 12,
+        "target": 22,
+        "reference": 0,
+        "original_graph_score": 0.000002980664021379198,
+        "delta_target_NLL": -2.3964533477267586e-8,
+        "delta_overall_NLL": -9.985222282194828e-10
+      },
+      {
+        "source": 12,
+        "target": 23,
+        "reference": 0,
+        "original_graph_score": 4.710252810014026e-8,
+        "delta_target_NLL": -3.787033142589255e-10,
+        "delta_overall_NLL": -1.5779304760788562e-11
+      },
+      {
+        "source": 13,
+        "target": 0,
+        "reference": 1,
+        "original_graph_score": 9.177760773582122e-8,
+        "delta_target_NLL": -8.66958341921853e-10,
+        "delta_overall_NLL": -3.612326424674387e-11
+      },
+      {
+        "source": 13,
+        "target": 1,
+        "reference": 1,
+        "original_graph_score": 1.0339342537690754e-7,
+        "delta_target_NLL": -9.76256208685966e-10,
+        "delta_overall_NLL": -4.067734202858192e-11
+      },
+      {
+        "source": 13,
+        "target": 2,
+        "reference": 1,
+        "original_graph_score": 0.0000015577136309730122,
+        "delta_target_NLL": -1.4704816929216047e-8,
+        "delta_overall_NLL": -6.12700705384002e-10
+      },
+      {
+        "source": 13,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 0.000039692142308922485,
+        "delta_target_NLL": -3.746945747666597e-7,
+        "delta_overall_NLL": -1.561227394861082e-8
+      },
+      {
+        "source": 13,
+        "target": 4,
+        "reference": 0,
+        "original_graph_score": 0.000013730307728110347,
+        "delta_target_NLL": -1.2961405609305393e-7,
+        "delta_overall_NLL": -5.400585670543914e-9
+      },
+      {
+        "source": 13,
+        "target": 5,
+        "reference": 1,
+        "original_graph_score": 0.0000012915995739604114,
+        "delta_target_NLL": -1.2192748620205168e-8,
+        "delta_overall_NLL": -5.080311925085486e-10
+      },
+      {
+        "source": 13,
+        "target": 6,
+        "reference": 1,
+        "original_graph_score": 6.938932983757695e-7,
+        "delta_target_NLL": -6.550406765181566e-9,
+        "delta_overall_NLL": -2.7293361521589857e-10
+      },
+      {
+        "source": 13,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 0.0029596537351608276,
+        "delta_target_NLL": -0.000027939130807087646,
+        "delta_overall_NLL": -0.0000011641304502953186
+      },
+      {
+        "source": 13,
+        "target": 8,
+        "reference": 1,
+        "original_graph_score": 0.0029400817584246397,
+        "delta_target_NLL": -0.000027754371212201662,
+        "delta_overall_NLL": -0.0000011564321338417359
+      },
+      {
+        "source": 13,
+        "target": 9,
+        "reference": 1,
+        "original_graph_score": 0.000027429816327639855,
+        "delta_target_NLL": -2.589348317696624e-7,
+        "delta_overall_NLL": -1.0788951323735934e-8
+      },
+      {
+        "source": 13,
+        "target": 10,
+        "reference": 1,
+        "original_graph_score": 0.00002192157626268454,
+        "delta_target_NLL": -2.0693964638890047e-7,
+        "delta_overall_NLL": -8.622485266204186e-9
+      },
+      {
+        "source": 13,
+        "target": 11,
+        "reference": 1,
+        "original_graph_score": 1.6115554046791658e-7,
+        "delta_target_NLL": -1.5216088697193875e-9,
+        "delta_overall_NLL": -6.340036957164115e-11
+      },
+      {
+        "source": 13,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 6.183130807357884e-8,
+        "delta_target_NLL": -5.838141691003745e-10,
+        "delta_overall_NLL": -2.4325590379182273e-11
+      },
+      {
+        "source": 13,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 6.299444521573605e-8,
+        "delta_target_NLL": -5.945834755539253e-10,
+        "delta_overall_NLL": -2.4774311481413555e-11
+      },
+      {
+        "source": 13,
+        "target": 15,
+        "reference": 1,
+        "original_graph_score": 7.188760378085135e-7,
+        "delta_target_NLL": -6.786192113675607e-9,
+        "delta_overall_NLL": -2.8275800473648364e-10
+      },
+      {
+        "source": 13,
+        "target": 16,
+        "reference": 1,
+        "original_graph_score": 1.1731976456985649e-7,
+        "delta_target_NLL": -1.1080131594133277e-9,
+        "delta_overall_NLL": -4.616721497555532e-11
+      },
+      {
+        "source": 13,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 1.0364852442990014e-7,
+        "delta_target_NLL": -9.784406869786655e-10,
+        "delta_overall_NLL": -4.07683619574444e-11
+      },
+      {
+        "source": 13,
+        "target": 18,
+        "reference": 1,
+        "original_graph_score": 3.6141335613137926e-7,
+        "delta_target_NLL": -3.4117413406139357e-9,
+        "delta_overall_NLL": -1.4215588919224732e-10
+      },
+      {
+        "source": 13,
+        "target": 19,
+        "reference": 1,
+        "original_graph_score": 0.0000016876342670002487,
+        "delta_target_NLL": -1.5931466932671084e-8,
+        "delta_overall_NLL": -6.638111221946285e-10
+      },
+      {
+        "source": 13,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 1.4871636722091353e-7,
+        "delta_target_NLL": -1.4038807785005623e-9,
+        "delta_overall_NLL": -5.849503243752343e-11
+      },
+      {
+        "source": 13,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 6.183130807357884e-8,
+        "delta_target_NLL": -5.836892387405348e-10,
+        "delta_overall_NLL": -2.4320384947522285e-11
+      },
+      {
+        "source": 13,
+        "target": 22,
+        "reference": 1,
+        "original_graph_score": 4.1183633925356844e-7,
+        "delta_target_NLL": -3.887720392847533e-9,
+        "delta_overall_NLL": -1.6198834970198054e-10
+      },
+      {
+        "source": 13,
+        "target": 23,
+        "reference": 1,
+        "original_graph_score": 6.183130807357884e-8,
+        "delta_target_NLL": -5.836876880264963e-10,
+        "delta_overall_NLL": -2.4320320334437345e-11
+      },
+      {
+        "source": 14,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 0.0000036145979720458854,
+        "delta_target_NLL": 1.567076160623876e-7,
+        "delta_overall_NLL": 6.529484002599483e-9
+      },
+      {
+        "source": 14,
+        "target": 1,
+        "reference": 0,
+        "original_graph_score": 0.000001539673007755482,
+        "delta_target_NLL": -7.760190658470667e-9,
+        "delta_overall_NLL": -3.233412774362778e-10
+      },
+      {
+        "source": 14,
+        "target": 2,
+        "reference": 1,
+        "original_graph_score": 5.561584259794472e-8,
+        "delta_target_NLL": -2.8030404126272446e-10,
+        "delta_overall_NLL": -1.1679335052613519e-11
+      },
+      {
+        "source": 14,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 6.131421770305678e-8,
+        "delta_target_NLL": -2.728946331062576e-10,
+        "delta_overall_NLL": -1.1370609712760734e-11
+      },
+      {
+        "source": 14,
+        "target": 4,
+        "reference": 0,
+        "original_graph_score": 1.6896606780392176e-7,
+        "delta_target_NLL": -8.510580777436327e-10,
+        "delta_overall_NLL": -3.546075323931803e-11
+      },
+      {
+        "source": 14,
+        "target": 5,
+        "reference": 0,
+        "original_graph_score": 5.6284196858769064e-8,
+        "delta_target_NLL": -2.839881494028085e-10,
+        "delta_overall_NLL": -1.1832839558450353e-11
+      },
+      {
+        "source": 14,
+        "target": 6,
+        "reference": 0,
+        "original_graph_score": 2.4542111987102544e-7,
+        "delta_target_NLL": -1.236909409098319e-9,
+        "delta_overall_NLL": -5.153789204576329e-11
+      },
+      {
+        "source": 14,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 1.3927004260949616e-7,
+        "delta_target_NLL": -7.014514312279896e-10,
+        "delta_overall_NLL": -2.92271429678329e-11
+      },
+      {
+        "source": 14,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 1.3920444530413079e-7,
+        "delta_target_NLL": -7.013506182068641e-10,
+        "delta_overall_NLL": -2.9222942425286e-11
+      },
+      {
+        "source": 14,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 0.0020809490233659744,
+        "delta_target_NLL": 0.00014696383061309215,
+        "delta_overall_NLL": 0.000006123492942212173
+      },
+      {
+        "source": 14,
+        "target": 10,
+        "reference": 0,
+        "original_graph_score": 1.2381359226765198e-7,
+        "delta_target_NLL": -6.241997517822395e-10,
+        "delta_overall_NLL": -2.6008322990926647e-11
+      },
+      {
+        "source": 14,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 2.85195397964344e-7,
+        "delta_target_NLL": 2.4951217554754213e-9,
+        "delta_overall_NLL": 1.0396340647814255e-10
+      },
+      {
+        "source": 14,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 0.000003264692850279971,
+        "delta_target_NLL": -1.6454366063905698e-8,
+        "delta_overall_NLL": -6.855985859960707e-10
+      },
+      {
+        "source": 14,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 6.146316167132682e-8,
+        "delta_target_NLL": -3.0952925292315747e-10,
+        "delta_overall_NLL": -1.2897052205131562e-11
+      },
+      {
+        "source": 14,
+        "target": 15,
+        "reference": 0,
+        "original_graph_score": 1.433873251244222e-7,
+        "delta_target_NLL": -7.226720502399864e-10,
+        "delta_overall_NLL": -3.01113354266661e-11
+      },
+      {
+        "source": 14,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 0.000006191220109030837,
+        "delta_target_NLL": -3.120416771935225e-8,
+        "delta_overall_NLL": -1.3001736549730105e-9
+      },
+      {
+        "source": 14,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 6.810257957567956e-8,
+        "delta_target_NLL": -3.4321403510027826e-10,
+        "delta_overall_NLL": -1.4300584795844928e-11
+      },
+      {
+        "source": 14,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 5.434149485950002e-8,
+        "delta_target_NLL": -2.73880903037e-10,
+        "delta_overall_NLL": -1.1411704293208333e-11
+      },
+      {
+        "source": 14,
+        "target": 19,
+        "reference": 0,
+        "original_graph_score": 7.135020752002674e-8,
+        "delta_target_NLL": -3.5979876429571497e-10,
+        "delta_overall_NLL": -1.4991615178988123e-11
+      },
+      {
+        "source": 14,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 8.069578143476974e-7,
+        "delta_target_NLL": -4.067067325172306e-9,
+        "delta_overall_NLL": -1.694611385488461e-10
+      },
+      {
+        "source": 14,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 5.60914017455616e-8,
+        "delta_target_NLL": -2.8272425652248016e-10,
+        "delta_overall_NLL": -1.178017735510334e-11
+      },
+      {
+        "source": 14,
+        "target": 22,
+        "reference": 0,
+        "original_graph_score": 0.000004037076450913446,
+        "delta_target_NLL": -2.034685663373668e-8,
+        "delta_overall_NLL": -8.477856930723617e-10
+      },
+      {
+        "source": 14,
+        "target": 23,
+        "reference": 0,
+        "original_graph_score": 5.6982539575756164e-8,
+        "delta_target_NLL": -2.871934293028136e-10,
+        "delta_overall_NLL": -1.1966392887617234e-11
+      },
+      {
+        "source": 15,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 1.5735348313228315e-7,
+        "delta_target_NLL": -7.404671372585048e-10,
+        "delta_overall_NLL": -3.0852797385771034e-11
+      },
+      {
+        "source": 15,
+        "target": 1,
+        "reference": 0,
+        "original_graph_score": 1.2862955145465094e-7,
+        "delta_target_NLL": -5.848167687963479e-10,
+        "delta_overall_NLL": -2.4367365366514498e-11
+      },
+      {
+        "source": 15,
+        "target": 2,
+        "reference": 0,
+        "original_graph_score": 6.441849365046437e-8,
+        "delta_target_NLL": -3.7105063726422527e-10,
+        "delta_overall_NLL": -1.546044321934272e-11
+      },
+      {
+        "source": 15,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 1.0911153225379167e-7,
+        "delta_target_NLL": -6.289739467105204e-10,
+        "delta_overall_NLL": -2.620724777960502e-11
+      },
+      {
+        "source": 15,
+        "target": 4,
+        "reference": 0,
+        "original_graph_score": 1.9569439757560758e-7,
+        "delta_target_NLL": -1.1271149877138675e-9,
+        "delta_overall_NLL": -4.6963124488077816e-11
+      },
+      {
+        "source": 15,
+        "target": 5,
+        "reference": 1,
+        "original_graph_score": 1.9463404044017807e-7,
+        "delta_target_NLL": -1.1211382182872709e-9,
+        "delta_overall_NLL": -4.6714092428636285e-11
+      },
+      {
+        "source": 15,
+        "target": 6,
+        "reference": 0,
+        "original_graph_score": 1.0365229030639966e-7,
+        "delta_target_NLL": -5.97321945811774e-10,
+        "delta_overall_NLL": -2.4888414408823917e-11
+      },
+      {
+        "source": 15,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 1.7985281886012672e-7,
+        "delta_target_NLL": -1.0356847723186346e-9,
+        "delta_overall_NLL": -4.315353217994311e-11
+      },
+      {
+        "source": 15,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 1.7922614858889574e-7,
+        "delta_target_NLL": -1.0320964972422575e-9,
+        "delta_overall_NLL": -4.30040207184274e-11
+      },
+      {
+        "source": 15,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 2.656483388818742e-7,
+        "delta_target_NLL": -1.5274755167313248e-9,
+        "delta_overall_NLL": -6.364481319713854e-11
+      },
+      {
+        "source": 15,
+        "target": 10,
+        "reference": 0,
+        "original_graph_score": 1.7362762605444004e-7,
+        "delta_target_NLL": -1.000047318826941e-9,
+        "delta_overall_NLL": -4.1668638284455876e-11
+      },
+      {
+        "source": 15,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 2.28104084953884e-7,
+        "delta_target_NLL": -1.3143490380264355e-9,
+        "delta_overall_NLL": -5.476454325110148e-11
+      },
+      {
+        "source": 15,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 9.717600590875008e-8,
+        "delta_target_NLL": -5.598496772511036e-10,
+        "delta_overall_NLL": -2.332706988546265e-11
+      },
+      {
+        "source": 15,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 7.575817306815225e-8,
+        "delta_target_NLL": -4.3621313809347195e-10,
+        "delta_overall_NLL": -1.8175547420561332e-11
+      },
+      {
+        "source": 15,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 1.7403743868271704e-7,
+        "delta_target_NLL": -1.0024305721438587e-9,
+        "delta_overall_NLL": -4.176794050599411e-11
+      },
+      {
+        "source": 15,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 3.2460496868225164e-7,
+        "delta_target_NLL": -1.8700901727782687e-9,
+        "delta_overall_NLL": -7.79204238657612e-11
+      },
+      {
+        "source": 15,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 0.000002838885393430246,
+        "delta_target_NLL": -1.635198989776744e-8,
+        "delta_overall_NLL": -6.813329124069767e-10
+      },
+      {
+        "source": 15,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 6.520829742839851e-8,
+        "delta_target_NLL": -3.7558757184008237e-10,
+        "delta_overall_NLL": -1.5649482160003433e-11
+      },
+      {
+        "source": 15,
+        "target": 19,
+        "reference": 0,
+        "original_graph_score": 2.4092707917588996e-7,
+        "delta_target_NLL": -1.3879082507635442e-9,
+        "delta_overall_NLL": -5.782951044848101e-11
+      },
+      {
+        "source": 15,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 7.078050856534901e-8,
+        "delta_target_NLL": -4.076955837815574e-10,
+        "delta_overall_NLL": -1.6987315990898224e-11
+      },
+      {
+        "source": 15,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 6.441849365046437e-8,
+        "delta_target_NLL": -3.710472333301896e-10,
+        "delta_overall_NLL": -1.54603013887579e-11
+      },
+      {
+        "source": 15,
+        "target": 22,
+        "reference": 0,
+        "original_graph_score": 6.441849365046437e-8,
+        "delta_target_NLL": -3.710396254022301e-10,
+        "delta_overall_NLL": -1.5459984391759586e-11
+      },
+      {
+        "source": 15,
+        "target": 23,
+        "reference": 0,
+        "original_graph_score": 6.441849365046437e-8,
+        "delta_target_NLL": -3.710506393242094e-10,
+        "delta_overall_NLL": -1.5460443305175393e-11
+      },
+      {
+        "source": 16,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 6.743607059433998e-7,
+        "delta_target_NLL": -2.8057566981570803e-9,
+        "delta_overall_NLL": -1.1690652908987834e-10
+      },
+      {
+        "source": 16,
+        "target": 1,
+        "reference": 1,
+        "original_graph_score": 2.612137848245766e-7,
+        "delta_target_NLL": -1.0869534846844053e-9,
+        "delta_overall_NLL": -4.528972852851689e-11
+      },
+      {
+        "source": 16,
+        "target": 2,
+        "reference": 1,
+        "original_graph_score": 5.8725568408135587e-8,
+        "delta_target_NLL": -2.442985397310693e-10,
+        "delta_overall_NLL": -1.0179105822127887e-11
+      },
+      {
+        "source": 16,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 1.516149836788827e-7,
+        "delta_target_NLL": -4.810134859867254e-10,
+        "delta_overall_NLL": -2.0042228582780226e-11
+      },
+      {
+        "source": 16,
+        "target": 4,
+        "reference": 0,
+        "original_graph_score": 5.529224722522486e-7,
+        "delta_target_NLL": -2.3000797954621233e-9,
+        "delta_overall_NLL": -9.583665814425514e-11
+      },
+      {
+        "source": 16,
+        "target": 5,
+        "reference": 1,
+        "original_graph_score": 1.0962260432734183e-7,
+        "delta_target_NLL": -4.560786509739956e-10,
+        "delta_overall_NLL": -1.9003277123916484e-11
+      },
+      {
+        "source": 16,
+        "target": 6,
+        "reference": 1,
+        "original_graph_score": 3.103081951394415e-7,
+        "delta_target_NLL": -1.29070534512013e-9,
+        "delta_overall_NLL": -5.377938938000542e-11
+      },
+      {
+        "source": 16,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 0.00033468945184722543,
+        "delta_target_NLL": -0.0000013923079941742349,
+        "delta_overall_NLL": -5.801283309059312e-8
+      },
+      {
+        "source": 16,
+        "target": 8,
+        "reference": 1,
+        "original_graph_score": 0.00033452612115070224,
+        "delta_target_NLL": -0.0000013916282954776031,
+        "delta_overall_NLL": -5.79845123115668e-8
+      },
+      {
+        "source": 16,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 0.0000027993089588562725,
+        "delta_target_NLL": -1.1642495930004604e-8,
+        "delta_overall_NLL": -4.851039970835252e-10
+      },
+      {
+        "source": 16,
+        "target": 10,
+        "reference": 1,
+        "original_graph_score": 9.839485528573277e-7,
+        "delta_target_NLL": -4.0931701235889795e-9,
+        "delta_overall_NLL": -1.7054875514954082e-10
+      },
+      {
+        "source": 16,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 3.641583532498771e-7,
+        "delta_target_NLL": -1.515248941510311e-9,
+        "delta_overall_NLL": -6.313537256292963e-11
+      },
+      {
+        "source": 16,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 1.7961814080535987e-7,
+        "delta_target_NLL": -7.473478671853051e-10,
+        "delta_overall_NLL": -3.113949446605438e-11
+      },
+      {
+        "source": 16,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 9.842694481676517e-8,
+        "delta_target_NLL": -4.0926772084184937e-10,
+        "delta_overall_NLL": -1.7052821701743725e-11
+      },
+      {
+        "source": 16,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 1.2478002986426873e-7,
+        "delta_target_NLL": -5.190713955665824e-10,
+        "delta_overall_NLL": -2.1627974815274266e-11
+      },
+      {
+        "source": 16,
+        "target": 15,
+        "reference": 1,
+        "original_graph_score": 1.596906429313094e-7,
+        "delta_target_NLL": -6.643132380995675e-10,
+        "delta_overall_NLL": -2.767971825414865e-11
+      },
+      {
+        "source": 16,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 7.400225143783246e-8,
+        "delta_target_NLL": -3.078400321113173e-10,
+        "delta_overall_NLL": -1.282666800463822e-11
+      },
+      {
+        "source": 16,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 5.8915958334182505e-8,
+        "delta_target_NLL": -2.4511769881625095e-10,
+        "delta_overall_NLL": -1.0213237450677122e-11
+      },
+      {
+        "source": 16,
+        "target": 19,
+        "reference": 1,
+        "original_graph_score": 5.963432414546332e-8,
+        "delta_target_NLL": -2.4824034653905943e-10,
+        "delta_overall_NLL": -1.034334777246081e-11
+      },
+      {
+        "source": 16,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 6.754515879947576e-8,
+        "delta_target_NLL": -2.809876377797907e-10,
+        "delta_overall_NLL": -1.1707818240824612e-11
+      },
+      {
+        "source": 16,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 6.017580034267667e-8,
+        "delta_target_NLL": -2.503707241868964e-10,
+        "delta_overall_NLL": -1.043211350778735e-11
+      },
+      {
+        "source": 16,
+        "target": 22,
+        "reference": 1,
+        "original_graph_score": 3.682310136809974e-7,
+        "delta_target_NLL": -1.5318315626914637e-9,
+        "delta_overall_NLL": -6.382631511214433e-11
+      },
+      {
+        "source": 16,
+        "target": 23,
+        "reference": 1,
+        "original_graph_score": 6.253581830151234e-8,
+        "delta_target_NLL": -2.6014960433258516e-10,
+        "delta_overall_NLL": -1.0839566847191048e-11
+      },
+      {
+        "source": 17,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 1.1847389913555162e-7,
+        "delta_target_NLL": -8.860453690195946e-10,
+        "delta_overall_NLL": -3.691855704248311e-11
+      },
+      {
+        "source": 17,
+        "target": 1,
+        "reference": 0,
+        "original_graph_score": 2.446336111461278e-7,
+        "delta_target_NLL": -1.805876651342353e-9,
+        "delta_overall_NLL": -7.524486047259804e-11
+      },
+      {
+        "source": 17,
+        "target": 2,
+        "reference": 0,
+        "original_graph_score": 6.331039514861914e-8,
+        "delta_target_NLL": -4.938219425390522e-10,
+        "delta_overall_NLL": -2.057591427246051e-11
+      },
+      {
+        "source": 17,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 1.8982352401053504e-7,
+        "delta_target_NLL": -1.2422808632478466e-9,
+        "delta_overall_NLL": -5.1761702635326943e-11
+      },
+      {
+        "source": 17,
+        "target": 4,
+        "reference": 1,
+        "original_graph_score": 0.00015916902339085937,
+        "delta_target_NLL": -0.0000012415184929021744,
+        "delta_overall_NLL": -5.172993720425727e-8
+      },
+      {
+        "source": 17,
+        "target": 5,
+        "reference": 1,
+        "original_graph_score": 1.0011471829329821e-7,
+        "delta_target_NLL": -7.809466389535613e-10,
+        "delta_overall_NLL": -3.253944328973172e-11
+      },
+      {
+        "source": 17,
+        "target": 6,
+        "reference": 0,
+        "original_graph_score": 0.0000010591470527288038,
+        "delta_target_NLL": -8.261404348380158e-9,
+        "delta_overall_NLL": -3.442251811825066e-10
+      },
+      {
+        "source": 17,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 0.00038964132545515895,
+        "delta_target_NLL": -0.0000030392020821429395,
+        "delta_overall_NLL": -1.2663342008928914e-7
+      },
+      {
+        "source": 17,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 0.000406677252613008,
+        "delta_target_NLL": -0.000003172082851108423,
+        "delta_overall_NLL": -1.321701187961843e-7
+      },
+      {
+        "source": 17,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 0.00009304976993007585,
+        "delta_target_NLL": -7.257855710613575e-7,
+        "delta_overall_NLL": -3.02410654608899e-8
+      },
+      {
+        "source": 17,
+        "target": 10,
+        "reference": 1,
+        "original_graph_score": 0.000117517527542077,
+        "delta_target_NLL": -9.166366019691674e-7,
+        "delta_overall_NLL": -3.8193191748715306e-8
+      },
+      {
+        "source": 17,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 8.503597115350203e-8,
+        "delta_target_NLL": -6.636143258173521e-10,
+        "delta_overall_NLL": -2.765059690905634e-11
+      },
+      {
+        "source": 17,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 1.6029044047627394e-7,
+        "delta_target_NLL": -1.2503341894828934e-9,
+        "delta_overall_NLL": -5.209725789512056e-11
+      },
+      {
+        "source": 17,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 0.000016496062016813084,
+        "delta_target_NLL": -1.2866906220349028e-7,
+        "delta_overall_NLL": -5.361210925145428e-9
+      },
+      {
+        "source": 17,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 2.5902508582476e-7,
+        "delta_target_NLL": -2.0203975009940728e-9,
+        "delta_overall_NLL": -8.418322920808637e-11
+      },
+      {
+        "source": 17,
+        "target": 15,
+        "reference": 0,
+        "original_graph_score": 1.554662674152496e-7,
+        "delta_target_NLL": -1.2124668296274732e-9,
+        "delta_overall_NLL": -5.051945123447805e-11
+      },
+      {
+        "source": 17,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 1.9461604949810862e-7,
+        "delta_target_NLL": -1.5183905929458397e-9,
+        "delta_overall_NLL": -6.326627470607665e-11
+      },
+      {
+        "source": 17,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 6.322218837340188e-8,
+        "delta_target_NLL": -4.931327839564209e-10,
+        "delta_overall_NLL": -2.0547199331517538e-11
+      },
+      {
+        "source": 17,
+        "target": 19,
+        "reference": 0,
+        "original_graph_score": 0.0000010532003216212615,
+        "delta_target_NLL": -8.21512533320741e-9,
+        "delta_overall_NLL": -3.422968888836421e-10
+      },
+      {
+        "source": 17,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 8.127943829094875e-8,
+        "delta_target_NLL": -6.339794663095914e-10,
+        "delta_overall_NLL": -2.6415811096232977e-11
+      },
+      {
+        "source": 17,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 6.609761982190321e-8,
+        "delta_target_NLL": -5.155815802030815e-10,
+        "delta_overall_NLL": -2.1482565841795062e-11
+      },
+      {
+        "source": 17,
+        "target": 22,
+        "reference": 1,
+        "original_graph_score": 6.789754252167768e-7,
+        "delta_target_NLL": -5.296001208974013e-9,
+        "delta_overall_NLL": -2.206667170405839e-10
+      },
+      {
+        "source": 17,
+        "target": 23,
+        "reference": 0,
+        "original_graph_score": 6.322218837340188e-8,
+        "delta_target_NLL": -4.93133209180513e-10,
+        "delta_overall_NLL": -2.054721704918804e-11
+      },
+      {
+        "source": 18,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 9.508239884326031e-8,
+        "delta_target_NLL": -4.888115866935605e-10,
+        "delta_overall_NLL": -2.036714944556502e-11
+      },
+      {
+        "source": 18,
+        "target": 1,
+        "reference": 1,
+        "original_graph_score": 7.707502192033644e-8,
+        "delta_target_NLL": -3.935604724059072e-10,
+        "delta_overall_NLL": -1.63983530169128e-11
+      },
+      {
+        "source": 18,
+        "target": 2,
+        "reference": 1,
+        "original_graph_score": 7.570515236920983e-8,
+        "delta_target_NLL": -4.1486438069615605e-10,
+        "delta_overall_NLL": -1.7286015862339837e-11
+      },
+      {
+        "source": 18,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 7.570515236920983e-8,
+        "delta_target_NLL": -4.151994408008175e-10,
+        "delta_overall_NLL": -1.7299976700034064e-11
+      },
+      {
+        "source": 18,
+        "target": 4,
+        "reference": 1,
+        "original_graph_score": 7.570515236920983e-8,
+        "delta_target_NLL": -4.14803148426901e-10,
+        "delta_overall_NLL": -1.7283464517787544e-11
+      },
+      {
+        "source": 18,
+        "target": 5,
+        "reference": 1,
+        "original_graph_score": 7.570515236920983e-8,
+        "delta_target_NLL": -4.1491067135843163e-10,
+        "delta_overall_NLL": -1.728794463993465e-11
+      },
+      {
+        "source": 18,
+        "target": 6,
+        "reference": 1,
+        "original_graph_score": 9.874906226059466e-8,
+        "delta_target_NLL": -5.412037606261633e-10,
+        "delta_overall_NLL": -2.2550156692756802e-11
+      },
+      {
+        "source": 18,
+        "target": 7,
+        "reference": 1,
+        "original_graph_score": 7.657052947251941e-8,
+        "delta_target_NLL": -4.193709489917763e-10,
+        "delta_overall_NLL": -1.7473789541324013e-11
+      },
+      {
+        "source": 18,
+        "target": 8,
+        "reference": 1,
+        "original_graph_score": 7.657125422610989e-8,
+        "delta_target_NLL": -4.1940802913975617e-10,
+        "delta_overall_NLL": -1.747533454748984e-11
+      },
+      {
+        "source": 18,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 1.9631647774076555e-7,
+        "delta_target_NLL": -1.0731707232938814e-9,
+        "delta_overall_NLL": -4.471544680391173e-11
+      },
+      {
+        "source": 18,
+        "target": 10,
+        "reference": 1,
+        "original_graph_score": 7.570515236920983e-8,
+        "delta_target_NLL": -4.14809719559428e-10,
+        "delta_overall_NLL": -1.7283738314976167e-11
+      },
+      {
+        "source": 18,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 7.917339672758317e-8,
+        "delta_target_NLL": -4.3428905870807055e-10,
+        "delta_overall_NLL": -1.8095377446169607e-11
+      },
+      {
+        "source": 18,
+        "target": 12,
+        "reference": 1,
+        "original_graph_score": 7.752381492309723e-8,
+        "delta_target_NLL": -4.2497108783401405e-10,
+        "delta_overall_NLL": -1.7707128659750586e-11
+      },
+      {
+        "source": 18,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 7.570515236920983e-8,
+        "delta_target_NLL": -4.146582547812083e-10,
+        "delta_overall_NLL": -1.7277427282550346e-11
+      },
+      {
+        "source": 18,
+        "target": 14,
+        "reference": 1,
+        "original_graph_score": 7.570515236920983e-8,
+        "delta_target_NLL": -4.148323228978998e-10,
+        "delta_overall_NLL": -1.7284680120745823e-11
+      },
+      {
+        "source": 18,
+        "target": 15,
+        "reference": 1,
+        "original_graph_score": 7.59096110414248e-8,
+        "delta_target_NLL": -4.1577287901613247e-10,
+        "delta_overall_NLL": -1.732386995900552e-11
+      },
+      {
+        "source": 18,
+        "target": 16,
+        "reference": 1,
+        "original_graph_score": 8.01011736939472e-8,
+        "delta_target_NLL": -4.3934702485251206e-10,
+        "delta_overall_NLL": -1.8306126035521335e-11
+      },
+      {
+        "source": 18,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 7.855232553310998e-8,
+        "delta_target_NLL": -4.304625438652371e-10,
+        "delta_overall_NLL": -1.7935939327718212e-11
+      },
+      {
+        "source": 18,
+        "target": 19,
+        "reference": 1,
+        "original_graph_score": 7.570515236920983e-8,
+        "delta_target_NLL": -4.1503251622796626e-10,
+        "delta_overall_NLL": -1.7293021509498594e-11
+      },
+      {
+        "source": 18,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 7.570515236920983e-8,
+        "delta_target_NLL": -4.148641300828239e-10,
+        "delta_overall_NLL": -1.7286005420117663e-11
+      },
+      {
+        "source": 18,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 7.570515236920983e-8,
+        "delta_target_NLL": -4.1486429154085616e-10,
+        "delta_overall_NLL": -1.7286012147535673e-11
+      },
+      {
+        "source": 18,
+        "target": 22,
+        "reference": 1,
+        "original_graph_score": 7.570515236920983e-8,
+        "delta_target_NLL": -4.1485700877190446e-10,
+        "delta_overall_NLL": -1.7285708698829352e-11
+      },
+      {
+        "source": 18,
+        "target": 23,
+        "reference": 1,
+        "original_graph_score": 7.570515236920983e-8,
+        "delta_target_NLL": -4.1486438243087953e-10,
+        "delta_overall_NLL": -1.728601593461998e-11
+      },
+      {
+        "source": 19,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 7.769033771864997e-8,
+        "delta_target_NLL": -8.783977191451076e-11,
+        "delta_overall_NLL": -3.659990496437948e-12
+      },
+      {
+        "source": 19,
+        "target": 1,
+        "reference": 0,
+        "original_graph_score": 7.883480890313876e-8,
+        "delta_target_NLL": -8.856996386308325e-11,
+        "delta_overall_NLL": -3.690415160961802e-12
+      },
+      {
+        "source": 19,
+        "target": 2,
+        "reference": 0,
+        "original_graph_score": 7.769033771864997e-8,
+        "delta_target_NLL": -8.701337480404581e-11,
+        "delta_overall_NLL": -3.6255572835019087e-12
+      },
+      {
+        "source": 19,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 1.6828053617246042e-7,
+        "delta_target_NLL": -1.8847724336107374e-10,
+        "delta_overall_NLL": -7.853218473378073e-12
+      },
+      {
+        "source": 19,
+        "target": 4,
+        "reference": 0,
+        "original_graph_score": 7.966145432192206e-8,
+        "delta_target_NLL": -8.915030302522609e-11,
+        "delta_overall_NLL": -3.71459595938442e-12
+      },
+      {
+        "source": 19,
+        "target": 5,
+        "reference": 0,
+        "original_graph_score": 7.769033771864997e-8,
+        "delta_target_NLL": -8.705938834424609e-11,
+        "delta_overall_NLL": -3.627474514343587e-12
+      },
+      {
+        "source": 19,
+        "target": 6,
+        "reference": 0,
+        "original_graph_score": 0.00018256803741678596,
+        "delta_target_NLL": -2.044763131926232e-7,
+        "delta_overall_NLL": -8.519846383025966e-9
+      },
+      {
+        "source": 19,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 0.0006639800267294049,
+        "delta_target_NLL": -7.436573308951082e-7,
+        "delta_overall_NLL": -3.098572212062951e-8
+      },
+      {
+        "source": 19,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 0.0006660075159743428,
+        "delta_target_NLL": -7.45928026390022e-7,
+        "delta_overall_NLL": -3.1080334432917585e-8
+      },
+      {
+        "source": 19,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 0.0000011982505156993284,
+        "delta_target_NLL": -1.3393460281813097e-9,
+        "delta_overall_NLL": -5.580608450755457e-11
+      },
+      {
+        "source": 19,
+        "target": 10,
+        "reference": 0,
+        "original_graph_score": 8.435296905418e-8,
+        "delta_target_NLL": -9.442588204400248e-11,
+        "delta_overall_NLL": -3.934411751833437e-12
+      },
+      {
+        "source": 19,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 7.800378654110318e-8,
+        "delta_target_NLL": 9.876402456282518e-10,
+        "delta_overall_NLL": 4.115167690117716e-11
+      },
+      {
+        "source": 19,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 7.769033771864997e-8,
+        "delta_target_NLL": -8.717016496649632e-11,
+        "delta_overall_NLL": -3.6320902069373467e-12
+      },
+      {
+        "source": 19,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 6.227558060345473e-7,
+        "delta_target_NLL": -6.972468418603439e-10,
+        "delta_overall_NLL": -2.9051951744180997e-11
+      },
+      {
+        "source": 19,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 7.769033771864997e-8,
+        "delta_target_NLL": -8.698510564186107e-11,
+        "delta_overall_NLL": -3.6243794017442113e-12
+      },
+      {
+        "source": 19,
+        "target": 15,
+        "reference": 0,
+        "original_graph_score": 2.0670175615578046e-7,
+        "delta_target_NLL": -2.315057030626011e-10,
+        "delta_overall_NLL": -9.646070960941713e-12
+      },
+      {
+        "source": 19,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 7.769033771864997e-8,
+        "delta_target_NLL": -8.739919844704541e-11,
+        "delta_overall_NLL": -3.6416332686268924e-12
+      },
+      {
+        "source": 19,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 7.979877381103506e-8,
+        "delta_target_NLL": -8.937470056570584e-11,
+        "delta_overall_NLL": -3.7239458569044105e-12
+      },
+      {
+        "source": 19,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 7.769033771864997e-8,
+        "delta_target_NLL": -8.701297017979504e-11,
+        "delta_overall_NLL": -3.6255404241581266e-12
+      },
+      {
+        "source": 19,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 1.2695747386715084e-7,
+        "delta_target_NLL": -1.4219901227656082e-10,
+        "delta_overall_NLL": -5.9249588448567e-12
+      },
+      {
+        "source": 19,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 7.769033771864997e-8,
+        "delta_target_NLL": -8.701919341894994e-11,
+        "delta_overall_NLL": -3.6257997257895807e-12
+      },
+      {
+        "source": 19,
+        "target": 22,
+        "reference": 0,
+        "original_graph_score": 1.2638354007776798e-7,
+        "delta_target_NLL": -1.4154563811189305e-10,
+        "delta_overall_NLL": -5.897734921328877e-12
+      },
+      {
+        "source": 19,
+        "target": 23,
+        "reference": 0,
+        "original_graph_score": 7.769033771864997e-8,
+        "delta_target_NLL": -8.701329988567569e-11,
+        "delta_overall_NLL": -3.6255541619031537e-12
+      },
+      {
+        "source": 20,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 0.0000013770145415037405,
+        "delta_target_NLL": -2.9750446828291643e-9,
+        "delta_overall_NLL": -1.2396019511788184e-10
+      },
+      {
+        "source": 20,
+        "target": 1,
+        "reference": 1,
+        "original_graph_score": 8.198836098927131e-8,
+        "delta_target_NLL": -1.7735793389483945e-10,
+        "delta_overall_NLL": -7.389913912284976e-12
+      },
+      {
+        "source": 20,
+        "target": 2,
+        "reference": 1,
+        "original_graph_score": 8.198836098927131e-8,
+        "delta_target_NLL": -1.7709497149992481e-10,
+        "delta_overall_NLL": -7.3789571458302e-12
+      },
+      {
+        "source": 20,
+        "target": 3,
+        "reference": 1,
+        "original_graph_score": 1.1313476022678515e-7,
+        "delta_target_NLL": -2.4469557543399523e-10,
+        "delta_overall_NLL": -1.0195648976416468e-11
+      },
+      {
+        "source": 20,
+        "target": 4,
+        "reference": 0,
+        "original_graph_score": 1.8656574241049384e-7,
+        "delta_target_NLL": -4.0292429245511463e-10,
+        "delta_overall_NLL": -1.6788512185629777e-11
+      },
+      {
+        "source": 20,
+        "target": 5,
+        "reference": 1,
+        "original_graph_score": 6.368974254655768e-7,
+        "delta_target_NLL": -1.375747131233257e-9,
+        "delta_overall_NLL": -5.732279713471904e-11
+      },
+      {
+        "source": 20,
+        "target": 6,
+        "reference": 1,
+        "original_graph_score": 2.8014341069138027e-7,
+        "delta_target_NLL": -6.051772446884207e-10,
+        "delta_overall_NLL": -2.5215718528684195e-11
+      },
+      {
+        "source": 20,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 0.00019172020256519318,
+        "delta_target_NLL": -4.141153384989646e-7,
+        "delta_overall_NLL": -1.725480577079019e-8
+      },
+      {
+        "source": 20,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 0.00019214882922824472,
+        "delta_target_NLL": -4.150413853310636e-7,
+        "delta_overall_NLL": -1.7293391055460985e-8
+      },
+      {
+        "source": 20,
+        "target": 9,
+        "reference": 1,
+        "original_graph_score": 0.000008209522093238775,
+        "delta_target_NLL": -1.772989279696935e-8,
+        "delta_overall_NLL": -7.387455332070562e-10
+      },
+      {
+        "source": 20,
+        "target": 10,
+        "reference": 0,
+        "original_graph_score": 1.8757695841031818e-7,
+        "delta_target_NLL": -4.051173120925289e-10,
+        "delta_overall_NLL": -1.687988800385537e-11
+      },
+      {
+        "source": 20,
+        "target": 11,
+        "reference": 1,
+        "original_graph_score": 1.4517178215101012e-7,
+        "delta_target_NLL": -3.1400712498935723e-10,
+        "delta_overall_NLL": -1.3083630207889885e-11
+      },
+      {
+        "source": 20,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 1.1189009541112682e-7,
+        "delta_target_NLL": -2.418284134140386e-10,
+        "delta_overall_NLL": -1.0076183892251608e-11
+      },
+      {
+        "source": 20,
+        "target": 13,
+        "reference": 1,
+        "original_graph_score": 3.5817390653392067e-7,
+        "delta_target_NLL": -7.734684550828042e-10,
+        "delta_overall_NLL": -3.222785229511684e-11
+      },
+      {
+        "source": 20,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 1.1204171812551067e-7,
+        "delta_target_NLL": -2.41949671886052e-10,
+        "delta_overall_NLL": -1.00812363285855e-11
+      },
+      {
+        "source": 20,
+        "target": 15,
+        "reference": 1,
+        "original_graph_score": 8.198836098927131e-8,
+        "delta_target_NLL": -1.7709481407376937e-10,
+        "delta_overall_NLL": -7.378950586407057e-12
+      },
+      {
+        "source": 20,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 2.1914912906595418e-7,
+        "delta_target_NLL": -4.73782151857137e-10,
+        "delta_overall_NLL": -1.9740922994047373e-11
+      },
+      {
+        "source": 20,
+        "target": 17,
+        "reference": 1,
+        "original_graph_score": 8.198836098927131e-8,
+        "delta_target_NLL": -1.7709495285164745e-10,
+        "delta_overall_NLL": -7.378956368818643e-12
+      },
+      {
+        "source": 20,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 8.198836098927131e-8,
+        "delta_target_NLL": -1.770946527986962e-10,
+        "delta_overall_NLL": -7.378943866612342e-12
+      },
+      {
+        "source": 20,
+        "target": 19,
+        "reference": 1,
+        "original_graph_score": 2.1455612397858204e-7,
+        "delta_target_NLL": -4.636387302523631e-10,
+        "delta_overall_NLL": -1.9318280427181795e-11
+      },
+      {
+        "source": 20,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 8.198836098927131e-8,
+        "delta_target_NLL": -1.7709488702024679e-10,
+        "delta_overall_NLL": -7.378953625843617e-12
+      },
+      {
+        "source": 20,
+        "target": 22,
+        "reference": 1,
+        "original_graph_score": 8.127410069391772e-7,
+        "delta_target_NLL": -1.7555089766303593e-9,
+        "delta_overall_NLL": -7.31462073595983e-11
+      },
+      {
+        "source": 20,
+        "target": 23,
+        "reference": 1,
+        "original_graph_score": 9.15368758569457e-8,
+        "delta_target_NLL": -1.9771978943417673e-10,
+        "delta_overall_NLL": -8.238324559757364e-12
+      },
+      {
+        "source": 21,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 8.182697541769812e-8,
+        "delta_target_NLL": -7.630385386037108e-11,
+        "delta_overall_NLL": -3.1793272441821285e-12
+      },
+      {
+        "source": 21,
+        "target": 1,
+        "reference": 0,
+        "original_graph_score": 7.795901524332294e-8,
+        "delta_target_NLL": -7.262966877225052e-11,
+        "delta_overall_NLL": -3.0262361988437716e-12
+      },
+      {
+        "source": 21,
+        "target": 2,
+        "reference": 0,
+        "original_graph_score": 7.700345605599068e-8,
+        "delta_target_NLL": -7.084329130269129e-11,
+        "delta_overall_NLL": -2.951803804278804e-12
+      },
+      {
+        "source": 21,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 1.2169391538918717e-7,
+        "delta_target_NLL": -8.41326583053692e-11,
+        "delta_overall_NLL": -3.5055274293903835e-12
+      },
+      {
+        "source": 21,
+        "target": 4,
+        "reference": 0,
+        "original_graph_score": 7.75538353536831e-8,
+        "delta_target_NLL": -7.116474076696022e-11,
+        "delta_overall_NLL": -2.965197531956676e-12
+      },
+      {
+        "source": 21,
+        "target": 5,
+        "reference": 0,
+        "original_graph_score": 7.73203225890029e-8,
+        "delta_target_NLL": -5.3512749353251676e-11,
+        "delta_overall_NLL": -2.22969788971882e-12
+      },
+      {
+        "source": 21,
+        "target": 6,
+        "reference": 0,
+        "original_graph_score": 8.443957710824179e-8,
+        "delta_target_NLL": -7.774537394075742e-11,
+        "delta_overall_NLL": -3.2393905808648926e-12
+      },
+      {
+        "source": 21,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 7.698613302409285e-8,
+        "delta_target_NLL": -7.058737535453607e-11,
+        "delta_overall_NLL": -2.9411406397723363e-12
+      },
+      {
+        "source": 21,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 7.698613302409285e-8,
+        "delta_target_NLL": -7.062337303506694e-11,
+        "delta_overall_NLL": -2.942640543127789e-12
+      },
+      {
+        "source": 21,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 7.742701768620464e-8,
+        "delta_target_NLL": -6.864669249706523e-11,
+        "delta_overall_NLL": -2.8602788540443846e-12
+      },
+      {
+        "source": 21,
+        "target": 10,
+        "reference": 0,
+        "original_graph_score": 7.737209983815774e-8,
+        "delta_target_NLL": -7.101318708416238e-11,
+        "delta_overall_NLL": -2.9588827951734322e-12
+      },
+      {
+        "source": 21,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 9.629187047721643e-8,
+        "delta_target_NLL": -8.899018197686126e-11,
+        "delta_overall_NLL": -3.707924249035886e-12
+      },
+      {
+        "source": 21,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 7.715856753520711e-8,
+        "delta_target_NLL": -7.13085569325339e-11,
+        "delta_overall_NLL": -2.9711898721889126e-12
+      },
+      {
+        "source": 21,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 7.698613302409285e-8,
+        "delta_target_NLL": -7.061502858146662e-11,
+        "delta_overall_NLL": -2.9422928575611094e-12
+      },
+      {
+        "source": 21,
+        "target": 14,
+        "reference": 1,
+        "original_graph_score": 7.703195592512202e-8,
+        "delta_target_NLL": -7.072976817949772e-11,
+        "delta_overall_NLL": -2.9470736741457385e-12
+      },
+      {
+        "source": 21,
+        "target": 15,
+        "reference": 0,
+        "original_graph_score": 7.698613302409285e-8,
+        "delta_target_NLL": -7.082147910654479e-11,
+        "delta_overall_NLL": -2.9508949627726996e-12
+      },
+      {
+        "source": 21,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 7.73420083532983e-8,
+        "delta_target_NLL": -7.154398417013458e-11,
+        "delta_overall_NLL": -2.980999340422274e-12
+      },
+      {
+        "source": 21,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 8.04735975634685e-8,
+        "delta_target_NLL": -7.402398962894075e-11,
+        "delta_overall_NLL": -3.0843329012058642e-12
+      },
+      {
+        "source": 21,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 7.698613302409285e-8,
+        "delta_target_NLL": -7.082697948100625e-11,
+        "delta_overall_NLL": -2.951124145041927e-12
+      },
+      {
+        "source": 21,
+        "target": 19,
+        "reference": 0,
+        "original_graph_score": 7.698613302409285e-8,
+        "delta_target_NLL": -7.099823278524124e-11,
+        "delta_overall_NLL": -2.9582596993850516e-12
+      },
+      {
+        "source": 21,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 7.698613302409285e-8,
+        "delta_target_NLL": -7.082709088277947e-11,
+        "delta_overall_NLL": -2.951128786782478e-12
+      },
+      {
+        "source": 21,
+        "target": 22,
+        "reference": 0,
+        "original_graph_score": 7.698613302409285e-8,
+        "delta_target_NLL": -7.081985128540302e-11,
+        "delta_overall_NLL": -2.9508271368917927e-12
+      },
+      {
+        "source": 21,
+        "target": 23,
+        "reference": 0,
+        "original_graph_score": 7.698613302409285e-8,
+        "delta_target_NLL": -7.082736372225618e-11,
+        "delta_overall_NLL": -2.951140155094007e-12
+      },
+      {
+        "source": 22,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 1.1196694771342663e-7,
+        "delta_target_NLL": -1.305583002819688e-10,
+        "delta_overall_NLL": -5.439929178415366e-12
+      },
+      {
+        "source": 22,
+        "target": 1,
+        "reference": 0,
+        "original_graph_score": 8.463710088335574e-8,
+        "delta_target_NLL": -9.846742431846023e-11,
+        "delta_overall_NLL": -4.1028093466025095e-12
+      },
+      {
+        "source": 22,
+        "target": 2,
+        "reference": 0,
+        "original_graph_score": 0.000005076434263173724,
+        "delta_target_NLL": -5.888664939349142e-9,
+        "delta_overall_NLL": -2.453610391395476e-10
+      },
+      {
+        "source": 22,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 2.3698110851455567e-7,
+        "delta_target_NLL": -2.752190107757624e-10,
+        "delta_overall_NLL": -1.1467458782323433e-11
+      },
+      {
+        "source": 22,
+        "target": 4,
+        "reference": 1,
+        "original_graph_score": 3.5142949172950466e-7,
+        "delta_target_NLL": -4.076208411606108e-10,
+        "delta_overall_NLL": -1.698420171502545e-11
+      },
+      {
+        "source": 22,
+        "target": 5,
+        "reference": 1,
+        "original_graph_score": 9.272971368545768e-8,
+        "delta_target_NLL": -1.0760845253060536e-10,
+        "delta_overall_NLL": -4.483685522108556e-12
+      },
+      {
+        "source": 22,
+        "target": 6,
+        "reference": 0,
+        "original_graph_score": 1.749934170902634e-7,
+        "delta_target_NLL": -2.0307985805143036e-10,
+        "delta_overall_NLL": -8.461660752142932e-12
+      },
+      {
+        "source": 22,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 0.012251521460711956,
+        "delta_target_NLL": -0.000014211763406710761,
+        "delta_overall_NLL": -5.921568086129483e-7
+      },
+      {
+        "source": 22,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 0.012276031076908112,
+        "delta_target_NLL": -0.000014240195379079234,
+        "delta_overall_NLL": -5.933414741283014e-7
+      },
+      {
+        "source": 22,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 8.467650047805364e-8,
+        "delta_target_NLL": -9.561066868779555e-11,
+        "delta_overall_NLL": -3.983777861991482e-12
+      },
+      {
+        "source": 22,
+        "target": 10,
+        "reference": 1,
+        "original_graph_score": 5.664072659783415e-7,
+        "delta_target_NLL": -6.569667448941274e-10,
+        "delta_overall_NLL": -2.7373614370588644e-11
+      },
+      {
+        "source": 22,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 8.559967312748995e-8,
+        "delta_target_NLL": 1.0816802765989397e-9,
+        "delta_overall_NLL": 4.507001152495582e-11
+      },
+      {
+        "source": 22,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 8.405537954558895e-8,
+        "delta_target_NLL": -9.762054337635051e-11,
+        "delta_overall_NLL": -4.0675226406812715e-12
+      },
+      {
+        "source": 22,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 2.215470118471785e-7,
+        "delta_target_NLL": 2.6704933196643882e-8,
+        "delta_overall_NLL": 1.1127055498601618e-9
+      },
+      {
+        "source": 22,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 8.410059848529272e-8,
+        "delta_target_NLL": -9.749288214840751e-11,
+        "delta_overall_NLL": -4.062203422850313e-12
+      },
+      {
+        "source": 22,
+        "target": 15,
+        "reference": 0,
+        "original_graph_score": 8.394915340659281e-8,
+        "delta_target_NLL": -9.738093231098643e-11,
+        "delta_overall_NLL": -4.057538846291102e-12
+      },
+      {
+        "source": 22,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 8.424638053838862e-8,
+        "delta_target_NLL": -9.816187229380602e-11,
+        "delta_overall_NLL": -4.090078012241917e-12
+      },
+      {
+        "source": 22,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 8.52313135624172e-8,
+        "delta_target_NLL": -9.88684108541027e-11,
+        "delta_overall_NLL": -4.119517118920946e-12
+      },
+      {
+        "source": 22,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 8.394915340659281e-8,
+        "delta_target_NLL": -9.738073005307116e-11,
+        "delta_overall_NLL": -4.057530418877965e-12
+      },
+      {
+        "source": 22,
+        "target": 19,
+        "reference": 0,
+        "original_graph_score": 8.394915340659281e-8,
+        "delta_target_NLL": -9.755565088121875e-11,
+        "delta_overall_NLL": -4.064818786717448e-12
+      },
+      {
+        "source": 22,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 3.009690487942862e-7,
+        "delta_target_NLL": -3.491239158122557e-10,
+        "delta_overall_NLL": -1.4546829825510654e-11
+      },
+      {
+        "source": 22,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 8.394915340659281e-8,
+        "delta_target_NLL": -9.738103244383333e-11,
+        "delta_overall_NLL": -4.057543018493055e-12
+      },
+      {
+        "source": 22,
+        "target": 23,
+        "reference": 0,
+        "original_graph_score": 8.775639059876994e-8,
+        "delta_target_NLL": -1.0179371202293647e-10,
+        "delta_overall_NLL": -4.241404667622353e-12
+      },
+      {
+        "source": 23,
+        "target": 0,
+        "reference": 0,
+        "original_graph_score": 9.407204260014623e-8,
+        "delta_target_NLL": -2.7179341069438756e-10,
+        "delta_overall_NLL": -1.1324725445599482e-11
+      },
+      {
+        "source": 23,
+        "target": 1,
+        "reference": 0,
+        "original_graph_score": 8.689146113738389e-8,
+        "delta_target_NLL": -2.505364119290143e-10,
+        "delta_overall_NLL": -1.043901716370893e-11
+      },
+      {
+        "source": 23,
+        "target": 2,
+        "reference": 0,
+        "original_graph_score": 8.689146113738389e-8,
+        "delta_target_NLL": -2.50247537969539e-10,
+        "delta_overall_NLL": -1.0426980748730793e-11
+      },
+      {
+        "source": 23,
+        "target": 3,
+        "reference": 0,
+        "original_graph_score": 1.157128934892171e-7,
+        "delta_target_NLL": -1.90164438015894e-11,
+        "delta_overall_NLL": -7.92351825066225e-13
+      },
+      {
+        "source": 23,
+        "target": 4,
+        "reference": 0,
+        "original_graph_score": 9.032835635025549e-8,
+        "delta_target_NLL": -2.600926926089875e-10,
+        "delta_overall_NLL": -1.0837195525374479e-11
+      },
+      {
+        "source": 23,
+        "target": 5,
+        "reference": 0,
+        "original_graph_score": 8.689146113738389e-8,
+        "delta_target_NLL": -2.502971731786763e-10,
+        "delta_overall_NLL": -1.0429048882444844e-11
+      },
+      {
+        "source": 23,
+        "target": 6,
+        "reference": 0,
+        "original_graph_score": 9.367954589833971e-8,
+        "delta_target_NLL": 3.2769477686933612e-9,
+        "delta_overall_NLL": 1.3653949036222338e-10
+      },
+      {
+        "source": 23,
+        "target": 7,
+        "reference": 0,
+        "original_graph_score": 8.96476421985426e-8,
+        "delta_target_NLL": -2.578977001573002e-10,
+        "delta_overall_NLL": -1.0745737506554174e-11
+      },
+      {
+        "source": 23,
+        "target": 8,
+        "reference": 0,
+        "original_graph_score": 8.965944431338357e-8,
+        "delta_target_NLL": -2.580112594928463e-10,
+        "delta_overall_NLL": -1.0750469145535263e-11
+      },
+      {
+        "source": 23,
+        "target": 9,
+        "reference": 0,
+        "original_graph_score": 1.0181958742805364e-7,
+        "delta_target_NLL": -2.905005853925946e-10,
+        "delta_overall_NLL": -1.2104191058024775e-11
+      },
+      {
+        "source": 23,
+        "target": 10,
+        "reference": 0,
+        "original_graph_score": 1.0022647956020592e-7,
+        "delta_target_NLL": -2.886087488787603e-10,
+        "delta_overall_NLL": -1.2025364536615013e-11
+      },
+      {
+        "source": 23,
+        "target": 11,
+        "reference": 0,
+        "original_graph_score": 1.2045060771015415e-7,
+        "delta_target_NLL": -3.4726432189893797e-10,
+        "delta_overall_NLL": -1.4469346745789082e-11
+      },
+      {
+        "source": 23,
+        "target": 12,
+        "reference": 0,
+        "original_graph_score": 9.11208957177223e-8,
+        "delta_target_NLL": -2.6254468369311945e-10,
+        "delta_overall_NLL": -1.0939361820546644e-11
+      },
+      {
+        "source": 23,
+        "target": 13,
+        "reference": 0,
+        "original_graph_score": 9.14974265242563e-8,
+        "delta_target_NLL": -2.632853375421351e-10,
+        "delta_overall_NLL": -1.0970222397588963e-11
+      },
+      {
+        "source": 23,
+        "target": 14,
+        "reference": 0,
+        "original_graph_score": 9.049890792311999e-8,
+        "delta_target_NLL": -2.6059844462477527e-10,
+        "delta_overall_NLL": -1.0858268526032304e-11
+      },
+      {
+        "source": 23,
+        "target": 15,
+        "reference": 0,
+        "original_graph_score": 8.689146113738389e-8,
+        "delta_target_NLL": -2.5024736016038274e-10,
+        "delta_overall_NLL": -1.0426973340015947e-11
+      },
+      {
+        "source": 23,
+        "target": 16,
+        "reference": 0,
+        "original_graph_score": 9.196808292699643e-8,
+        "delta_target_NLL": -2.6521000787193064e-10,
+        "delta_overall_NLL": -1.1050416994663777e-11
+      },
+      {
+        "source": 23,
+        "target": 17,
+        "reference": 0,
+        "original_graph_score": 8.689146113738389e-8,
+        "delta_target_NLL": -2.502474807236643e-10,
+        "delta_overall_NLL": -1.0426978363486014e-11
+      },
+      {
+        "source": 23,
+        "target": 18,
+        "reference": 0,
+        "original_graph_score": 8.689146113738389e-8,
+        "delta_target_NLL": -2.5024716023350213e-10,
+        "delta_overall_NLL": -1.0426965009729255e-11
+      },
+      {
+        "source": 23,
+        "target": 19,
+        "reference": 0,
+        "original_graph_score": 9.169204417958099e-8,
+        "delta_target_NLL": -2.6414060130504954e-10,
+        "delta_overall_NLL": -1.1005858387710398e-11
+      },
+      {
+        "source": 23,
+        "target": 20,
+        "reference": 0,
+        "original_graph_score": 8.768444814677423e-8,
+        "delta_target_NLL": -2.5253125155236256e-10,
+        "delta_overall_NLL": -1.052213548134844e-11
+      },
+      {
+        "source": 23,
+        "target": 21,
+        "reference": 0,
+        "original_graph_score": 8.689146113738389e-8,
+        "delta_target_NLL": -2.5024742399278564e-10,
+        "delta_overall_NLL": -1.0426975999699401e-11
+      },
+      {
+        "source": 23,
+        "target": 22,
+        "reference": 0,
+        "original_graph_score": 8.689146113738389e-8,
+        "delta_target_NLL": -2.5024126445050837e-10,
+        "delta_overall_NLL": -1.0426719352104515e-11
+      }
+    ],
+    "interpretation": "fixed-model removal reliance; not Granger causality; score/AP unchanged"
+  },
+  "original_VAL_target_NLL": [
+    0.009247963084538742,
+    0.005039691292651483,
+    0.00604056483875833,
+    0.00612361700242946,
+    0.0030773997549532633,
+    0.002448691401812004,
+    0.0025828795413686363,
+    0.003069755012324175,
+    0.003062318709489142,
+    0.005037919153460926,
+    0.0024537012000914963,
+    0.002686544042885984,
+    0.0010577087847063612,
+    0.0028788294897752055,
+    0.0005021025130551404,
+    0.0010941616700612983,
+    0.00030757379410881023,
+    0.0010653781086423007,
+    0.0003975855228796536,
+    0.000052915615678880386,
+    0.00046003316460759263,
+    0.00004090826520850442,
+    0.00029314390363553705,
+    0.0006221547591382782
+  ]
+}

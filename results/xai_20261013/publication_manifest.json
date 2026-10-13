@@ -1,0 +1,241 @@
+{
+  "publication_date": "2026-10-13",
+  "scope": "Existing real-data frozen-model explanatory analysis and latest TeX abstract; no new fitting or GPU execution",
+  "published_files": [
+    {
+      "path": "src/xai/analyze_fixed_models.py",
+      "bytes": 26867,
+      "sha256": "2d98e412826ee297c8803bb487ff8594151b15a9a39e7ae3ff2798e383606747"
+    },
+    {
+      "path": "src/xai/audit_recovery.py",
+      "bytes": 19965,
+      "sha256": "9e16ac6d30a11fb230414624026ac1836fa7b5d21b5697252ea601252b39f742"
+    },
+    {
+      "path": "src/xai/finalize_audit.py",
+      "bytes": 2428,
+      "sha256": "fdac0d869cbd4a3439605e8f7fa4925a1be07cd8bbe89323acf2c6318ddd83f3"
+    },
+    {
+      "path": "src/xai/ig_numpy.py",
+      "bytes": 9751,
+      "sha256": "7c951f73c662feec900a55b63ad2909d78cedc2f1eeecc83c999cec84d36fbb8"
+    },
+    {
+      "path": "src/xai/loss_decomposition.py",
+      "bytes": 11731,
+      "sha256": "8bee9eeae7e6292aacdab6fb5d167c7a767982f4978c4677cbdc1d27e69c1077"
+    },
+    {
+      "path": "src/xai/prepare_recovery.py",
+      "bytes": 2566,
+      "sha256": "abfb9c03ca20399db4dcf32d2d2b514a2e06d37a698f3a2e01075a4c23c4b430"
+    },
+    {
+      "path": "src/xai/README.md",
+      "bytes": 7302,
+      "sha256": "f4df6277fa47479d3504178168c276c44da3a6db6dede44f85c3d1630f1d423d"
+    },
+    {
+      "path": "src/xai/recover_outputs.py",
+      "bytes": 5919,
+      "sha256": "bbb86a5ab2f6bbbc9cef1e0702aab47b0e1d825ece7c5933b2e2de2edbcba79f"
+    },
+    {
+      "path": "src/xai/summarize_xai.py",
+      "bytes": 8083,
+      "sha256": "b93f17c3b4348ee432fe75b5af19c217d0402ccb3516f64d2e93c9be7c10811a"
+    },
+    {
+      "path": "src/xai/test_fixed_models.py",
+      "bytes": 8573,
+      "sha256": "904f44f7e17ece947358631eae0422ee4b4be4fb4b3cd2b701a3ece3dd6fbf59"
+    },
+    {
+      "path": "results/xai_20261013/analysis_protocol.json",
+      "bytes": 1409,
+      "sha256": "05033ec3810b5bd3d8abc345fffce7020730bd3720eb360c4dbb121e5ffd6723"
+    },
+    {
+      "path": "results/xai_20261013/frozen_deterministic_repeat0.json",
+      "bytes": 142436,
+      "sha256": "50e9c6870d1c9a9e8ae552a20683fd0b3d124bf5872096d5630c6b07adc18fe4"
+    },
+    {
+      "path": "results/xai_20261013/frozen_deterministic_repeat1.json",
+      "bytes": 142391,
+      "sha256": "7a2fbc48ca988de4ac27abda2f6fec1103dfcb4b0e537d14da5489508b77a3f8"
+    },
+    {
+      "path": "results/xai_20261013/frozen_deterministic_repeat2.json",
+      "bytes": 142471,
+      "sha256": "d1015c57b78e968a04679d3c6fb514279814f825749b7e88d59e86af2bc501fe"
+    },
+    {
+      "path": "results/xai_20261013/frozen_s2_repeat0.json",
+      "bytes": 143644,
+      "sha256": "3543b47713b49d3f39fbb0e42181471082f4ad8e5e6dd2653c5684be86415eed"
+    },
+    {
+      "path": "results/xai_20261013/frozen_s2_repeat1.json",
+      "bytes": 143605,
+      "sha256": "8eb293e1c22dc9311f2a62e5553356824f4263f912dd20e5c4db2a09fd29afab"
+    },
+    {
+      "path": "results/xai_20261013/frozen_s2_repeat2.json",
+      "bytes": 143614,
+      "sha256": "accb490a52a875927a14676fb0960ea10b1cf6aa854f22d164ebd1754729fc9d"
+    },
+    {
+      "path": "results/xai_20261013/input_attribution.json",
+      "bytes": 50391,
+      "sha256": "48c2cec4775aacb586ccc6be506e5565e63ecb70a04a01073e492536e3f8664a"
+    },
+    {
+      "path": "results/xai_20261013/loss_decomposition.json",
+      "bytes": 26888,
+      "sha256": "800ad76f50af4108f12db08cf680220f8867432b67f4024e437d682f64b22437"
+    },
+    {
+      "path": "results/xai_20261013/recovery_audit.json",
+      "bytes": 44101,
+      "sha256": "fabafc60246cd5ceb41df2789575ed3d84ff5f7ca0625948145e0e6ce6192872"
+    },
+    {
+      "path": "results/xai_20261013/TEST_type_decomposition.json",
+      "bytes": 62294,
+      "sha256": "e750bf8b6cc1f7be2d1a367b1a7803fa35a1469659df816437889cb99f6dabcd"
+    },
+    {
+      "path": "results/xai_20261013/xai_summary.json",
+      "bytes": 123315,
+      "sha256": "706c64c56e7a7a1965f813bc8358f0f115ab973106ae6fd6fb844bd9838abb92"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10852,
+      "sha256": "5daedff01403717a41e8b12bf32f67baa9559367e2ddf05e9402b1e3cec5f999"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 184,
+      "sha256": "dd97021656ebc9915aad67bcdaafd13e66dcb34c2c9c1293e60a12d349566786"
+    }
+  ],
+  "original_analysis_sources": [
+    {
+      "name": "analyze_fixed_models.py",
+      "original_sha256": "819833aca32de3aa2dd19f4e9507e943dc41948527a58fdc3002521f46078fc1"
+    },
+    {
+      "name": "audit_recovery.py",
+      "original_sha256": "9e16ac6d30a11fb230414624026ac1836fa7b5d21b5697252ea601252b39f742"
+    },
+    {
+      "name": "finalize_audit.py",
+      "original_sha256": "d5b370d078353fca7bdc8bb0b7da810989df551b0d6102fa2d1f9e67943c6b9f"
+    },
+    {
+      "name": "ig_numpy.py",
+      "original_sha256": "7c951f73c662feec900a55b63ad2909d78cedc2f1eeecc83c999cec84d36fbb8"
+    },
+    {
+      "name": "loss_decomposition.py",
+      "original_sha256": "8bee9eeae7e6292aacdab6fb5d167c7a767982f4978c4677cbdc1d27e69c1077"
+    },
+    {
+      "name": "prepare_recovery.py",
+      "original_sha256": "abfb9c03ca20399db4dcf32d2d2b514a2e06d37a698f3a2e01075a4c23c4b430"
+    },
+    {
+      "name": "recover_outputs.py",
+      "original_sha256": "bbb86a5ab2f6bbbc9cef1e0702aab47b0e1d825ece7c5933b2e2de2edbcba79f"
+    },
+    {
+      "name": "summarize_xai.py",
+      "original_sha256": "09974f8f13e3d966200c600703de02c01882fdbbb9a8e384cefccec0c3b70659"
+    },
+    {
+      "name": "test_fixed_models.py",
+      "original_sha256": "53d0ff53f16d5f48dfa262a9e24293e24fdc45b77ba0e3b3a628c77d53057cb7"
+    }
+  ],
+  "original_analysis_results": [
+    {
+      "name": "analysis_protocol.json",
+      "original_sha256": "3fc57ac2a05c2c4e8a5ed78873a9595da8f81963dd8410e37977ac2cc662cec1"
+    },
+    {
+      "name": "loss_decomposition.json",
+      "original_sha256": "99024ce526c351d63ab00b737c919426dc740682ef94a403438c43d4a208b940"
+    },
+    {
+      "name": "recovery_audit.json",
+      "original_sha256": "46f47084e85934d815213e4ffeb63dadf785656991512b0775bf4df04d9df347"
+    },
+    {
+      "name": "frozen_deterministic_repeat1.json",
+      "original_sha256": "070dd4a947d8d433cc851266a7e001bae2bf2f725adb5214af6691fdaa7f5e06"
+    },
+    {
+      "name": "frozen_deterministic_repeat0.json",
+      "original_sha256": "e9676182c2384a646cb210274eff9ea8cd58ac941131b56ca7c91550fc44cfe0"
+    },
+    {
+      "name": "frozen_deterministic_repeat2.json",
+      "original_sha256": "a9fdd1bd5b5f78c0bd15ade78e4b1022a8f5c02d32879b65c1a58fa1042a8fb3"
+    },
+    {
+      "name": "frozen_s2_repeat1.json",
+      "original_sha256": "d5e405122f3384da7648a4a6cbe0e639af5b058b7c384f5d2eb99d5bd2ed3e0c"
+    },
+    {
+      "name": "frozen_s2_repeat0.json",
+      "original_sha256": "8b8a9f8edf4ede9e03175d1b25ddc354afb0f1070f19973c352f293dab6848c1"
+    },
+    {
+      "name": "frozen_s2_repeat2.json",
+      "original_sha256": "fe3d86d757a7776d9a8fb41031067b73a5f444da9d455802417c7100873ab141"
+    },
+    {
+      "name": "input_attribution.json",
+      "original_sha256": "989e98ef224fa0150ecb5064f9e2df26de2be5ae4d9502fc0035010ef4aa4cae"
+    },
+    {
+      "name": "TEST_type_decomposition.json",
+      "original_sha256": "9a0d370ed5b6dcf3ba383def2bf68b572e474033edc24248d122959a5a454930"
+    },
+    {
+      "name": "xai_summary.json",
+      "original_sha256": "f87208c5ba28be25a794fceedd99ccc01d3d7c12fc2dfeaa43b08083cbf3257d"
+    }
+  ],
+  "publication_changes": [
+    "Code relocated to src/xai; generated/recovered artifacts use ignored outputs/xai_20261013.",
+    "Toy checks now load repository model source without requiring Kaggle recovery.",
+    "Absolute workspace paths in numerical snapshots normalized for publication.",
+    "Summary retains original-run input hashes as original_run_input_sha256, distinct from published file hashes.",
+    "No numerical or boolean result values changed; checked recursively against the original 12 JSON files."
+  ],
+  "checks": {
+    "latest_TeX_abstract_exact_match_after_LaTeX_to_Markdown_conversion": true,
+    "IG_finite_difference_and_completeness_tests_passed": true,
+    "frozen_removal_axis_and_explicit_mask_tests_passed": true,
+    "source_syntax_compilation_passed": true,
+    "numerical_snapshot_equality_passed": true,
+    "credentials_or_authentication_responses_included": false,
+    "checkpoints_and_full_predictions_included": false,
+    "new_fits": 0,
+    "new_GPU_runs": 0
+  },
+  "excluded": [
+    "Authentication files/tokens and raw API responses",
+    "Local Python environments and caches",
+    "Recovered checkpoints (.pt), full prediction arrays and full original count grids",
+    "Kaggle output inventories and download whitelists",
+    "Duplicate per-fit results inside the full frozen_group_summary.json",
+    "Binary per-time convenience NPZ; reanalysis regenerates it"
+  ],
+  "hash_convention": "Published file hashes and byte counts refer to Git index blobs (LF-normalized text). Original-run hashes refer to the original local analysis files."
+}

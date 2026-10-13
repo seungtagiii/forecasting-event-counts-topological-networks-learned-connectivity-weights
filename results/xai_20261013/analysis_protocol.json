@@ -1,0 +1,60 @@
+{
+  "purpose": "exploratory_frozen_model_reliance_not_causal_confirmation",
+  "models": [
+    "deterministic",
+    "s2"
+  ],
+  "fit_repetitions": [
+    0,
+    1,
+    2
+  ],
+  "new_training": false,
+  "new_GPU_runs": 0,
+  "model_or_threshold_selection": false,
+  "VAL_sample": {
+    "pairs": 25000,
+    "seed": 96107640,
+    "same_as_original_validation_selection": true,
+    "all_targets": 24
+  },
+  "TEST_role": "saved_original_forecasts_descriptive_decomposition_only",
+  "predefined_removal_groups": [
+    "all_history",
+    "own_device_same_type",
+    "neighbor_same_type",
+    "cross_type",
+    "hop_0",
+    "hop_1",
+    "hop_2",
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_4",
+    "lag_5",
+    "reference_cross_type",
+    "nonreference_cross_type"
+  ],
+  "all_source_target_removals": true,
+  "IG": {
+    "fit": 0,
+    "VAL_uniform_pairs": 128,
+    "VAL_positive_pair_supplement": 128,
+    "case_seed": 96101301,
+    "baselines": [
+      "zero_history",
+      "TRAIN_mean_logged_history"
+    ],
+    "TRAIN_reference_pairs": 10000,
+    "TRAIN_reference_seed": 96101302,
+    "integration_steps": [
+      64,
+      128
+    ],
+    "selection_not_based_on_prediction_success": true
+  },
+  "immutable_sources_sha256": {
+    "models_v2.py": "e7ee7065354bb95ef2227623887d6ddd399543a7c04d0a95afeb8aa24aa6dda4",
+    "observations.npz": "f6a26b0a3ab38aa061fa0b498e5308e20f62f4e5ff781e1b42f0f23e3c83c2cb"
+  }
+}

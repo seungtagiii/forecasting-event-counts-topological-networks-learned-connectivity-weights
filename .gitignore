@@ -12,3 +12,7 @@ kaggle.json
 outputs/
 data/raw/
 data/prepared/real_24V_439N_Microwave/
+output/
+recovered_*/
+*.pt
+*.pth
